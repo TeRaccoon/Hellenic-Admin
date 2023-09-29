@@ -41,7 +41,20 @@ class DatabaseConnection {
         return $this->conn->prepare($sql);
     }
     public function query($query) {
-        return $this->conn->query($query);
+        require_once 'error-handler.php';
+        try {
+            $result = $this->conn->query($query);
+    
+            if ($result === false) {
+                ErrorHandler::set_error('ERROR: There was an error querying the database!', 'query', 'F_SQL_DBH_001', $this->conn->error);
+                $this->abort();
+            }
+    
+            return $result;
+        } catch (Exception $e) {
+            ErrorHandler::set_error('ERROR: There was an error querying the database!', 'query', 'F_SQL_DBH_002', $this->conn->error);
+            $this->abort();            
+        }
     }
     public function execute($stmt) {
         return $stmt->execute();
@@ -49,17 +62,12 @@ class DatabaseConnection {
     public function commit() {
         return $this->conn->commit();
     }
-    public function retrieve_results($stmt, $close) {
-        $results = null;
-        
-        $stmt->execute();
-        $stmt->bind_result($results);
-        $stmt->fetch();
+    public function abort() {
+        $this->conn->rollback();
+        $this->close_connection();
 
-        if ($close) {
-            $stmt->close();
-        }
-        return $results;
+        header("Location: {$_SERVER["HTTP_REFERER"]}");
+        exit();
     }
 }
 ?>
