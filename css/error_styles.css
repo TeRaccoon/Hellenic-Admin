@@ -1,0 +1,51 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.form-window {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.form-window-content-medium {
+    background-color: rgb(255, 255, 255);
+    margin: 5% auto 15% auto;
+    background-clip: padding-box;
+    border: 0 solid rgba(0, 0, 0, .125);
+    border-radius: 0.75rem;
+}
+
+.form-window-content-medium {
+    width: 30%;
+}
+
+.form-window-container {
+    padding: 20px;
+    background-clip: padding-box;
+    border: 0 solid rgba(0, 0, 0, .125);
+    border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.form-window-container p {
+    font-size: 20px;
+}
+
+.form-window-container-footer {
+    background-image: linear-gradient(to right, rgb(34, 130, 255), rgb(6, 63, 167));
+}
+
+.form-window-container-footer a {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    color: white;
+}

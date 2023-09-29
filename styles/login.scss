@@ -1,0 +1,67 @@
+$hellenic-blue: rgb(34, 130, 255);
+$font-stack: 'Source Code Pro',
+monospace,
+sans-serif;
+body {
+    font-family: $font-stack;
+    background-color: #9f9da7;
+}
+
+.popup-form {
+    background-color: white;
+    width: 25%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 0.75rem;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+    .error {
+        color: red;
+    }
+    h2 {
+        font-size: 2.4rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    form {
+        input,
+        button {
+            display: block;
+            box-sizing: border-box;
+            width: calc(100% - 40px);
+            outline: none;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 0.75rem;
+            font-family: $font-stack;
+            padding: 0 0 0 10px;
+            margin: 15px;
+            color: #8a8b8e;
+            border: 1px solid #c2c0ca;
+            font-style: normal;
+            font-size: 16px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            position: relative;
+            display: inline-block;
+            background: none;
+            transition: border-color 0.8s ease;
+            &:focus,
+            &:hover {
+                border-color: $hellenic-blue
+            }
+        }
+        button {
+            background-image: linear-gradient(to right, rgb(67, 149, 255), rgb(10, 80, 209));
+            margin-top: 10px;
+            color: white;
+            border: 1px solid $hellenic-blue;
+            cursor: pointer;
+            transition: border-color 0.8s ease;
+            &:hover {
+                border-color: #000000;
+            }
+        }
+    }
+}

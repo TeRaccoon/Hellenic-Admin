@@ -1,0 +1,90 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.main {
+    margin-left: 14%;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1000;
+    margin: 25px 0 0 15px;
+}
+
+.sidenav {
+    height: 95%;
+    width: 13%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: white;
+    background: linear-gradient(to left top, rgb(20, 20, 20) 0%, rgb(68, 68, 68) 100%), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+.sidenav-header {
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.sidenav li {
+    display: list-item;
+    vertical-align: middle;
+}
+
+.sidenav i {
+    vertical-align: middle;
+    font-size: 18px;
+
+}
+
+.sidenav h4 {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.sidenav h5 {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.sidenav a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.6;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(67, 149, 255), rgb(10, 80, 209));
+    padding: 5px;
+    width: 85%;
+    display: block;
+    margin: 10px;
+}
+
+.sidenav a:hover {
+    background-image: linear-gradient(to right, rgb(34, 130, 255), rgb(6, 63, 167));
+}
+
+@media (max-width: 1000px) {
+    .sidenav {
+        display: none;
+        width: 50%;
+    }
+    .main {
+        margin: 0px;
+    }
+    .hamburger {
+        display: block;
+    }
+}

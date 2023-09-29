@@ -1,0 +1,169 @@
+REMOVE ITEM_NAME FROM STOCKED ITEMS
+
+Data needed in print preview: invoice total, VAT, customer name, (customer email)?, items invoiced, invoice date, invoice title
+title, due date, net value, total, vat, forename, surname, delivery address invoice address
+
+SELECT
+  invoices.title,
+  invoices.due_date,
+  invoices.net_value,
+  invoices.total,
+  invoices.vat,
+  invoices.delivery_date,
+  customers.forename,
+  customers.surname,
+  customers.delivery_address,
+  customers.invoice_address,
+  items.item_name AS item_name,
+  items.list_price,
+  items_invoiced.quantity
+FROM
+  invoices
+  INNER JOIN customers ON invoices.customer_id = customers.id
+  INNER JOIN items_invoiced ON invoices.id = items_invoiced.invoice_id
+  INNER JOIN items ON items_invoiced.item_id = items.id
+WHERE
+  invoices.id = 1;
+
+
+CREATE TRIGGER update_net_value
+AFTER INSERT ON items_invoiced
+FOR EACH ROW
+BEGIN
+IF NEW.quantity IS NOT NULL OR NEW.list_price THEN
+UPDATE items_invoiced AS i
+JOIN items AS it ON i.item_id = it.item_id
+SET i.net_value = it.list_price * i.quantity
+WHERE i.item_id = NEW.item_id;
+END IF;
+END;
+
+
+CREATE TRIGGER net_value_quantity_change AFTER INSERT
+ON 
+
+
+Unit 15
+Hilsea Industrial Estate
+Limberline Spur
+Portsmouth
+PO3 5JW
+
+create table customer_address(id integer NOT NULL AUTO_INCREMENT COMMENT 'ID', customer_id integer NOT NULL COMMENT 'Customer ID', invoice_address_one varchar(255) NOT NULL COMMENT 'Invoice Address Line 1', invoice_address_two varchar(255) NOT NULL COMMENT 'Invoice Address Line 2', invoice_address_three varchar(255) NOT NULL COMMENT 'Invoice Address Line 3', PRIMARY KEY (ID), FOREIGN KEY (customer_id) REFERENCES customers(id));
+
+outstanding balance for when printed invoice update automatically on trigger
+both created date and delivery date
+
+MAKE viewAssoc BUTTON A FORM THAT TAKES IN SELECTED, TABLE, ROW ETC THEN PULLS DATA FROM ALL ASSOC FOREIGN KEYS ETC
+
+SELECT TABLE_NAME, COLUMN_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_NAME IS NOT NULL AND TABLE_SCHEMA = 'hellenic' AND TABLE_NAME = 'invoices';
+
+add batch number to stocked_items
+
+statistics
+change accounts to customers and have all the accountant crap in another 
+bank apis
+
+
+style="height: <?php echo $month_total[$key][2] / $highest_month * 100 + 1; ?>"
+
+colour coding for invoice statuses
+add box and creat column for item table
+add barcode to stocked item
+stop double entry for data inputs
+
+hide links and things that only has access for lower privilege levels
+
+add titles to statistics page widgets
+
+
+2 options for invoice, packing list (with items and quantity without price) or invoice the one with price
+
+Make items_invoiced more user friendly remove ID have name instead
+Change created at to date invoiced or more friendly
+
+change invoice items add invoice items in the invoice thing
+change invoice id to invoice title
+
+time range for items sold
+add previous and current balance to invoices and outstanding
+
+CHANGE ALL IDS to make more user friendly
+
+for customers the credit amount, every month, charging interest if not been paid for past month, date the interest is applied. Standard interest rate
+
+want option for delivery and collect for delivery and collection. Set different prices and things
+
+multiple prices for delivery collect and other and for retail and wholesale
+
+when order below 100£ charge delivery automatically...
+
+lemonde for retail 25p but when wholesale come collect 22p. If you deliver to wholesale charge 23p
+
+on items store the delivery cost, normal cost and pickup cost for wholesale and delivery. They will edit the invoice choose which price to charge for each specific thing
+
+marketing algorithms. on admin dashbioard show customers if he doesnt order this product he normalkly order for 30 show a list of people that didnt order normal products for 30 days
+
+
+another menu if a client didnt order anything for fixed period of time
+
+see specific things based on user privileges 
+
+add selectize functions for drop down. also do lookup for id and customer name for adding invoices
+
+make calendar bigger
+icons on field titles to show it is sorting
+boxes to next to columns
+
+when selecting make it more obvious etc. Tick box before id to show whether selected
+
+statistics show: if they get order last 30 days, which product doesnt sell well. Just a bunch of random gay information
+which delivery scheduled for today. Basically the dashboard...
+
+add invoice item
+
+calculate the total of the invoice item and add to current the invoice it applies to
+
+
+
+
+
+
+
+
+
+Do the net after the discount
+VAT is 20% of final
+net -> total -> vat -> total
+
+
+
+
+
+
+
+
+    $discount = handle_data($conn, "ASSOC", "SELECT discount FROM customers WHERE id = '".$customer_id."'", "discount");
+    $vat_modifier = 0;
+    $total_modifier = 0;
+    $net_value_modifier = 0;
+    if ($reset) {
+        $net_value_modifier = handle_data($conn, "ASSOC", "SELECT (ii.quantity * i.list_price) AS item_invoice_total FROM items_invoiced AS ii INNER JOIN items AS i ON ii.item_id WHERE i.id = '".$invoice_item_id."'", "item_invoice_total");
+        $total_modifier = $net_value_modifier * 1.2;
+        $vat_modifier = $total_modifier - $net_value_modifier;
+    }
+    //ADD CHECK TO SEE IF INVOICE ITEM HAS VAT CHARGE
+    $invoice_values = get_invoice_value($conn, $item_data, $discount); // Net, total, VAT
+    var_dump($invoice_values);
+    $conn->query("UPDATE invoices SET total = '".($invoice_values[1] - $total_modifier)."', VAT = '".($invoice_values[2] - $vat_modifier)."', net_value = '".($invoice_values[0] - $net_value_modifier)."' WHERE id = '".$item_data['invoice_id'][0]."'");
+    
+    $customer_debt = handle_data($conn, "ASSOC", "SELECT SUM(total) AS total FROM invoices WHERE customer_id = '".$customer_id."' AND payment_status = 'No'", "total");    
+    $conn->query("UPDATE customers SET outstanding_balance = '".$customer_debt."' WHERE id = '".$customer_id."'");
+
+    setItemTotalSold($conn, $item_data, false);    
+
+
+    so for example. A customer has an invoice for £400. They pay £500. 
+    The payment is linked to a specific invoice so even if they had another invoice that needed paying they couldnt assign it. 
+    Unless I create a new payment entry with no invoice ID that just has a reference of "credit". 
+    Then when a customer goes to make another payment it can sum the total of all their credits and use that instead?

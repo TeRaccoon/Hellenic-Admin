@@ -1,0 +1,5 @@
+[
+    { "code": "DSCNT-xx", "resolved": "Discount of a fixed % where xx represents the discount. E.g. DSCNT-15 would represent a discount of 15%" },
+    { "code": "BUY1G1F", "resolved": "Buy 1 and get another of the same item free" },
+    { "code": "BUY1G-xx-OFF", "resolved": "Buy 1 and get another of the same item xx % off. E.g. BUY1G-5-OFF would represent an offer where if a customer buys 1 item they get 5% off the next item" }
+]

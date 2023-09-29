@@ -1,0 +1,56 @@
+body {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  background-color: #9f9da7; }
+
+.popup-form {
+  background-color: white;
+  width: 25%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 0.75rem;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2); }
+  .popup-form .error {
+    color: red; }
+  .popup-form h2 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-align: center; }
+  .popup-form form input,
+  .popup-form form button {
+    display: block;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 0.75rem;
+    font-family: "Source Code Pro", monospace, sans-serif;
+    padding: 0 0 0 10px;
+    margin: 15px;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+    transition: border-color 0.8s ease; }
+    .popup-form form input:focus, .popup-form form input:hover,
+    .popup-form form button:focus,
+    .popup-form form button:hover {
+      border-color: #2282ff; }
+  .popup-form form button {
+    background-image: linear-gradient(to right, #4395ff, #0a50d1);
+    margin-top: 10px;
+    color: white;
+    border: 1px solid #2282ff;
+    cursor: pointer;
+    transition: border-color 0.8s ease; }
+    .popup-form form button:hover {
+      border-color: #000000; }
+
+/*# sourceMappingURL=login.css.map */

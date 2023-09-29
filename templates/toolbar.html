@@ -1,0 +1,36 @@
+<div id="toolbar-button-1" class="card item5 grid-button">
+    <div onclick="document.getElementById('add-form-container').style.display='block'" class="card-section">
+        <i id="toolbar-icon-1" class="material-icons opacity-10">note_add</i>
+    </div>
+</div>
+<div id="toolbar-button-2" class="card item6 grid-button">
+    <div onclick="deleteMode()" class="card-section">
+        <i id="toolbar-icon-2" id="delete-button" class="material-icons opacity-10">&#xe872;</i>
+    </div>
+</div>
+<div id="toolbar-button-3" class="card item7 grid-button">
+    <form id="print-form" action="print_preview.php" method="post" target="_blank">
+        <input name="print_row_id" type="hidden" id="print-row-id" value=""></input>
+        <div onclick="printForm()" class="card-section">
+            <i id="toolbar-icon-3" class="material-icons opacity-10">print</i>
+        </div>
+    </form>
+</div>
+<div id="toolbar-button-4" class="card item8 grid-button">
+    <div onclick="viewAssoc()" class="card-section">
+        <i id="toolbar-icon-4" class="material-icons opacity-10">open_in_new</i>
+    </div>
+</div>
+<div id="search-bar" class="item9 grid-exemption input-group input-group-outline">
+    <input id="filter" style="font-family:Source Code Pro, FontAwesome" placeholder=" &#xF002;  Search for entries..." type="search" class="form-control search-bar-widget" onkeyup="searchTable()"></input>
+</div>
+<div class="card item10 grid-button">
+    <div onclick="clearFilters()" class="card-section">
+        <i class="material-icons opacity-10">clear</i>
+    </div>
+</div>
+<div class="card item11 grid-button">
+    <div onclick="document.getElementById('filter-form').style.display='block'" class="card-section">
+        <i class="material-icons opacity-10">filter_list</i>
+    </div>
+</div>

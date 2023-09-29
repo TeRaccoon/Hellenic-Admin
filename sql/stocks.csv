@@ -1,0 +1,1663 @@
+item_name,list_price,unit_cost,stock_code,vat_rate,supplier_code
+"Mythos beer 4,7% vol. 330ml",1.66,0.94,ADN001,UK Standard Rate,S00-48
+Apple juice 100% 1Lt,1.4,0.95,AG001,UK Standard Rate,S00-19
+Multivitamin 8 fruits juice 100% 1Lt,1.4,0.99,AG003,UK Standard Rate,S00-19
+Peach nectar juice 1Lt,1.4,0.9,AG005,UK Standard Rate,S00-19
+Sour cherry drink 250ml,0.69,0.45,AG029,UK Standard Rate,S00-19
+Babatzim ouzo 200ml,7.49,6.5,AS001,UK Standard Rate,S00-49
+Babatzim ouzo 700ml,19.95,16,AS003,UK Standard Rate,S00-49
+Babatzim tsipouro without anise 200ml,8.25,7,AS005,UK Standard Rate,S00-49
+Babatzim tsipouro without anise 700ml,21,18,AS007,UK Standard Rate,S00-49
+Alfa beer 5% vol. 330ml,1.66,0.98,AS009,UK Standard Rate,S00-49
+Dekaraki tsipouro without anise 700ml,21,19,AS011,UK Standard Rate,S00-49
+Kourtaki retsina 12% vol. 750ml,7.2,6,AS013,UK Standard Rate,S00-49
+KEO Aphrodite White 750ml,8.99,7.3,AS015,UK Standard Rate,S00-49
+KEO Othello Red 750ml,8.99,7.3,AS017,UK Standard Rate,S00-49
+KEO St. Panteleimon white 750ml,8.99,7.3,AS019,UK Standard Rate,S00-49
+"KEO beer 4,5% vol. 330ml",1.66,1.44,AS021,UK Standard Rate,S00-49
+Metaxa brandy 5 stars 700ml,22.99,20,AS039,UK Standard Rate,S00-49
+Metaxa brandy 7 stars 700ml,24.99,22,AS041,UK Standard Rate,S00-49
+FIX Hellas BEER  330ml,1.99,1.3,AS054,UK Standard Rate,S00-49
+KEO St. Panteleimon red 750ml,8.99,7.3,AS057,UK Standard Rate,S00-49
+"KEO beer 4,5% vol. 630ml",3.5,2.45,AS060,UK Standard Rate,S00-49
+BABAJIM ouzo 200ml,7.49,6.5,BA02,UK Standard Rate,S00-98
+BABAJIM tsipouro without anise 200ml,8.25,7,BA04,UK Standard Rate,S00-98
+GNHSION BABATZIM 700ml,22.99,20,BA05,UK Standard Rate,S00-98
+Dios mineral water 500ml,0.46,0.2,DI001,UK Standard Rate,S00-101
+ION Chocofreta milk chocolate bar with hazelnuts 38g,0.65,0.45,EB012,UK Standard Rate,S00-111
+ION chocofreta dark 38gr,0.65,0.45,EB013,UK Standard Rate,S00-111
+ION Chocofreta milk chocolate bar with strawberry 38g,0.65,0.45,EB014,UK Standard Rate,S00-111
+ION Derby bar with caramel 38g,0.65,0.45,EB015,UK Standard Rate,S00-111
+ION Derby bar with white chocolate 38g,0.65,0.45,EB016,UK Standard Rate,S00-111
+ION Milk Chocolate stevia 60gr,2.2,1.6,EB020,UK Standard Rate,S00-111
+ION Dark No Added Sugar 60gr,2.2,1.6,EB021,UK Standard Rate,S00-111
+ION Milk chocolate bar with almonds 100g,2.05,1.55,EB022,UK Standard Rate,S00-111
+ION milk chocolate bar with whole hazelnuts 100g,2,1.55,EB023,UK Standard Rate,S00-111
+ION Break milk chocolate bar 85g,2.1,1.55,EB024,UK Standard Rate,S00-111
+"ION Break milk chocolate bar with rasins, almonds and hazelnuts 85g",2.1,1.55,EB025,UK Standard Rate,S00-111
+ION Break chocolate pistachio 85gr,2.1,1.55,EB026,UK Standard Rate,S00-111
+ION Chocofreta chocolate wafer bar 38g,0.65,0.45,EB027,UK Standard Rate,S00-111
+Papadopoulos biscotello with cocoa cream 200g,1.9,1.35,EB039,UK Standard Rate,S00-111
+Green Cola 330ml,1.19,0.61,EFB01,UK Standard Rate,S00-4
+Takeaway single grill box (220x158x50) 10Kg,40,30,REB001,UK Standard Rate,S00-28
+Takeaway double grill box (250x170x60) 10Kg,40,30,REB002,UK Standard Rate,S00-28
+Takeaway double chips box (159x135x59) 10Kg,40,30,REB003,UK Standard Rate,S00-28
+Takeaway single chips box (122x110x55) 10Kg,40,30,REB004,UK Standard Rate,S00-28
+Takeaway greaseproof papers (20x30) 10Kg,40,36.5,REB005,UK Standard Rate,S00-28
+Takeaway greaseproof papers (25x35) 10Kg,40,36.5,REB006,UK Standard Rate,S00-28
+Takeaway foil lined paper bags (9.5x29) 10Kg,60,49,REB007,UK Standard Rate,S00-28
+Takeaway foil lined paper bags (12x29) 10Kg,60,49,REB008,UK Standard Rate,S00-28
+Takeaway foil lined paper bags (12x36) 10Kg,60,49,REB009,UK Standard Rate,S00-28
+"Takeaway greaseproof papers ""The Greek way"" (20x30)10Kg",0,34.92,REB012,UK Standard Rate,S00-28
+"Takeaway greaseproof papers ""Gyro-vision"" 10Kg",0,34.92,REB013,UK Standard Rate,S00-28
+"Takeaway greaseproof papers ""Greek2go"" / Kg",0,3.49,REB014,UK Standard Rate,S00-28
+"Takeaway Foil linen paper Bag (9,5 x 29) 10kg  It's all Greek to me",0,50.02,REB016,UK Standard Rate,S00-28
+Takeaway Foil linen paper Bag (12 x 29) 10kg  It's all Greek to me,0,50.02,REB017,UK Standard Rate,S00-28
+Takeaway foil lined paper bags (12x36) 10Kg IT's All Greek to me,60,50.02,REB018,UK Standard Rate,S00-28
+Takeaway greaseproof papers (20x30) 10Kg IT's All Greek To me,0,35,REB019,UK Standard Rate,S00-28
+Takeaway Greaseproof Paper (45cmX51cm) box of 10 kg Royal Kebab,0,36.92,REB020,UK Standard Rate,S00-28
+Takeaway double chips box 2 (160x135x60) 10Kg,40,30,REB021,UK Standard Rate,S00-28
+Takeaway greaseproof papers (25x35) 10Kg Feel Greek,40,32.92,REB022,UK Standard Rate,S00-28
+"Takeaway Foil linen paper Bag (9,5 x 29) 10kg  Feel Greek",0,47.02,REB023,UK Standard Rate,S00-28
+Takeaway single grill box kalamaki (249x89x65) 10Kg,40,30,REB024,UK Standard Rate,S00-28
+Takeaway greaseproof papers (25x35) 10Kg Greek Street,0,0,REB025,UK Standard Rate,S00-28
+Takeaway foil lined paper bags (12x29) 10Kg Greek Street,0,0,REB026,UK Standard Rate,S00-28
+ION Derby bar 38g,0.65,0.45,EB040,UK Standard Rate,S00-111
+"ION Chocofreta milk chocolate covered wafer, gluten free 38g",0.65,0.45,EB041,UK Standard Rate,S00-111
+ION Chocofreta with white chocolate 38g,0.65,0.45,EB042,UK Standard Rate,S00-111
+ION Milk chocolate bar 100g,2.05,1.55,EB043,UK Standard Rate,S00-111
+LACTA milk chocolate bar 85g,2.99,1.5,MOND034,UK Standard Rate,S00-141
+LACTA milk chocolate bar with almonds 85g,2.99,1.5,MOND035,UK Standard Rate,S00-141
+PAVLIDIS Dark chocolate bar 100g,2.99,1.5,MOND032,UK Standard Rate,S00-141
+PAVLIDIS Kiss chocolate bar with strawberry 27.5g,0.9,0.4,MOND031,UK Standard Rate,S00-141
+Merenda chocolate and hazelnut spread 360g,5.45,2.55,MOND038,UK Standard Rate,S00-141
+ION Dark classic chocolate bar 90g,2.2,1.45,EB052,UK Standard Rate,S00-111
+ION Break milk chocolate bar with hazelnuts 85g,2.1,1.55,EB054,UK Standard Rate,S00-111
+Merenda chocolate and hazelnut spread 1Kg,9.99,6.99,MOND033,UK Standard Rate,S00-141
+LACTA Chocolate Brownie Oreo 105gr,2.99,1.5,MOND030,UK Standard Rate,S00-141
+"Vaeni Askos bag, White dry wine 11% vol. 5Lt",35,28,VA001,UK Standard Rate,S00-52
+"Vaeni Askos bag, Rose demi wine 11% vol. 5Lt",35,28,VA003,UK Standard Rate,S00-52
+"Vaeni Askos bag, Red dry wine 11% vol. 5Lt",35,28,VA005,UK Standard Rate,S00-52
+"Askos bag, Retsina 11% vol. 5Lt",35,28,VA007,UK Standard Rate,S00-52
+Vaeni DAMASCENOS RED WINE 750 ml,16.9,10.7,VA029,UK Standard Rate,S00-52
+"Mythos beer 4,7% vol. 330ml  (Box of 24)",39.84,22.56,ADN001-24,UK Standard Rate,
+Apple juice 100% 1Lt  (Pack of 12),16.8,11.4,AG001-12,UK Standard Rate,
+Multivitamin 8 fruits juice 100% 1Lt  (Pack of 12),16.8,11.88,AG003-12,UK Standard Rate,
+Peach nectar juice 1Lt  (Pack of 12),16.8,10.8,AG005-12,UK Standard Rate,
+Cocktail 3 fruits nectar juice 1Lt  (Pack of 12),0,10.8,AG007-12,UK Standard Rate,
+Orange drink 250ml  (Pack of 27),16.2,12.15,AG037-27,UK Standard Rate,
+Sour cherry drink 1Lt  (Pack of 12),16.8,11.88,AG011-12,UK Standard Rate,
+Pomegranate nectar 1Lt  (Pack of 12),0,11.88,AG013-12,UK Standard Rate,
+Lemonade drink 1Lt  (Pack of 12),0,10.8,AG015-12,UK Standard Rate,
+Multivitamin 8 fruits juice 100% 250ml  (Pack of 27),18.63,12.15,AG017-27,UK Standard Rate,
+Agros 3 fruits juice 100% 250ml (Pack of 27),18.63,12.15,AG019-27,UK Standard Rate,
+Apple juice 100% 250ml  (Pack of 27),17.55,12.15,AG021-27,UK Standard Rate,
+Peach nectar juice 250ml  (Pack of 27),16.2,12.15,AG023-27,UK Standard Rate,
+Pomegranate nectar 250ml  (Pack of 27),18.63,12.15,AG025-27,UK Standard Rate,
+Orange juice 100% 250ml  (Pack of 27),18.63,12.15,AG027-27,UK Standard Rate,
+Sour cherry drink 250ml  (Pack of 27),18.63,12.15,AG029-27,UK Standard Rate,
+Pineapple juice 100% 1Lt  (Pack of 12),18,11.88,AG031-27,UK Standard Rate,
+Strawberry juice drink 1Lt  (Pack of 12),18,11.88,AG033-12,UK Standard Rate,
+Grape juice 100% 1Lt  (Pack of 12),18,11.88,AG035-12,UK Standard Rate,
+Babatzim ouzo 200ml  (Box of 24),179.76,156,AS001-24,UK Standard Rate,
+Babatzim ouzo 700ml  (Box of 6),117.96,96,AS003-6,UK Standard Rate,
+Babatzim tsipouro without anise 200ml  (Box of 24),198,168,AS005-24,UK Standard Rate,
+Babatzim tsipouro without anise 700ml  (Box of 6),124.5,108,AS007-6,UK Standard Rate,
+Alfa beer 5% vol. 330ml  (Box of 24),39.84,23.52,AS009-24,UK Standard Rate,
+Dekaraki tsipouro without anise 700ml  (Box of 6),126,114,AS011-6,UK Standard Rate,
+Kourtaki retsina 12% vol. 750ml  (Box of 6),43.2,36,AS013-6,UK Standard Rate,
+KEO Aphrodite White 750ml  (Box of 6),53.94,43.8,AS015-6,UK Standard Rate,
+KEO Othello Red 750ml  (Box of 6),53.94,43.8,AS017-6,UK Standard Rate,
+KEO St. Panteleimon 750ml white  (Box of 6),53.94,43.8,AS019-6,UK Standard Rate,
+"KEO beer 4,5% vol. 330ml  (Box of 24)",39.84,34.56,AS021-24,UK Standard Rate,
+KEO Zivania 500ml  (Box of 6),131.94,108,AS023-6,UK Standard Rate,
+LOEL Zivania 200ml (Box of 24),251.76,216,AS025-24,UK Standard Rate,
+LOEL Zivania 500ml  (Box of 12),263.88,216,AS027-12,UK Standard Rate,
+Metaxa brandy 5 stars 700ml  (Box of 6),137.9,120,AS039-6,UK Standard Rate,
+"KEO beer 4,5% vol. 630ml (Box of 6)",20.3,14.7,AS060-6,UK Standard Rate,
+KEO St. Panteleimon red 750ml  (Box of 6),53.94,43.8,AS057-6,UK Standard Rate,
+FIX Hellas BEER 330ml  (Box of 20),39.8,26,AS054-20,UK Standard Rate,
+Dios mineral water 500ml  (Pack of 24),11,4.8,DI001-24,UK Standard Rate,
+"Naoussea, Red wine 13.5% vol.750ml",16.7,0,FO001,UK Standard Rate,S00-83
+"Naoussea, Red wine 13,5% vol. 750ml  (Box of 6)",90.78,0,FO001-6,UK Standard Rate,
+"Trygias Foundi, white wine 12% vol. 750ml",16.7,0,FO003,UK Standard Rate,S00-83
+"Trygias Foundi, White wine 12% vol. 750ml  (Box of 6)",90.78,0,FO003-6,UK Standard Rate,
+Loux orange drink 330ml  (Pack of 12),8.49,5.4,LOUX01-12,UK Standard Rate,
+Loux lemonade drink 330ml  (Pack of 12),8.49,5.4,LOUX03-12,UK Standard Rate,
+Loux sour cherry drink 330ml  (Pack of 12),9.49,5.88,LOUX05-12,UK Standard Rate,
+Loux soda 330ml  (Pack of 12),8.2,4.2,LOUX07-12,UK Standard Rate,
+Loux gazoza drink with lemon and lime 330ml  (Pack of 12),8.49,5.4,LOUX09-12,UK Standard Rate,
+Loux cola 330ml  (Pack of 12),8.49,5.4,LOUX13-12,UK Standard Rate,
+Papadopoulos biscotello with cocoa cream 200g  (box of 12),20.9,16.2,EB039-12,UK Standard Rate,
+Green Cola 330ml  (pack of 24),23.5,14.64,EFB01-24,UK Standard Rate,
+ION Derby bar 38g  (Box of 20),13,9,EB040-20,UK Standard Rate,
+ION Derby bar with caramel 38g  (Box of 20),13,9,EB015-20,UK Standard Rate,
+ION Derby bar with white chocolate 38g  (Box of 20),13,9,EB016-20,UK Standard Rate,
+ION Chocofreta milk chocolate bar with hazelnuts 38g  (Box of 20),13,9,EB012-20,UK Standard Rate,
+"ION Chocofreta milk chocolate covered wafer, gluten free 38g  (Box of 20)",13,9,EB041-20,UK Standard Rate,
+ION Chocofreta with white chocolate 38g  (Box of 20),13,9,EB042-20,UK Standard Rate,
+ION Milk chocolate bar 100g  (Box of 10),19,15.5,EB043-10,UK Standard Rate,
+ION Milk chocolate bar with almonds 100g  (Box of 10),20,15.5,EB022-10,UK Standard Rate,
+"Askos bag, White dry wine 11% vol. 5Lt  (Box of 4)",140,112,VA001-4,UK Standard Rate,
+"Askos bag, Rose demi wine 11% vol. 5Lt  (Box of 4)",140,112,VA003-4,UK Standard Rate,
+"Askos bag, Red dry wine 11% vol. 5Lt  (Box of 4)",140,112,VA005-4,UK Standard Rate,
+"Askos bag, Retsina 11% vol. 5Lt  (Box of 4)",140,112,VA007-4,UK Standard Rate,
+Chrisanthi Retsina 11% vol. 500ml  (Box of 15),75,49.5,VA009-15,UK Standard Rate,
+"Alexander the Great, White dry 11% vol. 750ml  (Box of 12)",76.46,59.4,VA011-12,UK Standard Rate,
+"Alexander the Great, Red dry 11% vol. 750ml  (Box of 12)",76.46,59.4,VA013-12,UK Standard Rate,
+"Damascenos, Red dry 13% vol. 750ml  (Box of 6)",68.4,64.2,VA029-6,UK Standard Rate,
+"Vaeni Naoussa, red xinomavro 12.5% vol.750ml",8.4,0,VA017,UK Standard Rate,
+"Naoussa, Red xinomavro 12,5% vol. 750ml  (Box of 6)",53.5,0,VA017-6,UK Standard Rate,
+"Vaeni Socrates, White Semi-dry wine 11.5% vol. 750ml",9.05,0,VA019,UK Standard Rate,S00-52
+"Socrates, White Semi-dry wine 11,5% vol. 750ml  (Box of 6)",54.3,0,VA019-6,UK Standard Rate,
+Vaeni Makedonikos White 750 ml  (box of 6),54,41.4,VA024-6,UK Standard Rate,
+Vaeni Makedonikos Rose 750 ml  (box of 6),54,41.4,VA025-6,UK Standard Rate,
+Vaeni Makedonikos Red 750 ml  (box of 6),54,41.4,VA026-6,UK Standard Rate,
+Green hot pepper sauce 700ml  (Pack of 6),65.4,47.4,VAR007-6,UK Standard Rate,
+Vergina Beer Alcohol Free 0.33lt  (Box of 24),37.2,22.8,VER009-24,UK Standard Rate,
+Vergina beer 5% vol. 330ml  (Box of 24),39.84,21.6,VER001-24,UK Standard Rate,
+Tuvunu Greek mountain tea 330ml  (Pack of 24),17.5,12.48,VER003-24,UK Standard Rate,
+Orange drink 1Lt  (Pack of 12),16.8,10.2,AG009-12,UK Standard Rate,
+"Mythos beer 4,7% vol. 500ml",2.9,0,AS063,UK Standard Rate,S00-49
+"Mythos beer 4,7% vol. 500ml  (box of 12)",35,0,AS063-12,UK Standard Rate,
+Alfa beer 5% vol. 500ml,2.55,0,AS064,UK Standard Rate,S00-49
+Alfa beer 5% vol. 500ml (box of 16),40.5,0,AS064- 16,UK Standard Rate,
+ION NUCREMA cocoa spread with hazelnuts and milk 400g  (Box of 12),34.9,33,EB017-12,UK Standard Rate,
+ION milk chocolate bar with whole hazelnuts 100g  (Box of 10),20,15.5,EB023-10,UK Standard Rate,
+ION Break milk chocolate bar 85g  (Box of 12),24,18.6,EB024-12,UK Standard Rate,
+"ION Break milk chocolate bar with rasins, almonds and hazelnuts 85g  (Box of 12)",24,18.6,EB025-12,UK Standard Rate,
+ION Chocofreta chocolate wafer bar 38g(Box of 20),13,9,EB027-20,UK Standard Rate,
+"ION Break white chocolate bar with rasins, almonds and hazelnuts 85g  (Box of 12)",24,18.6,EB044-12,UK Standard Rate,
+ION Noisetta bag 440g  (Box of 12),106.8,86.4,EB046-12,UK Standard Rate,
+ION Dark classic chocolate bar 90g  (Box of 10),22,14.5,EB052-10,UK Standard Rate,
+ION Break milk chocolate bar with hazelnuts 85g  (Box of 12),24,18.6,EB054-12,UK Standard Rate,
+ION Chocofreta milk chocolate bar with strawberry 38g  (Box of 20),13,9,EB014-20,UK Standard Rate,
+Merenda chocolate and hazelnut spread 360g  (Box of 12),59.95,30.6,MOND038-12,UK Standard Rate,
+KEO Zivania 200ml,9.9,0,AS053,UK Standard Rate,S00-49
+Shipping & Handling Cost,12.5,0,SC001,UK Standard Rate,
+Vergina Beer Can 500ml,1.74,0,VER0011,UK Standard Rate,S00-30
+Vergina Beer Can 500ml (box of 24),40,0,VER0011-24,UK Standard Rate,
+Vergina Red Beer 330ml,1.7,0,VER0012,UK Standard Rate,S00-30
+Vergina Red Beer 330ml(box of 24),39.4,0,VER0012-24,UK Standard Rate,
+Vergina Black Beer 330ml,1.94,0,VER0013,UK Standard Rate,S00-30
+Vergina Black Beer 330ml (box of 24),44.5,0,VER0013-24,UK Standard Rate,
+Natural Mineral Water SELI 1lt,0.95,0,DI003,UK Standard Rate,S00-20
+Natural Mineral Water SELI 1lt (box of 12),11.4,0,DI003-12,UK Standard Rate,
+Vaeni Entechnos Red Wine 750ml,19,0,VA038,UK Standard Rate,S00-52
+Vaeni Syrah Red Wine 750ml,19,0,VA040,UK Standard Rate,S00-52
+Vaeni Syrah Red Wine 750ml(box of 6),104,0,VA040-6,UK Standard Rate,
+Vaeni Entechnos Red Wine 750ml (box of 6),104,0,VA038-6,UK Standard Rate,
+Vaeni Platinum Red Wine 750ml,25,0,VA041,UK Standard Rate,S00-52
+Vaeni Platinum Red Wine 750ml (box of 6),140,0,VA041-6,UK Standard Rate,
+PAVLIDIS Kiss chocolate bar with strawberry 27.5g  (Box of 25),21.6,10,MOND031-25,UK Standard Rate,
+LACTA Milk Chocolate Heart 48g,1.69,0,MOND01,UK Standard Rate,S00-141
+LACTA Milk Chocolate Heart 48g (box of 24),38.87,0,MOND01-24,UK Standard Rate,
+LACTA Milk Chocolate with Hazelnuts 85g,2.99,0,MOND02,UK Standard Rate,S00-141
+LACTA Milk Chocolate with Hazelnuts 85g (box of 14),35.88,0,MOND02-14,UK Standard Rate,
+LACTA Chocolate with Peanut & Caramel 90g,2.99,0,MOND03,UK Standard Rate,S00-141
+LACTA Chocolate with Peanut & Caramel 90g (box of 24),68.77,0,MOND03-12,UK Standard Rate,
+LACTA Big Time Strawberry & Cheesecake 300g,4.99,0,MOND04,UK Standard Rate,S00-141
+LACTA Big Time Strawberry & Cheesecake 300g (box of 12),54.89,0,MOND04-12,UK Standard Rate,
+LACTA Lila Pause chocolate 100g,2.99,0,MOND05,UK Standard Rate,S00-141
+LACTA Lila Pause chocolate 100g (box of 14),62.79,0,MOND05-14,UK Standard Rate,
+LACTA Chocolate White 100g,2.99,0,MOND06,UK Standard Rate,S00-141
+LACTA Chocolate White 100g (box of 22),62.79,0,MOND06-22,UK Standard Rate,
+LACTA Big Time Peanut & Caramel 276g,4.99,0,MOND07,UK Standard Rate,S00-141
+LACTA Big Time Peanut & Caramel 276g (box of 12),54.89,0,MOND07-12,UK Standard Rate,
+LACTA Big Time Oreo 320g,4.99,0,MOND08,UK Standard Rate,S00-141
+LACTA Big Time Oreo 320g (box of 12),54.89,0,MOND08-12,UK Standard Rate,
+LACTA Milk Mini Chocolates 350g,9.6,0,MOND09,UK Standard Rate,S00-141
+LACTA Milk Mini Chocolates 350g (box of 18),172.8,0,MOND09-18,UK Standard Rate,
+LACTA Chocolate Bar Coconut 60g,1.69,0,MOND010,UK Standard Rate,S00-141
+LACTA Chocolate Bar Coconut 60g (box of 30),38.87,0,MOND010-30,UK Standard Rate,
+Merenda Dark Chocolate 360g,5.45,0,MOND011,UK Standard Rate,S00-141
+Merenda Dark Chocolate 360g (box of 12),59.95,0,MOND011-12,UK Standard Rate,
+PAVLIDIS Dark chocolate Hazelnuts 100g,2.99,0,MOND012,UK Standard Rate,S00-141
+PAVLIDIS Dark chocolate Hazelnuts 100g (box of 14),38.87,0,MOND012-12,UK Standard Rate,
+PAVLIDIS Dark chocolate Salt Almonds 100g,2.99,0,MOND013,UK Standard Rate,S00-141
+PAVLIDIS Dark chocolate Salt Almonds 100g (box of 14),38.87,0,MOND013-14,UK Standard Rate,
+PAVLIDIS Dark chocolate Almonds 100g,2.99,0,MOND014,UK Standard Rate,S00-141
+PAVLIDIS Dark chocolate Almonds 100g (box of 14),38.87,0,MOND014-14,UK Standard Rate,
+PAVLIDIS Dark chocolate Biscuit 100g,2.99,0,MOND015,UK Standard Rate,S00-141
+PAVLIDIS Dark chocolate Biscuit 100g (box of 14),38.87,0,MOND015-14,UK Standard Rate,
+PAVLIDIS Dark Chocolate Strawberry 100g,2.99,0,MOND017,UK Standard Rate,S00-141
+PAVLIDIS Dark Chocolate Strawberry 100g (box of 13),35.88,0,MOND017-13,UK Standard Rate,
+PAVLIDIS Chocolate Cherry 100g,2.99,0,MOND018,UK Standard Rate,S00-141
+PAVLIDIS Chocolate Cherry 100g (box of 12),35.88,0,MOND018-12,UK Standard Rate,
+PAVLIDIS Chocolate Strawberry 100g,2.99,0,MOND019,UK Standard Rate,S00-141
+PAVLIDIS Wafer with Dark Chocolate 34g,0.89,0,MOND020,UK Standard Rate,S00-141
+PAVLIDIS Wafer with Dark Chocolate 34g (box of 36),31.15,0,MOND020-36,UK Standard Rate,
+PAVLIDIS Mini Dark Chocolates Bag 350g,9.6,0,MOND021,UK Standard Rate,S00-141
+PAVLIDIS Mini Dark Chocolates Bag 350g (box of 18),172.8,0,MOND021-18,UK Standard Rate,
+PAVLIDIS Mini Dark Chocolates 70% cacao Bag 350g,6.45,0,MOND022,UK Standard Rate,S00-141
+PAVLIDIS  Mini Dark Chocolates 70% cacao Bag 350g (box of 18),109.65,0,MOND022-18,UK Standard Rate,
+PAVLIDIS Mini Dark Chocolates Orange Bag 350g,5.9,0,MOND023,UK Standard Rate,S00-141
+PAVLIDIS Mini Dark Chocolates Orange Bag (box of 18),100.3,0,MOND023-18,UK Standard Rate,
+PAVLIDIS  Mini Dark Chocolates Strawberry Bag 350g,5.9,0,MOND024,UK Standard Rate,S00-141
+PAVLIDIS 3BIT bar Caramel 65g,1.49,0,MOND025,UK Standard Rate,S00-141
+PAVLIDIS 3BIT bar Strawberry 65g,1.79,0,MOND026,UK Standard Rate,S00-141
+PAVLIDIS 3BIT bar Caramel 65g (box of 20),28.31,0,MOND025-20,UK Standard Rate,
+PAVLIDIS 3BIT bar Strawberry 65g (box of 20),34.01,0,MOND026-20,UK Standard Rate,
+PAVLIDIS Dark Chocolate Bar Biscuit & Strawberry 46g,1.79,0,MOND027,UK Standard Rate,S00-141
+PAVLIDIS Dark Chocolate Bar Biscuit & Strawberry 46g (box 25),42.96,0,MOND027-25,UK Standard Rate,
+PAVLIDIS Dark Chocolate bar Almond 46g,1.79,0,MOND028,UK Standard Rate,S00-141
+PAVLIDIS Dark Chocolate bar Almond 46g (box of 25),42.96,0,MOND028-25,UK Standard Rate,
+PAVLIDIS Dark Chocolate Lemon 100g,2.99,0,MOND029,UK Standard Rate,S00-141
+PAVLIDIS Dark Chocolate Lemon 100g (box of 14),38.87,0,MOND029-14,UK Standard Rate,
+LACTA milk chocolate bar 85g  (Box of 14),38.87,21,MOND034-14,UK Standard Rate,
+LACTA milk chocolate bar with almonds 85g (box of 14),38.87,21,MOND035-14,UK Standard Rate,
+PAVLIDIS Dark chocolate bar 100g (Box of 14),38.87,21,MOND032-14,UK Standard Rate,
+LACTA OREO 105g,2.99,0,MOND039,UK Standard Rate,S00-141
+LACTA OREO Strawberry Chocolate 105g,2.99,0,MOND037,UK Standard Rate,S00-141
+Merenda chocolate and hazelnut spread 1Kg (box of 6),58.9,41.94,MOND033-6,UK Standard Rate,
+PAVLIDIS Mini Dark Chocolates Strawberry Bag 350g (box of 18),100.3,0,MOND024-18,UK Standard Rate,
+LACTA OREO Sandwich 92g,2.99,0,MOND040,UK Standard Rate,S00-141
+LACTA Chocolate Strawberry & Cream 100g,2.99,0,MOND041,UK Standard Rate,S00-141
+Easy Bake Mix Melomakarona 500g (box of 10),44.55,0,LOU039-10,UK Standard Rate,
+RENT,0,0,R001,UK Standard Rate,
+Fuel,0,0,EX001,UK Standard Rate,S00-92
+Transport services in UK,0,0,EX004,UK Standard Rate,
+ELECTRICITY,0,0,EX005,UK Standard Rate,
+LACTA OREO Strawberry 105g (box of 14),38.87,0,MOND037-14,UK Standard Rate,
+LACTA OREO 105g (box of 14),38.87,0,MOND039-14,UK Standard Rate,
+LACTA OREO Sandwich 92g (box of 16),44.85,0,MOND040-16,UK Standard Rate,
+LACTA Chocolate Strawberry & Cream 100g (box of 13),35.88,0,MOND041-13,UK Standard Rate,
+LACTA Chocolate Brownie Oreo 105gr (Box of 12),32.89,18,MOND030-12,UK Standard Rate,
+Valentine heart cake (Chocolate)130g,3.7,0,PL118,UK Standard Rate,S00-4
+Valentine heart cake (Ferrero)130g,3.7,0,PL119,UK Standard Rate,
+Valentine heart cake (Strawberry)130g,3.7,0,PL120,UK Standard Rate,S00-4
+Valentine heart cake (Red Velvet)130g,3.7,0,PL121,UK Standard Rate,S00-4
+PAVLIDIS Chocolate Strawberry 100g (Box of 13),35.88,0,MOND019-13,UK Standard Rate,
+Discount Code,0,0,DISCOUNT,UK Standard Rate,
+ACCOUNTANT,0,0,ACC001,UK Standard Rate,
+Ouzo Chatzopoulos 40% vol.700ml,17.5,0,XATZ001,UK Standard Rate,S00-151
+Ouzo Chatzopoulos 40% vol.200ml,7,0,XATZ002,UK Standard Rate,
+Ouzo Chatzopoulos 40% 50ml,1.45,0,XATZ003,UK Standard Rate,S00-151
+Tsipouro Chatzopoulos without anise 40% vol.500ml,19,0,XATZ004,UK Standard Rate,S00-151
+Tsipouro Chatzopoulos without anise 40% vol. 200ml,7.4,0,XATZ005,UK Standard Rate,S00-151
+Tsipouro Chatzopoulos without anise 40% vol. 50ml,1.55,0,XATZ006,UK Standard Rate,S00-151
+PINDOS Chicken Croquettes 1Kg,9.9,0,PIND008,UK Standard Rate,S00-155
+KASSIDIS Chicken Gyros 20Kg,0,0,KAS012,UK Standard Rate,S00-155
+Ouzo Chatzopoulos 40% vol.700ml (Box of 12),210,0,XATZ001-12,UK Standard Rate,
+Ouzo Chatzopoulos 40% vol.200ml (Box of 24),161,0,XATZ002-12,UK Standard Rate,
+Tsipouro Chatzopoulos without anise 40% vol.500ml (Box of 6),110,0,XATZ004-6,UK Standard Rate,
+Tsipouro Chatzopoulos without anise 40% vol. 200ml (Box of 24),175,0,XATZ005-24,UK Standard Rate,
+ION Chocofreta Stevia with Milk Chocolate 30g,0.55,0,EB057,UK Standard Rate,S00-111
+Green Lemon - Lime 330ml,1.3,0,EFB02,UK Standard Rate,
+Green Lemon - Lime 330ml (Box of 24),0,0,EFB02-6,UK Standard Rate,
+Green Pink Grapefruit 330ml,1.6,0,EFB03,UK Standard Rate,
+Green Pink Grapefruit 330ml (Box of 24),0,0,EFB03-24,UK Standard Rate,
+Green Lemonade 330ml,1.3,0,EFB04,UK Standard Rate,
+Green Lemonade 330ml (Box of 24),0,0,EFB04-24,UK Standard Rate,
+Green Sour Cherry 330ml,1.19,0,EFB05,UK Standard Rate,
+Green Sour Cherry 330ml (Box of 24),0,0,EFB05-24,UK Standard Rate,
+Green Orangeade 330ml,1.3,0,EFB06,UK Standard Rate,
+Green Orangeade 330ml (Box of 24),0,0,EFB06-24,UK Standard Rate,
+Green Mojito 330ml,1.6,0,EFB07,UK Standard Rate,
+Green Mojito 330ml (Box of 24),0,0,EFB07-24,UK Standard Rate,
+Termination-02392502120,0,0,YO-001,UK Standard Rate,
+Termination-Maintenance,0,0,YO-002,UK Standard Rate,
+Termination-Call Bundle,0,0,YO-003,UK Standard Rate,
+Termination-Broadband-02393079735,0,0,YO-004,UK Standard Rate,
+LDF Lease settlement,0,0,YO-005,UK Standard Rate,
+LACTA Milk Chocolate 200g,4.8,0,MOND042,UK Standard Rate,S00-141
+PAVLIDIS Dark chocolate Orange 100g,2.95,0,MOND043,UK Standard Rate,S00-141
+LACTA Chocolate Spread 360g,5.7,0,MOND044,UK Standard Rate,S00-141
+Savatiano white wine 750ml,10.3,0,MARK001,UK Standard Rate,S00-202
+Savatiano white wine 750ml (Box of 12),113.3,0,MARK001-12,UK Standard Rate,
+Malagousia white wine 750ml,11,0,MARK002,UK Standard Rate,S00-202
+Malagousia white wine 750ml (Box of 12),121,0,MARK002-12,UK Standard Rate,
+Merlot rose wine 750ml,11,0,MARK003,UK Standard Rate,S00-202
+Merlot rose wine 750ml (Box of 12),121,0,MARK003-12,UK Standard Rate,
+Cabernet Sauvignon Merlot red wine  750ml,11.7,0,MARK004,UK Standard Rate,S00-202
+Cabernet Sauvignon Merlot red wine 750ml (Box of 12),128.7,0,MARK004-12,UK Standard Rate,
+ROCK Sauvignon red wine 750ml,9.5,0,MARK005,UK Standard Rate,S00-202
+ROCK Sauvignon red wine 750ml (Box of 12),104.5,0,MARK005-12,UK Standard Rate,
+PENCIL Muscat white wine 750ml,9.5,0,MARK006,UK Standard Rate,S00-202
+PENCIL Muscat white wine 750ml (Box of 12),104.5,0,MARK006-12,UK Standard Rate,
+SCISSORS Merlot rose wine 750ml,9.3,0,MARK007,UK Standard Rate,S00-202
+PAPER white wine 750ml,9.3,0,MARK008,UK Standard Rate,S00-202
+PAPER white wine 750ml (Box of 12),102.3,0,MARK008-12,UK Standard Rate,
+FILARETOS white wine 1.5lt,11.6,0,MARK009,UK Standard Rate,S00-202
+FILARETOS white wine 1.5lt (Box of 12),127.6,0,MARK009-12,UK Standard Rate,
+FILARETOS rose wine 1.5lt,11.6,0,MARK010,UK Standard Rate,S00-202
+FILARETOS rose wine 1.5lt (Box of 12),127.6,0,MARK010-12,UK Standard Rate,
+FILARETOS red wine 1.5lt,11.9,0,MARK011,UK Standard Rate,S00-202
+FILARETOS red wine 1.5lt (Box of 12),130.9,0,MARK011-12,UK Standard Rate,
+FILARETOS Muscat white wine 1.5lt,11.9,0,MARK012,UK Standard Rate,S00-202
+FILARETOS muscat white wine  1.5lt (Box of 12),130.9,0,MARK012-12,UK Standard Rate,
+SCISSORS Merlot rose wine 750ml (Box of 12),102.3,0,MARK007-12,UK Standard Rate,
+"Takeaway Foil linen paper Bag (9,5 x 29) 10kg MEAT THE GREEK",0,0,REB032,UK Standard Rate,S00-28
+LACTA Chocolate Spread 360g (Box of 12),68.4,0,MOND044-12,UK Standard Rate,
+LACTA Milk Chocolate 200g (Box of 12),52.8,0,MOND042-12,UK Standard Rate,
+PAVLIDIS Dark chocolate Orange 100g (Box of 14),38.35,0,MOND043-14,UK Standard Rate,
+ION chocofreta dark 38gr (Box of 20),12.35,9,EB013-20,UK Standard Rate,
+ION Dark No Added Sugar 60gr (Box of 10),19.8,0,EB021-10,UK Standard Rate,S00-111
+ION Break chocolate pistachio 85gr (Box of 12),23.1,18.6,EB026-12,UK Standard Rate,
+ION Chocofreta Stevia with Milk Chocolate 30g (Box of 20),10.45,0,EB057-20,UK Standard Rate,
+ION Milk Chocolate stevia 60gr (Box of 10),19.8,16,EB020-10,UK Standard Rate,
+Vergina Weiss Beer 500ml,2.1,0,VER010,UK Standard Rate,S00-23
+Vergina Weiss Beer 500ml (Box of 20),39.9,0,VER010-20,UK Standard Rate,
+FILARETOS white wine Askos 5lt,35,0,MARK013,UK Standard Rate,S00-202
+FILARETOS rose wine Askos 5lt,35,0,MARK014,UK Standard Rate,S00-202
+FILARETOS red wine Askos 5lt,35,0,MARK015,UK Standard Rate,S00-202
+FILARETOS Muscat white wine Askos 5lt,35,0,MARK016,UK Standard Rate,S00-202
+Loux Still orange juice drink (Blue lid) 330ml,0.8,0,LOUX15,UK Standard Rate,S00-18
+Loux Still orange juice drink (Blue lid) 330ml (Pack of 12),8.49,0,LOUX15-12,UK Standard Rate,
+"Takeaway greaseproof papers ""Gyroland"" (20x30)10Kg",0,0,REB033,UK Standard Rate,S00-28
+"Takeaway greaseproof papers ""CHARTER"" (25x35)10Kg",0,0,REB035,UK Standard Rate,S00-28
+"Takeaway Foil linen paper Bag (9,5 x 29) 10kg GYROLAND",0,0,REB036,UK Standard Rate,S00-28
+Cocktail 3 fruits nectar juice 1Lt,1.4,0.9,AG007,UK Zero Rate,S00-19
+Orange drink 1Lt,1.4,0.85,AG009,UK Zero Rate,S00-19
+Sour cherry drink 1Lt,1.4,0.99,AG011,UK Zero Rate,S00-19
+Pomegranate nectar juice 1Lt,1.4,0.99,AG013,UK Zero Rate,S00-19
+Lemonade drink 1Lt,1.4,0.9,AG015,UK Zero Rate,S00-19
+Multivitamin 8 fruits juice 100% 250ml,0.69,0.45,AG017,UK Zero Rate,S00-19
+Agros 3 fruits juice 100% 250ml,0.85,0.45,AG019,UK Zero Rate,S00-19
+Apple juice 100% 250ml,0.65,0.45,AG021,UK Zero Rate,S00-19
+Peach nectar juice 250ml,0.65,0.45,AG023,UK Zero Rate,S00-19
+Pomegranate nectar 250ml,0.69,0.45,AG025,UK Zero Rate,S00-19
+Orange juice 100% 250ml,0.69,0.45,AG027,UK Zero Rate,S00-19
+Pineapple juice 100% 1Lt,1.5,0.99,AG031,UK Zero Rate,S00-19
+Strawberry juice drink 1Lt,1.5,0.99,AG033,UK Zero Rate,S00-19
+Grape juice 100% 1Lt,1.4,0.99,AG035,UK Zero Rate,S00-19
+Orange drink 250ml,0.65,0.45,AG037,UK Zero Rate,S00-19
+Rea Chopped tomatoes 400g,1.5,0.55,AG039,UK Zero Rate,S00-19
+Rea Grated tomatoes 400g,1.5,0.55,AG040,UK Zero Rate,S00-19
+Rea Tomatopaste 410g,1.95,1.2,AG041,UK Zero Rate,S00-19
+Rea Tomato Pasata 500g,1.25,0.85,AG042,UK Zero Rate,S00-19
+Handmade pearl pasta 500g,4.2,2.4,AGR001,UK Zero Rate,S00-14
+Handmade sour trahana 500g,4,2.4,AGR003,UK Zero Rate,S00-14
+Handmade sweet trahana 500g,4,2.4,AGR005,UK Zero Rate,S00-14
+Handmade hilopites with eggs and milk 500g,4,2.4,AGR007,UK Zero Rate,S00-14
+Karolina rice 500g,1.7,0.8,AGR009,UK Zero Rate,S00-14
+Nichaki rice 500g,1.7,0.8,AGR011,UK Zero Rate,S00-14
+Blue bonnet rice 500g,2,1,AGR013,UK Zero Rate,S00-14
+Karolina rice 1Kg,3.3,1.55,AGR015,UK Zero Rate,S00-14
+Nichaki rice 1Kg,3.3,1.55,AGR017,UK Zero Rate,S00-14
+Blue bonnet rice 1Kg,3.3,1.55,AGR019,UK Zero Rate,S00-14
+Lentils 500g,1.95,1.3,AGR021,UK Zero Rate,S00-14
+Medium beans 500g,2.3,1.3,AGR023,UK Zero Rate,S00-14
+Giant beans 500g,5.2,2.37,AGR025,UK Zero Rate,S00-14
+Chickpeas 500g,2.45,1.55,AGR027,UK Zero Rate,S00-14
+Blackeyed beans 500g,2.5,1.8,AGR029,UK Zero Rate,S00-14
+Fava Yellow 500gr,2.45,1.65,AGR032,UK Zero Rate,S00-14
+Granberry beans 500gr,3.4,1.65,AGR033,UK Zero Rate,S00-14
+Handmade vegetable pearl pasta 500gr,4.3,3.5,AGR034,UK Zero Rate,S00-14
+Handmade pligouri(groats) 500gr,3.7,2.2,AGR036,UK Zero Rate,S00-14
+Handmade vegetable trahana 500gr,4.3,3.85,AGR038,UK Zero Rate,S00-14
+Handmade pumpkin trahana 500gr,4.9,3.5,AGR040,UK Zero Rate,S00-14
+Vegetable Orzo 500gr,3.95,3.4,AGR042,UK Zero Rate,S00-14
+Orzo with eggs and milk 500gr,4.8,3.4,AGR044,UK Zero Rate,S00-14
+Small Vegetable Pasta Shells 500gr,4.2,3.5,AGR046,UK Zero Rate,S00-14
+Angel Hair (pasta) 500gr,4.8,3.4,AGR048,UK Zero Rate,S00-14
+Handmade striftaria(pasta) 500g,4.8,3.4,AGR050,UK Zero Rate,S00-14
+Artichokes 1Kg,5.99,4.99,AI001,UK Zero Rate,S00-6
+Green peas 1Kg,2.99,2.5,AI003,UK Zero Rate,S00-6
+Okra 1Kg,5.99,4.75,AI006,UK Zero Rate,S00-6
+Spinach leaf 1Kg,3.65,2.5,AI007,UK Zero Rate,S00-6
+Spinach with rice 1Kg,4,3.75,AI008,UK Zero Rate,S00-6
+Flat beans 1Kg,3.65,2.65,AI009,UK Zero Rate,S00-6
+Round beans 1Kg,3.65,2.59,AI010,UK Zero Rate,S00-6
+Broccoli 750g,3.99,2.85,AI011,UK Zero Rate,S00-6
+Alexakis pitta bread 10cm (Pack of 10),2.49,1.25,AL001,UK Zero Rate,S00-1
+Alexakis pitta bread 17cm (Pack of 10),2.9,1.8,AL003,UK Zero Rate,S00-1
+Alexakis pitta bread 18cm (Pack of 10),3.15,1.95,AL005,UK Zero Rate,S00-1
+Alexakis pitta bread 20cm (Pack of 10),3.19,1.8,AL009,UK Zero Rate,S00-1
+Alexakis pitta bread 23cm (Pack of 10),4.5,4,AL011,UK Zero Rate,S00-1
+Alexakis pitta bread 25cm (Pack of 10),4.9,4.5,AL013,UK Zero Rate,S00-1
+Alexakis squared pitta bread  (Pack of 10),3.5,1.7,AL015,UK Zero Rate,S00-1
+Alexakis Cyprian pitta bread 20cm (Pack of 5),2.5,1.25,AL017,UK Zero Rate,S00-1
+Alexakis pitta bread corn 17cm (Pack of 10),3.2,1.9,AL020,UK Zero Rate,S00-1
+Alexakis pitta bread whole grain 18cm (Pack of 10),3.2,1.9,AL021,UK Zero Rate,S00-1
+Alexakis pitta bread 28cm (Pack of 10),7.5,5,AL035,UK Zero Rate,S00-1
+KEO Zivania 500ml,21.99,18,AS023,UK Zero Rate,S00-49
+LOEL Zivania 200ml,10.49,9,AS025,UK Zero Rate,S00-49
+LOEL Zivania 500ml,21.99,18,AS027,UK Zero Rate,S00-49
+KEO V.S.O.P. brandy 38% vol. 700ml,19.9,0,AS048,UK Zero Rate,S00-49
+Dekaraki tsipouro without anise 200ml,9,7.5,AS049,UK Zero Rate,S00-49
+Stuffed vine leaves 280g,2.49,1.7,AS051,UK Zero Rate,S00-49
+Red paint for Easter eggs 2.5g,2.19,0.75,AVR001,UK Zero Rate,S00-29
+Green paint for Easter eggs 2.5g,2.19,0.75,AVR002,UK Zero Rate,S00-29
+Yellow paint for Easter eggs 2.5g,2.19,0.75,AVR003,UK Zero Rate,S00-29
+Blue paint for Easter eggs 2.5g,2.19,0.75,AVR004,UK Zero Rate,S00-29
+Vanilla 20g,1.9,1,AVR005,UK Zero Rate,S00-29
+Chicken seasoning 50g,3,1.5,AVR006,UK Zero Rate,S00-29
+Burger seasoning 50g,3,1.5,AVR007,UK Zero Rate,S00-29
+Schnitzel seasoning 50g,3,1.5,AVR008,UK Zero Rate,S00-29
+Spaghetti seasoning 50g,3,1.5,AVR009,UK Zero Rate,S00-29
+Greek souvlaki seasoning 50g,3,1.5,AVR010,UK Zero Rate,S00-29
+Tzatziki seasoning 50g,3,1.5,AVR011,UK Zero Rate,S00-29
+Fish seasoning 50g,3.9,1.5,AVR012,UK Zero Rate,S00-29
+Greek salad seasoning 50g,3,1.5,AVR013,UK Zero Rate,S00-29
+Nutmeg powder 14g,2.3,1.5,AVR015,UK Zero Rate,S00-29
+Allspice whole 50g,1.6,0.9,AVR016,UK Zero Rate,S00-29
+Allspice powder 50g,1.6,0.9,AVR017,UK Zero Rate,S00-29
+Eucalyptus leaves 30g,1.6,0.9,AVR020,UK Zero Rate,S00-29
+Hibiscus blossoms 70g,2.3,1.5,AVR021,UK Zero Rate,S00-29
+Mint 50g,2.1,1.2,AVR022,UK Zero Rate,S00-29
+Greek oregano bunch 40g,2.9,1.9,AVR025,UK Zero Rate,S00-29
+Greek oregano 500g,15,11,AVR026,UK Zero Rate,S00-29
+Valerian 100g,4.5,3,AVR028,UK Zero Rate,S00-29
+Milk thistle 50g,4.2,3,AVR029,UK Zero Rate,S00-29
+Bay leaves 30g,1.6,0.9,AVR031,UK Zero Rate,S00-29
+Rosemary 50g,1.6,0.9,AVR032,UK Zero Rate,S00-29
+Echinacea 50g,4.2,3,AVR033,UK Zero Rate,S00-29
+Levander 35g,1.6,0.9,AVR034,UK Zero Rate,S00-29
+Lemon verbena 20g,2.3,1.5,AVR035,UK Zero Rate,S00-29
+Marjoram 60g,1.6,0.9,AVR036,UK Zero Rate,S00-29
+Greek mountain tea 50g,2.9,2,AVR037,UK Zero Rate,S00-29
+Green mountain tea 50g,3.2,2.2,AVR038,UK Zero Rate,S00-29
+Sage 30g,2.7,1.4,AVR039,UK Zero Rate,S00-29
+Chamomile 50g,1.6,0.9,AVR041,UK Zero Rate,S00-29
+Cinnamon wood 40g,2.45,1.5,AVR042,UK Zero Rate,S00-29
+Cinnamon powder 50g,2.3,1.5,AVR043,UK Zero Rate,S00-29
+Cardamom powder (KAKOULE)10g,1.9,1.1,AVR044,UK Zero Rate,S00-29
+Coriander powder 50g,1.6,0.9,AVR045,UK Zero Rate,S00-29
+Chios mastiha drops 10g,3.9,2.4,AVR046,UK Zero Rate,S00-29
+Chios mastiha powder 10g,3.9,2.4,AVR047,UK Zero Rate,S00-29
+Mahlab powder 10g,2.9,1.8,AVR048,UK Zero Rate,S00-29
+Nutmeg powder 20g,2.7,1.9,AVR058,UK Zero Rate,S00-29
+Spearmint 500gr,0,9,AVR061,UK Zero Rate,S00-29
+PAPRIKA sweet 500gr,0,9,AVR062,UK Zero Rate,S00-29
+PAPRIKA 50gr,2,1.2,AVR063,UK Zero Rate,S00-29
+Dill 80gr,1.6,0.9,AVR072,UK Zero Rate,S00-29
+Sesame seeds 80gr,1.8,1.2,AVR073,UK Zero Rate,S00-29
+Clove (whole) 20gr,2.29,1.59,AVR074,UK Zero Rate,S00-29
+Clove powder 20gr,2.29,1.59,AVR075,UK Zero Rate,S00-29
+Spearmint 20gr,1.65,1.1,AVR076,UK Zero Rate,S00-29
+Thyme 20gr,1.65,1.1,AVR077,UK Zero Rate,S00-29
+Senna Alexandrina-Synamic 70gr,2.3,1.5,AVR078,UK Zero Rate,S00-29
+Bikre gyros chicken 5Kg,40,27.5,BI009,UK Zero Rate,S00-2
+Bikre gyros chicken 10Kg,80,55,BI010,UK Zero Rate,S00-2
+Bikre gyros chicken 15Kg,120,82.5,BI011,UK Zero Rate,S00-2
+Traditional bread roll(box of 70),0,22,BI01-1249,UK Zero Rate,S00-2
+Bikre gyros chicken 20Kg,160,110,BI012,UK Zero Rate,S00-2
+Bikre gyros chicken 25Kg,200,137.5,BI013,UK Zero Rate,S00-2
+Bikre gyros chicken 30Kg,240,165,BI014,UK Zero Rate,S00-2
+Bikre gyros chicken 40Kg,320,220,BI015,UK Zero Rate,S00-2
+Bikre kontosouvli pork / 3Kg appox.,0,9,BI038,UK Zero Rate,S00-2
+Bikre kontosouvli chicken /3 Kg appox.,0,9,BI039,UK Zero Rate,S00-2
+Bikre kokoretsi /3 Kg approx.,37.5,9,BI040,UK Zero Rate,S00-2
+Bikre chicken fillet nuggets 1Kg,11.2,6.7,BI041,UK Zero Rate,S00-2
+Nostimo pepperoni sausages 800g,5.9,4.9,BI043,UK Zero Rate,S00-2
+Bikre lamb 7.5-9Kg approx.,110,8.5,BI044,UK Zero Rate,S00-2
+Bikre goat 7.5-9Kg approx.,124.9,9.5,BI045,UK Zero Rate,S00-2
+Bikre prebaked marinated pork gyros 1Kg,17,12.2,BI050,UK Zero Rate,S00-2
+Bikre prebaked marinated chicken gyros 1Kg,17,12.2,BI051,UK Zero Rate,S00-2
+Chicken Schnitzel 120gr (1kg pack),11.9,7.5,BI053,UK Zero Rate,S00-2
+Soutzoukakia from Kavala 70gr (pack of 1kg),11.9,7.9,BI056,UK Zero Rate,S00-2
+Grilled Burger  110gr (1kg pack),12.9,7.9,BI058,UK Zero Rate,S00-2
+Bikre handmade marinated pork neck souvlaki 100g (Pack of 10),13.1,6.9,BI063,UK Zero Rate,S00-2
+Bikre handmade marinated chicken breast souvlaki 100g (Pack of 10),13.1,6.9,BI064,UK Zero Rate,S00-2
+Bikre kebab Kosmopolitiko 100g (Bag of 1Kg),13.5,6.7,BI091,UK Zero Rate,S00-2
+Chicken Roll 2Kg,19.5,11.8,BI092,UK Zero Rate,S00-2
+Bikre kebab Anatolitiko with cheese cream 100g (Bag of 1Kg),13.9,7.6,BI100,UK Zero Rate,S00-2
+Bikre stuffed burger with cheese 140g (Pack of 1Kg),12.99,6.67,BI104,UK Zero Rate,S00-2
+Meatballs 1kg,9.4,7.7,BI105,UK Zero Rate,S00-2
+Briki Greek coffee warmer pot 140ml,4.9,0,BRI001,UK Zero Rate,S00-82
+JOTIS farine lactee cereal with Apple & Pear 300gr,5.2,4.2,EB001,UK Zero Rate,S00-111
+JOTIS chocolate nutrition drink 400gr,4.99,3.99,EB002,UK Zero Rate,S00-111
+Melissa Pasta Kids Numbers 500gr,1.69,1.15,EB003,UK Zero Rate,S00-111
+Melissa Pasta Kids Pets 500gr,1.69,1.15,EB004,UK Zero Rate,S00-111
+Melissa Pasta Kids Words 500gr,1.69,1.15,EB005,UK Zero Rate,S00-111
+Melissa Pasta Kids 'Cars' 500gr,1.69,1.15,EB006,UK Zero Rate,S00-111
+JOTIS Biscuit Cream 300gr,5.2,4.2,EB056,UK Zero Rate,S00-84
+Caprice classic wafer rolls with dark chocolate 250gr,4.6,3.15,EB010,UK Zero Rate,S00-84
+Telion extra virgin olive oil 5Lt,36.9,25.9,EL001,UK Zero Rate,S00-17
+Elaion extra virgin olive oil 1Lt,6.9,5.92,EL003,UK Zero Rate,S00-17
+"Whole green olives, Colossal (121-140) 4.2Lt",19.9,10.5,EL009,UK Zero Rate,S00-17
+"Pitted green olives, Colossal (121-140) 4.2Lt",23.9,14,EL010,UK Zero Rate,S00-17
+"Whole Kalamon olives, Giants (141-160) 13Kg",89.5,68.5,EL011,UK Zero Rate,S00-17
+Koko pomace oil 1Lt,3.99,2.98,EL018,UK Zero Rate,S00-17
+Elaion  virgin olive oil 1Lt,5.9,4.79,EL019,UK Zero Rate,S00-17
+White fish Cod roes 3Kg,0,26,EL021,UK Zero Rate,S00-17
+"Whole green olives, Colossal (121-140) 13Kg",71,47,EL022,UK Zero Rate,S00-17
+OUZO of KAVALA extra 200ml 38% vol.,7.49,6.5,EN001,UK Zero Rate,S00-97
+Gia..gia mas Peach Drink 600gr,12.5,9.8,GIA0001,UK Zero Rate,S00-82
+Gia..gia mas  Lemon Drink 600gr,12.5,9.8,GIA0002,UK Zero Rate,S00-82
+Gia..gia mas  Strawberry Lemon Drink 600gr,12.5,9.8,GIA0003,UK Zero Rate,S00-82
+Gia..gia mas Pomegranate with  Apple  Drink 600gr,12.5,9.8,GIA0004,UK Zero Rate,S00-82
+Peach Drink 1300gr,22,16,Gia005,UK Zero Rate,S00-82
+LEMONADE Drink 1300gr,22,16,GIA006,UK Zero Rate,S00-82
+GREEK PANDAISIA9 FRUITS Drink 1300gr,22,16,GIA007,UK Zero Rate,S00-82
+Strawberry Lemon Drink 1300gr,22,16,GIA008,UK Zero Rate,S00-82
+Pomegranate with  Apple  Drink 1300gr,22,16,GIA009,UK Zero Rate,S00-82
+Gia..gia mas Pandaisia 9 Greek fruits Drink 600gr,12.5,9.8,GIA010,UK Zero Rate,S00-82
+GR EAT Kalamon black olives 500g,4.9,0,GREAT001,UK Zero Rate,S00-17
+GR•EAT Jumbo green olives 500g,4.5,0,GREAT002,UK Zero Rate,S00-17
+GR EAT Tzatziki 500g,3.99,0,GREAT1,UK Zero Rate,S00-17
+GR•EAT Cheese Salad 500g,3.99,0,GREAT2,UK Zero Rate,S00-17
+GR EAT Kalamon mixed black & green olives 500g,4.9,0,GREAT23,UK Zero Rate,S00-17
+GR EAT Hummus 500g,3.99,0,GREAT3,UK Zero Rate,S00-17
+GR EAT Fish roe salad 500g,3.99,3,GREAT4,UK Zero Rate,S00-17
+ION Dark Chocolate with Almonds 100gr,2.2,1.6,EB011,UK Zero Rate,S00-111
+ION NUCREMA cocoa spread with hazelnuts and milk 400g,3.59,2.75,EB017,UK Zero Rate,S00-111
+"ION NUCREMA duocolour with milk, hazelnuts and cocoa spread 400g",3.59,2.75,EB018,UK Zero Rate,S00-111
+ION Dark with Organic Orange 90gr,2.2,1.45,EB019,UK Zero Rate,S00-111
+Parizaki 330g,3.1,1.99,IF001,UK Zero Rate,S00-9
+Ferrano parizaki with yoghurt 300g,2.9,1.8,IF002,UK Zero Rate,S00-9
+Smoked loin in slices 150g,2.8,2,IF006,UK Zero Rate,S00-9
+Smoked bacon in slices 100g,2.2,1.5,IF007,UK Zero Rate,S00-9
+Sausages with leek 380g,4.8,2.9,IF008,UK Zero Rate,S00-9
+Politika sausages 260g,3.1,2.2,IF010,UK Zero Rate,S00-9
+Santorini sausages with sun-dried tomato 340g,4.6,3,IF011,UK Zero Rate,S00-9
+"Mykonos sausages with onion, thyme and oregano 340g",4.6,3,IF012,UK Zero Rate,S00-9
+IFANTIS Sparta sausages with leek 340g,4.6,3,IF013,UK Zero Rate,S00-9
+Naxos sausages with graviera cheese 340g,4.9,3,IF014,UK Zero Rate,S00-9
+Trikala sausages with leek 340g,3.8,3,IF015,UK Zero Rate,S00-9
+Authentic feta cheese 200g,2.7,2.09,IF016,UK Zero Rate,S00-9
+Authentic feta cheese 400g,4.7,3.71,IF017,UK Zero Rate,S00-9
+Evros sausages 640g,4.99,4.16,IF025,UK Zero Rate,S00-9
+Aubergine salad 2Kg,17.8,8.4,IF028,UK Zero Rate,S00-9
+Fish roe salad 2Kg,13,8.4,IF029,UK Zero Rate,S00-9
+Chtipiti salad 2Kg,13,8.4,IF030,UK Zero Rate,S00-9
+Hummus 2Kg,13,8.4,IF032,UK Zero Rate,S00-9
+Evros sausages with leek 640g,5.49,4.79,IF033,UK Zero Rate,S00-9
+Salami aeros with DELICANTO 250g,4.9,4.5,IF039,UK Zero Rate,S00-9
+Salami aeros with Pepper 250g,4.9,4.5,IF040,UK Zero Rate,S00-9
+Authentic feta cheese 800g,9.4,7.42,IF042,UK Zero Rate,S00-9
+Thrakis Geuseis Parizaki Garlic 330g,2.99,1.99,IF045,UK Zero Rate,S00-9
+Tzatziki  400gr,3.5,2.95,IF047,UK Zero Rate,S00-9
+Fish roe salad(taramosalata) 400gr,3.5,2.75,IF048,UK Zero Rate,S00-9
+Hot cheese salad (chtipiti) 400gr (no preservatives),4.95,4.05,IF049,UK Zero Rate,S00-9
+Russian salad 400gr,3.5,2.75,IF050,UK Zero Rate,S00-9
+Agioritiki salad (aubergine salad) 400gr,3.5,3.25,IF052,UK Zero Rate,S00-9
+Hummus salad(no preservatives) 400gr,3.5,3.35,IF053,UK Zero Rate,S00-9
+Hot Cheese salad 400gr,4.8,3.95,IF054,UK Zero Rate,S00-9
+Fouantre smoked turkey glutten free 120gr,3.8,3.95,IF055,UK Zero Rate,S00-9
+Sausages peperoni 30-16cm,5.9,4.9,IF058,UK Zero Rate,S00-9
+Ioniki Puff pastry pie with feta triangular 190 (box of 50),0,39,ION001,UK Zero Rate,S00-107
+Bread ring (koulouri) 90gr (pack of 5),4.6,0,ION0010,UK Zero Rate,S00-107
+Ioniki Puff pastry pie with cheese 170gr (box of 40),0,42.9,ION002,UK Zero Rate,S00-107
+"Ioniki Puff pastry pie with ham,kaseri & fresh tomato sauce 185 gr(box of 40)",0,42.9,ION003,UK Zero Rate,S00-107
+Ioniki Round pie with spinach & feta 235gr(box of 35),0,35,ION0037,UK Zero Rate,S00-107
+Bread ring wholegrain (koulouri) 90gr (pack of 5),5.29,0,ION0039,UK Zero Rate,S00-107
+Ioniki Puff pastry pie with sausage 150gr(box of 40),0,40,ION004,UK Zero Rate,S00-107
+Peinirli Special 260gr(box of 30),0,37,ION0044,UK Zero Rate,S00-107
+Brioche with sausage & cheese cream 280gr (box of 35),0,0,ION0045,UK Zero Rate,S00-107
+Double roll pie with potato 250gr (box of 40),0,0,ION0046,UK Zero Rate,S00-107
+Ioniki Mini bougatsa with cream 470gr (box of 20),0,56,ION0048,UK Zero Rate,S00-107
+Ioniki Round pie with feta 235gr(box of 35),0,35,ION0049,UK Zero Rate,S00-107
+Ioniki homemade mini pies with spinach & feta triangular 50gr (box of 5Kg),0,51.2,ION0050,UK Zero Rate,S00-107
+Ioniki breadstick with praline 170gr(box of 30),0,39,ION0051,UK Zero Rate,S00-107
+Ioniki round pie with pumpkin 235gr(box of 35),0,37,ION0052,UK Zero Rate,S00-107
+Ioniki homemade mini pies with feta triangular 50gr (box of 5Kg),0,45,ION0053,UK Zero Rate,S00-107
+Ioniki breadstick with tahini & praline 130gr (box of 30),0,36,ION0054,UK Zero Rate,S00-107
+Ioniki homemade pie with spinach 4pc 1200gr(box of 5),0,33,ION0055,UK Zero Rate,S00-107
+Ioniki homemade pie from Epirus with spinach 6pcs 1650gr(box of 4),0,42,ION0056,UK Zero Rate,S00-107
+Mini brioche with double sausage 55gr (box of 5),0,49.99,ION0058,UK Zero Rate,S00-107
+Round Pie with Feta 2050gr,0,8,ION0059,UK Zero Rate,S00-107
+Ioniki Mini bougatsa with feta 530gr(box of 20),0,52,ION006,UK Zero Rate,S00-107
+Round pie with spinach & feta 2050gr,12,8,ION0061,UK Zero Rate,S00-107
+Bread ring with tomato & olive 220gr (box of 35),0,33,ION0063,UK Zero Rate,S00-107
+Breadstick with vegetables 200gr (box of 30),0,33,ION0064,UK Zero Rate,S00-107
+SPITIKI ZYMI  Plant-based mini puff pastry with cheese 500gr,4.2,3.9,ION0069,UK Zero Rate,S00-107
+Ioniki Mini bougatsa with spinach & feta 575gr (box of 20),0,52,ION007,UK Zero Rate,S00-107
+SPITIKI ZYMI Plant-based mini sausage roll 500gr,5.3,6.9,ION0071,UK Zero Rate,S00-107
+Ioniki Mini bougatsa with minced meat 530gr (box of 20),0,60,ION008,UK Zero Rate,S00-107
+JOTIS mix Mousse Chocolate Flavour 74gr,3.5,2.9,EB028,UK Zero Rate,S00-111
+JOTIS instant pudding vanilla cream 62g,1.49,1.1,EB029,UK Zero Rate,S00-111
+JOTIS DRY YEAST 3 X 8gr,1.9,1.4,EB030,UK Zero Rate,S00-111
+JOTIS mix Mousse Vanilla Flavour 65gr,3.35,2.75,EB031,UK Zero Rate,S00-111
+JOTIS Baby Cereal with Biscuit Cream (Farine Lactee) 300gr,5.29,4.29,EB032,UK Zero Rate,S00-111
+Cretan graviera cheese 300g,6.4,3.9,KA002,UK Zero Rate,S00-8
+Cretan light graviera cheese 300g,4.5,4.05,KA003,UK Zero Rate,S00-8
+Cretan graviera cheese with oregano 350g,4.9,4.05,KA004,UK Zero Rate,S00-8
+Dry Anthotiros cheese 600g,8.5,4.5,KA006,UK Zero Rate,S00-8
+Cretan cheese in brine 400g,5.9,2.9,KA008,UK Zero Rate,S00-8
+Cretan cheese in brine 1Kg,13.5,7.6,KA009,UK Zero Rate,S00-8
+Prince appetizer yoghurt 5Kg,15,11,KA015,UK Zero Rate,S00-8
+Cretan mini graviera cheese approx 1.5.-1.7 Kg,35,24,KA018,UK Zero Rate,S00-8
+Grated Cretan cheese 200g,4.6,2.9,KA019,UK Zero Rate,S00-8
+Cretan graviera PDO matured 7m 300gr,6.5,3.99,KA020,UK Zero Rate,S00-8
+Cretan graviera with 5 peppers 240gr,4.19,3.19,KA021,UK Zero Rate,S00-8
+Liq.21% Melody Caramel 0.5lt,15.5,12.5,KAM01,UK Zero Rate,S00-100
+Liq.21% anisecoffee 0.5lt,15.5,12.5,KAM02,UK Zero Rate,S00-100
+Liq.21% Honeyrum 0.5lt,15.5,12.5,KAM03,UK Zero Rate,S00-100
+Liq.21% limocello 0.5lt,15.5,12.5,KAM04,UK Zero Rate,S00-100
+Gluhwine 1lt,15.5,12.5,KAM05,UK Zero Rate,S00-100
+Cypriot sheftalia 100g (Tray of 3Kg),40,31,KI001,UK Zero Rate,S00-7
+Cypriot sheftalia app 580 gr (Pack of 5x100gr),8.8,4.5,KI002,UK Zero Rate,S00-7
+Traditional (Mediterranean) mini wheat rusks 350g,3.4,2.45,KRA001,UK Zero Rate,S00-15
+Mediterranean breadsticks 250g,3.3,2.65,KRA002,UK Zero Rate,S00-15
+Cretan barley round rusks 600g,4.1,2.94,KRA004,UK Zero Rate,S00-15
+Mini barley rusks 400g,3.9,2.67,KRA006,UK Zero Rate,S00-15
+Mini barley rusks NO SALT ADDED 350g,3.4,2.1,KRA008,UK Zero Rate,S00-15
+Breadsticks with Sunflower seeds 250g,3.59,2.19,KRA014,UK Zero Rate,S00-15
+Sesame bar with almonds 60g,1.35,0.9,KRA023,UK Zero Rate,S00-15
+Sesame bar 60g,0.99,0.59,KRA025,UK Zero Rate,S00-15
+Sesame bar with sunflower seeds 60g,0.99,0.59,KRA026,UK Zero Rate,S00-15
+Sesame bar with peanuts,0.99,0.59,KRA032,UK Zero Rate,S00-15
+Mini wheat Rusks with sundried tomato 400gr,3.7,2.67,KRA033,UK Zero Rate,S00-15
+Lakis beef pasturma sausages 275g,4.9,3.2,LA001,UK Zero Rate,S00-12
+Lakis Greek village style sausages approx 270g,4.9,3.2,LA002,UK Zero Rate,S00-12
+Lakis Greek sausages 400g appr.,7.9,5.2,LA003,UK Zero Rate,S00-12
+Lakis beef pasturma sausages 2Kg,26,18.4,LA005,UK Zero Rate,S00-12
+Farin up self raising flour 500g,1.45,1.58,LOU001,UK Zero Rate,S00-16
+Tsoureki flour 1Kg,2.39,2.79,LOU002,UK Zero Rate,S00-16
+All purpose wheat flour 1Kg,1.7,1.6,LOU003,UK Zero Rate,S00-16
+All purpose organic wheat flour 1Kg,2.9,2.8,LOU004,UK Zero Rate,S00-16
+"Self raising flour, gluten free 500g",3.5,4.81,LOU005,UK Zero Rate,S00-16
+Semolina fine 500g,1.79,1.2,LOU006,UK Zero Rate,S00-16
+Semolina coarse 500g,1.79,1.2,LOU007,UK Zero Rate,S00-16
+Chocolate muffins mix 500g,4.95,3.1,LOU008,UK Zero Rate,S00-16
+Muffins mix 500g,3.69,2.62,LOU009,UK Zero Rate,S00-16
+Choco sponge cake mix 400g,3.19,2.57,LOU010,UK Zero Rate,S00-16
+Crepes mix 300g,2.8,1.4,LOU011,UK Zero Rate,S00-16
+Easy bake Bechamel,2.7,1.5,LOU014,UK Zero Rate,S00-16
+Farin up self raising flour 1kg,3.55,2.95,LOU015,UK Zero Rate,S00-16
+Hard  flour No1 1kg,2.3,1.6,LOU016,UK Zero Rate,S00-16
+Soft flour No2 1kg,2.3,1.6,LOU017,UK Zero Rate,S00-16
+Flour for pizza No 00 1Kg,1.85,1.08,LOU019,UK Zero Rate,S00-16
+Loumidis Greek Coffee 194gr,6.5,4.4,LOUM001,UK Zero Rate,S00-73
+Loux orange drink 330ml,0.8,0.45,LOUX01,UK Zero Rate,S00-18
+Loux lemonade drink 330ml,0.8,0.45,LOUX03,UK Zero Rate,S00-18
+Loux sour cherry drink 330ml,0.9,0.49,LOUX05,UK Zero Rate,S00-18
+Loux soda 330ml,0.7,0.35,LOUX07,UK Zero Rate,S00-18
+Loux gazoza drink with lemon and lime 330ml,0.8,0.45,LOUX09,UK Zero Rate,S00-18
+Loux cola 330ml,0.85,0.45,LOUX13,UK Zero Rate,S00-18
+Black cherry fruit preserve 500g,4.6,3.1,MAK001,UK Zero Rate,S00-23
+Bitter orange fruit preserve 500g,4,3,MAK003,UK Zero Rate,S00-23
+Fig fruit preserve 500g,4,3,MAK005,UK Zero Rate,S00-23
+Sour cherry fruit preserve 500g,4,3,MAK007,UK Zero Rate,S00-23
+Grape fruit preserve 500g,4.6,3.5,MAK009,UK Zero Rate,S00-23
+Clementine fruit preserve 500g,4,3,MAK011,UK Zero Rate,S00-23
+Quince fruit preserve 500g,4,3,MAK013,UK Zero Rate,S00-23
+Cherry fruit preserve 500g,4.6,3.5,MAK015,UK Zero Rate,S00-23
+Strawberry fruit preserve 500g,4.6,3.5,MAK017,UK Zero Rate,S00-23
+Apricot jam 290g,1.49,0.95,MAK019,UK Zero Rate,S00-23
+Strawberry jam 290g,1.49,0.95,MAK021,UK Zero Rate,S00-23
+Cherry jam 290g,1.49,0.95,MAK023,UK Zero Rate,S00-23
+Forest fruits jam 290g,1.49,0.95,MAK025,UK Zero Rate,S00-23
+Blueberry jam 290g,1.49,0.95,MAK027,UK Zero Rate,S00-23
+Peeled tahini 300g,5.1,3.8,MAK029,UK Zero Rate,S00-23
+Whole wheat tahini 300g,5.1,3.8,MAK031,UK Zero Rate,S00-23
+Dark chocolate tahini 320g,5.1,3.8,MAK033,UK Zero Rate,S00-23
+Stuffed vine leaves with lemon taste 2Kg,10.5,6.5,MAK035,UK Zero Rate,S00-23
+Stuffed vine leaves with lemon taste 280g,2.75,1.7,MAK037,UK Zero Rate,S00-23
+Vine leaves in brine 450g,4.49,2.59,MAK039,UK Zero Rate,S00-23
+Giant beans from Prespes 2Kg,10.5,5.89,MAK041,UK Zero Rate,S00-23
+Giant beans from Prespes 280g,1.99,1.27,MAK043,UK Zero Rate,S00-23
+Macedonian pickled golden peppers 5Kg,19,10.2,MAK047,UK Zero Rate,S00-23
+Sweet sour gherkins in jar 680g,1.99,1.26,MAK049,UK Zero Rate,S00-23
+Red roasted peppers 4.1Kg,14.9,10,MAK051,UK Zero Rate,S00-23
+Red roasted peppers in brine 450g,2.9,2.02,MAK053,UK Zero Rate,S00-23
+Chilli peppers in brine 340g,2.49,1.68,MAK055,UK Zero Rate,S00-23
+Beetroots in slices 4Kg,4.9,4,MAK057,UK Zero Rate,S00-23
+Beetroots in slices 700g,1.49,1.05,MAK059,UK Zero Rate,S00-23
+Caper 105g,1.49,1.05,MAK061,UK Zero Rate,S00-23
+Tomatopaste 4.5Kg,14.9,9.3,MAK063,UK Zero Rate,S00-23
+Tomato pulp 680g,1.9,1.15,MAK067,UK Zero Rate,S00-23
+Chopped tomatoes 400g,0.9,13.2,MAK070,UK Zero Rate,S00-23
+Sun-dried tomatoes in oil 280g,2.49,1.68,MAK073,UK Zero Rate,S00-23
+Horeca ketchup 28g,0.49,0.35,MAK075,UK Zero Rate,S00-23
+Horeca mustard 28g,0.49,0.35,MAK077,UK Zero Rate,S00-23
+Horeca mayonnaise 25g,0.49,0.35,MAK079,UK Zero Rate,S00-23
+Chopped tomatoes 2.55Kg,6.5,4,MAK085,UK Zero Rate,S00-23
+Vine leaves in brine 3Kg,13,11,MAK088,UK Zero Rate,S00-23
+Traditional Handmade Halva with Vanilla  400gr,3.9,3.1,MAK090,UK Zero Rate,S00-23
+Traditional Handmade Halva with Cocoa 400gr,3.9,3.1,MAK091,UK Zero Rate,S00-23
+Peach Halves 822gr (Composta),2.9,2.4,MAK092,UK Zero Rate,S00-23
+Coctail Fruit canned fruit 822gr (Composta),3.3,0,MAK093,UK Zero Rate,S00-23
+CAPERS 2kg,0,19,MAK094,UK Zero Rate,S00-23
+Spaghetti No6 500g,1.1,0.71,MAKV001,UK Zero Rate,S00-13
+Pastitsio No2 500g,1.6,0.99,MAKV002,UK Zero Rate,S00-13
+Linguine 500g,1.1,0.75,MAKV003,UK Zero Rate,S00-13
+Orzo 500g,1.6,1.04,MAKV005,UK Zero Rate,S00-13
+Farfalle 500g,1.1,0.71,MAKV006,UK Zero Rate,S00-13
+Perla appetizer yoghurt 5Kg,15,11,MAR012,UK Zero Rate,S00-50
+Helios Pastitsio 500g,1.2,0.9,MAR013,UK Zero Rate,S00-50
+ANTHOS TAHINI 5Kg,49,34.2,MAR019,UK Zero Rate,S00-50
+Candy milk 100gr,1.99,1.5,MEL04-07-142,UK Zero Rate,S00-33
+Salonikios halva with vanilla 400g,3.2,2.6,MEL001,UK Zero Rate,S00-33
+Salonikios halva with cocoa 400g,3.2,2.6,MEL002,UK Zero Rate,S00-33
+Salonikios halva NO SUGAR 400g,3.2,2.6,MEL003,UK Zero Rate,S00-33
+"Greek jelly delight rose, loukoumi 400g",3.25,2.55,MEL004,UK Zero Rate,S00-33
+"Greek jelly delight vanilla, loukoumi 400g",3.25,2.55,MEL005,UK Zero Rate,S00-33
+"Greek jelly delight Chios mastiha, loukoumi 400g",3.25,2.55,MEL006,UK Zero Rate,S00-33
+"Greek jelly delight coconut, loukoumi 400g",3.25,2.55,MEL007,UK Zero Rate,S00-33
+"Greek delight almond, loukoumi 400g",3.25,2.55,MEL008,UK Zero Rate,S00-33
+Greek coffee 100g,2,1.5,MEL009,UK Zero Rate,S00-33
+Chocolate syrup 540g,2.5,1.8,MEL010,UK Zero Rate,S00-33
+Asorti clipper candy balls 200g,1.99,1.5,MEL011,UK Zero Rate,S00-33
+Tahini with Honey 300gr,4.99,3.6,MEL014-14-008,UK Zero Rate,S00-33
+Tahini Whole grain sesame 300gr,4.99,3.6,MEL014-14-015,UK Zero Rate,S00-33
+Tahini Squeeze 280gr,4.8,3.4,MEL014-14-064,UK Zero Rate,S00-33
+Vanilla spoon sweet 300gr,2.45,1.75,MEL025,UK Zero Rate,S00-33
+"Greek jelly delight rose, loukoumi 200g",3.8,2.1,MEL04-03-138,UK Zero Rate,S00-33
+"Greek jelly delight Chios Masticha, loukoumi 200g",3.8,2.1,MEL04-03-139,UK Zero Rate,S00-33
+"Greek jelly delight Cocoa, loukoumi 200g",3.8,2.1,MEL04-03-140,UK Zero Rate,S00-33
+"Greek jelly delight Mix, loukoumi 200g",3.8,2.1,MEL04-03-141,UK Zero Rate,S00-33
+Strawberry Jam 400gr,2.6,1.9,MEL04-04-317,UK Zero Rate,S00-33
+Cherry Jam 400gr,2.6,1.9,MEL04-04-318,UK Zero Rate,S00-33
+Peach  Jam 400gr,2.6,1.9,MEL04-04-319,UK Zero Rate,S00-33
+Apricot Jam 400gr,2.6,1.9,MEL04-04-320,UK Zero Rate,S00-33
+Vanilla spoon sweet 400gr,3.2,2.3,MEL04-05-002,UK Zero Rate,S00-33
+Masticha Spoon sweet 400gr,3.2,2.3,MEL04-05-024,UK Zero Rate,S00-33
+Glycose Sqeeze bottle 380gr,3.99,2.8,MEL04-06-051,UK Zero Rate,S00-33
+Bitter Orange fruit preserve 454g,3.75,2.65,MEL04-08-028,UK Zero Rate,S00-33
+Fig fruit preserve 454g,3.75,2.65,MEL04-08-030,UK Zero Rate,S00-33
+Sour Cherry fruit preserve 454g,3.75,2.65,MEL04-08-036,UK Zero Rate,S00-33
+Bergamot Orange fruit preserve 454g,3.75,2.65,MEL04-08-081,UK Zero Rate,S00-33
+Quince fruit preserve 454g,3.75,2.65,MEL04-08-082,UK Zero Rate,S00-33
+Orange fruit preserve 454g,3.75,2.65,MEL04-08-093,UK Zero Rate,S00-33
+Greek coffee 500g,10,8,MEL05-07-020,UK Zero Rate,S00-33
+Greek coffee 200g,4.5,3.5,MEL05-07-042,UK Zero Rate,S00-33
+Peanut Butter  350gr,4.4,2.8,MEL06-27-010,UK Zero Rate,S00-33
+Peanut Butter with Honey 350gr,4.55,2.8,MEL06-27-011,UK Zero Rate,S00-33
+Cocoa Spread & Sesame paste  400gr,3.4,2.1,MEL06-27-013,UK Zero Rate,S00-33
+Melinda Cocoa Spread  400gr,3.4,2.1,MEL06-27-093,UK Zero Rate,S00-33
+Melinda Cocoa Spread Squeeze 350gr,3.4,2.1,MEL06-27-097,UK Zero Rate,S00-33
+Peanut Butter  Crunchy 350gr,4.55,4.55,MEL06-27-12,UK Zero Rate,S00-33
+Chocolate syrup 350g,3.4,1.7,MEL08-14-035,UK Zero Rate,S00-33
+Caramel syrup 350g,3.4,1.7,MEL08-14-037,UK Zero Rate,S00-33
+Strawberry syrup 350g,3.4,1.7,MEL08-14-038,UK Zero Rate,S00-33
+Honey Flower 400gr,5.8,4.2,MEL09-21-005,UK Zero Rate,S00-33
+Honey  900gr,12.8,7.9,MEL09-21-006,UK Zero Rate,S00-33
+Honey for cooking use 3kg appr.,0,27,MEL09-21-068,UK Zero Rate,S00-33
+Honey Squeeze 500gr,7.1,4.9,MEL09-21-78,UK Zero Rate,S00-33
+Protective Face Mask,4.99,2.99,MT001,UK Zero Rate,S00-80
+Protective Face Masks (Pack of 3),14.9,8.9,MT002,UK Zero Rate,S00-80
+Handmade pork neck souvlaki 100g (Box of 7Kg appr.),0,46.9,NA002,UK Zero Rate,S00-103
+Hard and semi cheese croquettes 400g,5.4,4.4,NI001,UK Zero Rate,S00-47
+"Cheese croquettes with feta, cow milk cheese and tomato 400g",5.4,4.4,NI003,UK Zero Rate,S00-47
+Handmade traditional zucchini fritters 400g,5.6,4.6,NI005,UK Zero Rate,S00-47
+Handmade tomatoballs from Santorini 400g,5.6,4.6,NI007,UK Zero Rate,S00-47
+"Mediterranean vegetable burger 440g, Vegan",6.5,4.5,NI009,UK Zero Rate,S00-47
+Handmade traditional zucchini fritters 1Kg,11,8,NI013,UK Zero Rate,S00-47
+Handmade tomatoballs from Santorini 1Kg,11,8,NI015,UK Zero Rate,S00-47
+Chickpea Fritter 400 gr,5.5,4.5,NI019,UK Zero Rate,S00-47
+JUMBO VRYKOLES 85gr,1.15,0.96,OH001,UK Zero Rate,S00-25
+JUMBO PIZZA  85gr,1.15,0.96,OH002,UK Zero Rate,S00-25
+JUMBO GARIDARES 85gr,1.15,0.96,OH003,UK Zero Rate,S00-25
+JUMBO FYSTIK 102gr,1.15,0.96,OH004,UK Zero Rate,S00-25
+JUMBO FOFICO snack 100gr,1.15,1.09,OH005,UK Zero Rate,S00-25
+JUMBO CUBA HONAKIA 100gr,1.15,1.09,OH006,UK Zero Rate,S00-25
+JUMBO Chips Salt gluten free 90gr,1.2,1.25,OH007,UK Zero Rate,S00-25
+Jumbo Chips Oregano 90gr,1.2,1.25,OH009,UK Zero Rate,S00-25
+Souvlaki bamboo skewers (Pack of 200),3.9,2.5,PAL001,UK Zero Rate,S00-70
+Papadopoulos Petit Beurre Dark Chocolate & Orange 200gr,3.6,2.25,EB033,UK Zero Rate,S00-111
+Papadopoulos Wheat rusks 510gr,4.8,3.1,EB034,UK Zero Rate,S00-111
+Petit Beurre biscuits 225g,1.99,1.2,EB035,UK Zero Rate,S00-111
+Wheat rusks with rye 160gr,1.8,1.35,PAP004,UK Zero Rate,S00-111
+Papadopoulou Wheat rusks with rye 320gr,3.9,2.8,EB036,UK Zero Rate,S00-111
+Miranda papadopoulou wholegrain 270gr,2.59,1.95,EB037,UK Zero Rate,S00-111
+Papadopoulos biscotello with vanilla cream 200g,1.9,1.35,EB038,UK Zero Rate,S00-111
+Traditional Halloumi Cheese 850gr.appr.,13,8.1,PE04069089-01,UK Zero Rate,S00-91
+Halloumi Cheese 225gr.,3.1,2.15,PE04069089-02,UK Zero Rate,S00-91
+Halloumi Cheese chilli 200gr.,2.9,2.4,PE04069089-03,UK Zero Rate,S00-91
+Halloumi Cheese with Basil 200g,2.9,2.4,PE04069089-04,UK Zero Rate,S00-91
+Halloumi Cheese Burger Slices 200g,3.4,2.4,PE04069089-05,UK Zero Rate,S00-91
+Kataifi 650g,7.9,6.9,PL011,UK Zero Rate,S00-4
+Baklava 650g,7.9,7,PL013,UK Zero Rate,S00-4
+Galaktoboureko 650g,7.9,7,PL015,UK Zero Rate,S00-4
+Revani 650g,7.9,6.9,PL017,UK Zero Rate,S00-4
+Walnut pie (karidopita) 650g,7.9,6.9,PL019,UK Zero Rate,S00-4
+Mini rox 650g,7.9,6.9,PL021,UK Zero Rate,S00-4
+Mini tuluba 650g,7.9,6.9,PL023,UK Zero Rate,S00-4
+Mini trigono Panoramatos 450g,7.9,7.9,PL025,UK Zero Rate,S00-4
+Mini corne 550g,7.9,6.9,PL027,UK Zero Rate,S00-4
+Baklava 24 pieces 3.150g,36.9,31,PL029,UK Zero Rate,S00-4
+Kataifi 25 pieces 4Kg,36.9,30,PL030,UK Zero Rate,S00-4
+Galaktoboureko 24 pieces 3.5Kg,36.9,27,PL031,UK Zero Rate,S00-4
+Walnut pie 24 pieces 3.350g,36.9,27,PL032,UK Zero Rate,S00-4
+Revani 24 pieces 3.150g,36.9,27,PL033,UK Zero Rate,S00-4
+Spitiki nostimia traditional mediterranean pie 1.090g,6.9,4.6,PL055,UK Zero Rate,S00-4
+Cookies Plexouda Vanilla 300gr,4.99,3.7,PL098,UK Zero Rate,S00-4
+Mini Tsoureki 150gr,1.99,1.5,PL114,UK Zero Rate,S00-4
+Takeaway plastic bags (25x33) 2.300pcs,50,39.5,REB010,UK Zero Rate,S00-28
+Logo,0,100,REB015,UK Zero Rate,S00-28
+Takeaway single grill box kalamaki (249x89x65) 10Kg It's all Greek to me,0,0,REB027,UK Zero Rate,S00-28
+Takeaway greaseproof papers (25x35) ELIA 10Kg,0,0,REB028,UK Zero Rate,S00-28
+Takeaway foil lined paper bags (12x29) 10Kg Elia,0,0,REB029,UK Zero Rate,S00-28
+Takeaway greaseproof papers white (25x35) 10Kg Mr. Souvlaki,0,0,REB030,UK Zero Rate,S00-28
+"Takeaway greaseproof papers ""MR.SOUVLAKI"" (25x35)10Kg",0,0,REB031,UK Zero Rate,S00-28
+Karamanlidikos type pastourma from veal in slices 100g,6.5,5.5,SAR012,UK Zero Rate,S00-58
+Aubergine salad (Agioritiki) 2Kg,15.99,8,SAV004,UK Zero Rate,S00-10
+Horeca ketchup 4.2Kg,11.4,6.5,SAV007,UK Zero Rate,S00-10
+Horeca mustard 4.2Kg,11.4,6.5,SAV008,UK Zero Rate,S00-10
+Mustard 500gr,2,1.5,SAV02-23,UK Zero Rate,S00-10
+Ketchup 500gr,2,1.5,SAV02-24,UK Zero Rate,S00-10
+Dressing Caesar 500gr,3.2,2.1,SAV02-25,UK Zero Rate,S00-10
+BBQ sauce 500gr,3,2,SAV02-26,UK Zero Rate,S00-10
+Flaming red pepper spread 200g,3.9,2.65,SD001,UK Zero Rate,S00-34
+Spinach and feta cheese pate 200g,3.9,2.72,SD003,UK Zero Rate,S00-34
+Tomato and thyme sauce 280g,3.9,2.96,SD005,UK Zero Rate,S00-34
+Tomato and feta sauce 280g,4.2,3.1,SD007,UK Zero Rate,S00-34
+Tomato and garlic sauce 280g,4.2,2.96,SD009,UK Zero Rate,S00-34
+Tomato and sweet red wine sauce 280g,4.2,3.35,SD011,UK Zero Rate,S00-34
+Tomato and sweet red wine sauce 280g (Pack of 6),23.4,20.1,SD012,UK Zero Rate,S00-34
+Pea and spearmint spread 200g,3.9,2.9,SD013,UK Zero Rate,S00-34
+Pea and spearmint spread 200g (Pack of 6),20.94,17.4,SD014,UK Zero Rate,S00-34
+Salt Rock From Mesologi Grinder 90gr,4.15,0,SD018,UK Zero Rate,S00-34
+Salt Rock From Mesologgi and Pepper Grinder 80gr,4.15,0,SD020,UK Zero Rate,S00-34
+Tomato and Basil Sauce 280gr,4.2,3.1,SD021,UK Zero Rate,S00-34
+Tomato and Olive Sauce 280gr,4.2,3.1,SD022,UK Zero Rate,S00-34
+Tomato and Aubergine Sauce 280gr,4.2,3.1,SD023,UK Zero Rate,S00-34
+Moussaka in a jar 100gr,3.69,2.45,SD024,UK Zero Rate,S00-34
+Greek Salad in a jar 200gr,4.2,2.96,SD025,UK Zero Rate,S00-34
+Tomato Citrus & Cinnamon Sauce 280gr,4.2,3.1,SD026,UK Zero Rate,S00-34
+"Greek honey from Philippi ""Pine and Herbs"" 450g",7.39,5.5,SE001,UK Zero Rate,S00-77
+"Greek honey from Philippi ""Forest"" 450g",7.39,5.5,SE003,UK Zero Rate,S00-77
+"Greek honey from Philippi ""Pine Trees"" 450g",7.39,5.5,SE008,UK Zero Rate,S00-77
+Fillo pastry 400g,3.1,2.5,TH001,UK Zero Rate,S00-46
+Kataifi pastry 400g,3.1,2.5,TH003,UK Zero Rate,S00-46
+"ION Break white chocolate bar with rasins, almonds and hazelnuts 85g",2.1,1.55,EB044,UK Zero Rate,S00-111
+ION Cocoa powder 125g,2.33,1.8,EB045,UK Zero Rate,S00-111
+ION Noisetta bag 440g,8.9,7.2,EB046,UK Zero Rate,S00-111
+Miranda biscuits 250g,2,1.55,EB047,UK Zero Rate,S00-111
+Caprice classic wafer rolls with hazelnut 400g,5.35,3.75,EB050,UK Zero Rate,S00-111
+Caprice classic wafer rolls with hazelnut 250g,4.6,3.15,EB051,UK Zero Rate,S00-111
+Wheat rusks 255g (Box of 24),48,34.8,TR054,UK Zero Rate,S00-111
+Nescafe classic 100g,6.5,4.5,PL089,UK Zero Rate,S00-4
+Nescafe classic 2.75 Kg,105,89.9,PL142,UK Zero Rate,S00-4
+Petit Beurre biscuits with wholegrain flour and dark chocolate 200g,2.2,1.6,EB053,UK Zero Rate,S00-111
+Feta Cheese PDO 13Kg,0,103,TZA001,UK Zero Rate,S00-122
+Feta Cheese PDO (in slices) 4Kg,0,32,TZA002,UK Zero Rate,S00-122
+Feta Cheese PDO 1Kg,14.5,8.95,TZA003,UK Zero Rate,S00-122
+Feta Cheese PDO 400gr,7.4,5.1,TZA004,UK Zero Rate,S00-122
+Feta Cheese Light 400gr,6.3,5.3,TZA005,UK Zero Rate,S00-122
+Goat Cheese 1Kg,14.8,9.1,TZA006,UK Zero Rate,S00-122
+Goat Cheese 400gr,7.1,5.3,TZA007,UK Zero Rate,S00-122
+Manouri Cheese PDO 200gr,5.1,3.85,TZA008,UK Zero Rate,S00-122
+Vaeni Chrisanthi Retsina 11% vol. 500ml,6,3.3,VA009,UK Zero Rate,S00-52
+"Vaeni Alexander the Great, White dry 11% vol. 750ml",8.5,4.95,VA011,UK Zero Rate,S00-52
+"Vaeni Alexander the Great, Red dry 11% vol. 750ml",8.5,4.95,VA013,UK Zero Rate,S00-52
+Vaeni Holly Eucharist 375ml,6.5,5.2,VA023,UK Zero Rate,S00-52
+Vaeni Makedonikos White 750 ml,9,6.9,VA024,UK Zero Rate,S00-52
+Vaeni Makedonikos Rose 750 ml,9,6.9,VA025,UK Zero Rate,S00-52
+Vaeni Makedonikos Red 750 ml,9,6.9,VA026,UK Zero Rate,S00-52
+Vaeni DOGMATIKOS White 750 ml,10.9,8.35,VA027,UK Zero Rate,S00-52
+Vaeni DOGMATIKOS ROSE 750 ml,10.9,8.35,VA028,UK Zero Rate,S00-52
+Green hot pepper sauce 100ml,2.99,2,VAR001,UK Zero Rate,S00-32
+Naga hot pepper sauce 100ml,2.99,2,VAR003,UK Zero Rate,S00-32
+Tropical hot pepper sauce 100ml,2.99,2,VAR005,UK Zero Rate,S00-32
+Green hot pepper sauce 700ml,10.9,7.9,VAR007,UK Zero Rate,S00-32
+Naga hot pepper sauce 700ml,10.9,7.9,VAR009,UK Zero Rate,S00-32
+Tropical hot pepper sauce 700ml,10.9,7.9,VAR011,UK Zero Rate,S00-32
+Vergina beer 5% vol. 330ml,1.66,0.9,VER001,UK Zero Rate,S00-30
+Tuvunu Greek mountain tea 330ml,0.73,0.52,VER003,UK Zero Rate,S00-30
+Vergina Beer Alcohol Free 0.33lt,1.55,0.95,VER009,UK Zero Rate,S00-30
+Handmade pearl pasta 500g  (Pack of 10),37.8,24,AGR001-10,UK Zero Rate,
+Handmade sour trahana 500g  (Pack of 10),36,24,AGR003-10,UK Zero Rate,
+Handmade sweet trahana 500g  (Pack of 10),36,24,AGR005-10,UK Zero Rate,
+Handmade hilopites with eggs and milk 500g  (Pack of 6),20,14.4,AGR007-6,UK Zero Rate,
+Karolina rice 500g  (Pack of 12),19.08,9.6,AGR009-12,UK Zero Rate,
+Nichaki rice 500g  (Pack of 12),19.08,9.6,AGR011-12,UK Zero Rate,
+Bonnet rice 500g  (Pack of 12),19.08,12,AGR013-12,UK Zero Rate,
+Karolina rice 1Kg  (Pack of 6),12.6,9.3,AGR015-6,UK Zero Rate,
+Nichaki rice 1Kg  (Pack of 6),12.6,9.3,AGR017-6,UK Zero Rate,
+Blue bonnet rice 1Kg  (Pack of 6),12.6,9.3,AGR019-6,UK Zero Rate,
+Lentils 500g  (Pack of 12),22.8,15.6,AGR021-12,UK Zero Rate,
+Medium beans 500g  (Pack of 12),22.8,15.6,AGR023-12,UK Zero Rate,
+Giant beans 500g  (Pack of 12),57.2,28.44,AGR025-12,UK Zero Rate,
+Chickpeas 500g  (Pack of 12),26.95,18.6,AGR027-12,UK Zero Rate,
+Blackeyed beans 500g  (Pack of 12),30,21.6,AGR029-12,UK Zero Rate,
+Handmade vegetable pearl pasta 500gr  (pack of 10),38.7,35,AGR034-10,UK Zero Rate,
+Handmade pligouri(groats) 500gr  (pack of 10),37,22,AGR036-10,UK Zero Rate,
+Handmade vegetable trahana 500gr  (pack of 10),38.7,38.5,AGR038-10,UK Zero Rate,
+Handmade pumpkin trahana 500gr  (pack of 10),49,35,AGR040-10,UK Zero Rate,
+Vegetable Orzo 500gr  (pack of 10),35.55,34,AGR042-10,UK Zero Rate,
+Orzo with eggs and milk 500gr  (pack of 10),48,34,AGR044-10,UK Zero Rate,
+Small Vegetable Pasta Shells 500gr  (pack of 10),37.8,35,AGR046-10,UK Zero Rate,
+Angel Hair (pasta) 500gr  (pack of 10),48,34,AGR048-10,UK Zero Rate,
+Handmade striftaria(pasta) 500g (pack of 10),48,34,AGR050-10,UK Zero Rate,
+Fava Yellow 500gr  (box of 12),26.95,19.8,AGR032-12,UK Zero Rate,
+Artichokes 1Kg  (Box of 10),52.9,49.9,AI001-10,UK Zero Rate,
+Okra 1Kg  (Box of 10),59.9,47.5,AI006-10,UK Zero Rate,
+Spinach leaf 1Kg  (Box of 10),29.9,25,AI007-10,UK Zero Rate,
+Spinach with rice 1Kg  (Box of 9),36,33.75,AI008-9,UK Zero Rate,
+Flat beans 1Kg  (Box of 10),29.9,26.5,AI009-10,UK Zero Rate,
+Round beans 1Kg  (Box of 10),29.9,25.9,AI010-10,UK Zero Rate,
+Broccoli 750g  (Box of 8),23.92,22.8,AI011-8,UK Zero Rate,
+Alexakis pitta bread 10cm  (Box of 120),22,15,AL001-120,UK Zero Rate,
+Alexakis pitta bread 17cm  (Box of 120),25,21.6,AL003-120,UK Zero Rate,
+Alexakis pitta bread 18cm  (Box of 120),27,23.4,AL005-120,UK Zero Rate,
+Alexakis pitta bread 20cm  (Box of 120),32,21.6,AL009-120,UK Zero Rate,
+Alexakis pitta bread 23cm  (Box of 60),25,24,AL011-60,UK Zero Rate,
+Alexakis pitta bread 25cm  (Box of 40),20,18,AL013-40,UK Zero Rate,
+Alexakis squared pitta bread  (Box of 60),22,10.2,AL015-60,UK Zero Rate,
+Alexakis Cyprian pitta bread 20cm  (Box of 60),22,15,AL017-60,UK Zero Rate,
+Alexakis pitta bread whole grain 18cm  (Box of 120),30,22.8,AL021-120,UK Zero Rate,
+Alexakis pitta bread corn 17cm  (Box of 120),30,22.8,AL020-120,UK Zero Rate,
+Alexakis pitta bread 28cm  (Box of 40),33,20,AL035-40,UK Zero Rate,
+Melissa Pasta Kids 'Cars' 500gr (Box of 12),20.2,13.8,EB006-12,UK Zero Rate,
+Melissa Pasta Kids Numbers 500gr (Box of 12),20.2,13.8,EB003-12,UK Zero Rate,
+Melissa Pasta Kids Pets 500gr  (Box of 12),20.2,13.8,EB004-12,UK Zero Rate,
+Melissa Pasta Kids Words 500gr  (Box of 12),0,13.8,EB005-12,UK Zero Rate,
+Bikre handmade marinated pork neck souvlaki 100g  (Box of 5Kg),48,34.5,BI063-5,UK Zero Rate,
+Bikre kebab Kosmopolitiko 100g  Box (6x1Kg),81,40.2,BI091-6,UK Zero Rate,
+Bikre kebab Anatolitiko with cheese cream 100g  (Box of 6x1Kg),88,45.6,BI100-6,UK Zero Rate,
+Bikre stuffed burger with cheese 140g  (Box of 6Kg),78,40.02,BI104-6,UK Zero Rate,
+Bikre chicken fillet nuggets 1Kg  (Box of 3),30.6,20.1,BI041-3,UK Zero Rate,
+Bikre handmade marinated chicken breast souvlaki 100g  (Box of 5Kg),48,34.5,BI064-5,UK Zero Rate,
+Soutzoukakia from Kavala 70gr Box (6x1kg),71.4,47.4,BI056-6,UK Zero Rate,
+Grilled Burger 110gr Box (6x1kg),77.4,47.4,BI058-6,UK Zero Rate,
+Chicken Schnitzel 120gr Box  (6x1kg),71.4,45,BI053-6,UK Zero Rate,
+Bikre prebaked marinated chicken gyros 1Kg  (Box of 4),68,48.8,BI051-4,UK Zero Rate,
+Bikre prebaked marinated pork gyros 1Kg (Box of 4),68,48.8,BI050-4,UK Zero Rate,
+Meatballs  Box 6x1kg,56.4,46.2,BI105-6,UK Zero Rate,
+Telion extra virgin olive oil 5Lt  (Box of 4),128,103.6,EL001-4,UK Zero Rate,
+Elaion extra virgin olive oil 1Lt  (Box of 12),82.8,71.04,EL003-12,UK Zero Rate,
+Koko pomace oil 1Lt (Box of 12),47.88,35.76,EL018-12,UK Zero Rate,
+OUZO of KAVALA extra 200ml 38% vol. (Box of 24),179.76,156,EN001-24,UK Zero Rate,
+Evros sausages 640g  (Box of 24),119.76,99.84,IF025-24,UK Zero Rate,
+Evros sausages with leek 640g  (Box of 24),131.76,114.96,IF033-24,UK Zero Rate,
+Bread ring (koulouri) 90gr  (box of 50),46,0,ION0010-50,UK Zero Rate,
+Bread ring wholegrain (koulouri) 90gr  (box of 50),52.9,0,ION0039-50,UK Zero Rate,
+Round Pie with Feta 2050gr  (box of 4),48,32,ION0059-4,UK Zero Rate,
+Round pie with spinach & feta 2050gr  (box 4),48,32,ION0061-4,UK Zero Rate,
+SPITIKI ZYMI  Plant-based mini puff pastry with cheese 500gr  (box of 8),33.6,31.2,ION0069-8,UK Zero Rate,
+SPITIKI ZYMI Plant-based mini sausage roll 500gr  (box of 8),42.4,55.2,ION0071-8,UK Zero Rate,
+Cypriot sheftalia 100g  (Tray of 3Kg),40,22.5,KI001-3,UK Zero Rate,
+Easy bake Bechamel  (Box of 10),25.2,15,LOU014-10,UK Zero Rate,
+Farin up self raising flour 500g  (box of 20),43.51,31.6,LOU001-20,UK Zero Rate,
+Tsoureki flour 1Kg  (box of 10),29.61,27.9,LOU002-10,UK Zero Rate,
+Soft flour No2 1kg  (box of 10),29.61,16,LOU017-10,UK Zero Rate,
+Semolina fine 500g (box of 12),19.69,14.4,LOU006 -12,UK Zero Rate,
+Semolina coarse 500g (box of 12),19.69,14.4,LOU007-12,UK Zero Rate,
+"Self raising flour, gluten free 500g (box of 10)",55.71,48.1,LOU005 -10,UK Zero Rate,
+Muffins mix 500g (box of 10),31.41,26.2,LOU009 -10,UK Zero Rate,
+Hard flour No1 1kg  (box of 10),25.2,16,LOU016-10,UK Zero Rate,
+Flour for pizza No 00 1Kg  (box of 10),16.11,10.8,LOU019-10,UK Zero Rate,
+Chocolate muffins mix 500g (box of 10),34.11,31,LOU008-10,UK Zero Rate,
+All purpose wheat flour 1Kg  (box of 10),20.61,16,LOU003-10,UK Zero Rate,
+All purpose organic wheat flour 1Kg  (box of 10),29.61,28,LOU004-10,UK Zero Rate,
+Farin up self raising flour 1kg  (box of 10),31.95,29.5,LOU015-10,UK Zero Rate,
+Crepes mix 300g  (box of 10),17.91,14,LOU011-10,UK Zero Rate,
+Black cherry fruit preserve 500g  (Pack of 6),25.2,18.6,MAK001-6,UK Zero Rate,
+Bitter orange fruit preserve 500g  (Pack of 6),21.6,18,MAK003-6,UK Zero Rate,
+Fig fruit preserve 500g  (Pack of 6),21.6,18,MAK005-6,UK Zero Rate,
+Sour cherry fruit preserve 500g  (Pack of 6),21.6,18,MAK007-6,UK Zero Rate,
+Grape fruit preserve 500g  (Pack of 6),25.2,21,MAK009-6,UK Zero Rate,
+Clementine fruit preserve 500g  (Pack of 6),21.6,18,MAK011-6,UK Zero Rate,
+Quince fruit preserve 500g  (Pack of 6),21.6,18,MAK013-6,UK Zero Rate,
+Cherry fruit preserve 500g  (Pack of 6),25.2,52.5,MAK015-6,UK Zero Rate,
+Strawberry fruit preserve 500g  (Pack of 6),25.2,21,MAK017-6,UK Zero Rate,
+Apricot jam 290g  (Pack of 12),17.88,11.4,MAK019-12,UK Zero Rate,
+Strawberry jam 290g  (Pack of 12),17.88,11.4,MAK021-12,UK Zero Rate,
+Cherry jam 290g  (Pack of 12),17.88,11.4,MAK023-12,UK Zero Rate,
+Blueberry jam 290g  (Pack of 12),17.88,11.4,MAK027-12,UK Zero Rate,
+Whole wheat tahini 300g  (Pack of 12),41.88,45.6,MAK031-12,UK Zero Rate,
+Dark chocolate tahini 320g  (Pack of 12),41.88,45.6,MAK033-12,UK Zero Rate,
+Stuffed vine leaves with lemon taste 2Kg  (Pack of 6),52.5,39,MAK035-6,UK Zero Rate,
+Stuffed vine leaves with lemon taste 280g  (Pack of 24),63.25,40.8,MAK037-24,UK Zero Rate,
+Vine leaves in brine 450g  (Pack of 12),53.88,31.08,MAK039-12,UK Zero Rate,
+Giant beans from Prespes 2Kg  (Pack of 6),52.5,35.34,MAK041-6,UK Zero Rate,
+Giant beans from Prespes 280g  (Pack of 24),53,30.48,MAK043-24,UK Zero Rate,
+Sweet sour gherkins in jar 680g  (Pack of 12),23.88,15.12,MAK049-12,UK Zero Rate,
+Red roasted peppers 4.1Kg  (Pack of 6),89.4,60,MAK051-6,UK Zero Rate,
+Red roasted peppers in brine 450g  (Pack of 12),34.8,24.24,MAK053-12,UK Zero Rate,
+Chilli peppers in brine 340g  (Pack of 12),29.88,20.16,MAK055-12,UK Zero Rate,
+Beetroots in slices 4Kg  (Pack of 6),29.4,24,MAK057-6,UK Zero Rate,
+Beetroots in slices 700g  (Pack of 12),17.88,12.6,MAK059-12,UK Zero Rate,
+Caper 105g  (Pack of 12),12.6,12.6,MAK061-12,UK Zero Rate,
+Tomatopaste 4.5Kg  (Pack of 3),44.7,27.9,MAK063-3,UK Zero Rate,
+Tomato pulp 680g  (Pack of 6),11.4,6.9,MAK067-6,UK Zero Rate,
+Sun-dried tomatoes in oil 280g  (Pack of 12),29.88,20.16,MAK073-12,UK Zero Rate,
+Horeca ketchup 28g  (Pack of 70),34.3,24.5,MAK075-70,UK Zero Rate,
+Horeca mustard 28g  (Pack of 70),34.3,24.5,MAK077-70,UK Zero Rate,
+Horeca mayonnaise 25g  (Pack of 70),34.3,24.5,MAK079-70,UK Zero Rate,
+Chopped tomatoes 2.55Kg  (Pack of 6),39,24,MAK085-6,UK Zero Rate,
+Vine leaves in brine 3Kg  (Box of 4),52,44,MAK088-4,UK Zero Rate,
+Traditional Handmade Halva with Vanilla 400gr (Box of 8),31.2,24.8,MAK090-8,UK Zero Rate,
+Traditional Handmade Halva with Cocoa 400gr  (Box of 8),31.2,24.8,MAK091-8,UK Zero Rate,
+Spaghetti No6 500g  (Pack of 24),26.4,17.04,MAKV001-24,UK Zero Rate,
+Pastitsio No2 500g  (Pack of 15),22.4,14.85,MAKV002-15,UK Zero Rate,
+Linguine 500g  (Pack of 24),26.4,18,MAKV003-24,UK Zero Rate,
+Orzo 500g  (Pack of 12),17.6,12.48,MAKV005-12,UK Zero Rate,
+Salonikios halva with vanilla 400g  (Box of 12),38.4,31.2,MEL001-12,UK Zero Rate,
+Salonikios halva with cocoa 400g  (Box of 12),38.4,31.2,MEL002-12,UK Zero Rate,
+Salonikios halva NO SUGAR 400g  (Box of 12),38.4,31.2,MEL003-12,UK Zero Rate,
+"Greek jelly delight rose, loukoumi 400g  (Box of 12)",39,30.6,MEL004-12,UK Zero Rate,
+"Greek jelly delight coconut, loukoumi 400g  (Box of 12)",39,30.6,MEL007-12,UK Zero Rate,
+"Greek jelly delight vanilla, loukoumi 400g  (Box of 12)",39,30.6,MEL005-12,UK Zero Rate,
+"Greek jelly delight Chios mastiha, loukoumi 400g  (Box of 12)",39,30.6,MEL006-12,UK Zero Rate,
+"Greek delight almond, loukoumi 400g  (Box of 12)",39,30.6,MEL008-12,UK Zero Rate,
+Greek coffee 100g  (Pack of 10),14.9,15,MEL009-10,UK Zero Rate,
+Chocolate syrup 540g  (Box of 12),30,21.6,MEL010-12,UK Zero Rate,
+Hard and semi cheese croquettes 400g  (Box of 15),81,66,NI001-15,UK Zero Rate,
+"Cheese croquettes with feta, cow milk cheese and tomato 400g  (Box of 15)",81,66,NI003-15,UK Zero Rate,
+Handmade traditional zucchini fritters 400g  (Box of 15),84,69,NI005-15,UK Zero Rate,
+Handmade tomatoballs from Santorini 400g  (Box of 15),84,69,NI007-15,UK Zero Rate,
+"Mediterranean vegetable burger 440g, Vegan  (Box of 13)",80,58.5,NI009-13,UK Zero Rate,
+Handmade traditional zucchini fritters 1Kg  (Box of 6),66,48,NI013-6,UK Zero Rate,
+Handmade tomatoballs from Santorini 1Kg  (Box of 6),66,48,NI015-6,UK Zero Rate,
+JUMBO VRYKOLES 85gr  (Box of 24),20.4,23.04,OH001-24,UK Zero Rate,
+JUMBO PIZZA 85gr (Box of 24),20.4,23.04,OH002-24,UK Zero Rate,
+JUMBO GARIDARES 85gr  (Box of 24),20.4,23.04,OH003-24,UK Zero Rate,
+JUMBO FYSTIK 102gr (Box of 24),20.4,23.04,OH004-24,UK Zero Rate,
+JUMBO FOFICO snack 100gr  (Box of 24),20.4,26.16,OH005-24,UK Zero Rate,
+JUMBO CUBA HONAKIA 100gr (Box of 25),21.25,26.16,OH006-25,UK Zero Rate,
+JUMBO Chips Salt gluten free 90gr  (Box of 25),20.9,28.75,OH007-23,UK Zero Rate,
+Jumbo Chips Oregano 90gr (Box of 25),20.9,28.75,OH009-23,UK Zero Rate,
+Papadopoulos biscotello with vanilla cream 200g  (box of 12),20.9,16.2,EB038-12,UK Zero Rate,
+Traditional Halloumi Cheese 850gr.appr. (box of 6),65,48.6,PE04069089-01-6,UK Zero Rate,
+Halloumi Cheese 225gr.  (Box of 22),60,47.3,PE04069089-02-22,UK Zero Rate,
+Kataifi 650g  (Box of 8),60,55.2,PL011-8,UK Zero Rate,
+Baklava 650g  (Box of 8),60,56,PL013-8,UK Zero Rate,
+Galaktoboureko 650g  (Box of 8),60,56,PL015-8,UK Zero Rate,
+Revani 650g  (Box of 8),60,55.2,PL017-8,UK Zero Rate,
+Walnut pie 650g  (Box of 8),60,55.2,PL019-8,UK Zero Rate,
+Mini rox 650g  (Box of 8),60,55.2,PL021-8,UK Zero Rate,
+Mini tuluba 650g  (Box of 8),60,55.2,PL023-8,UK Zero Rate,
+Mini trigono Panoramatos 450g  (Box of 8),81.6,63.2,PL025-8,UK Zero Rate,
+Mini corne 550g  (Box of 8),71.2,55.2,PL027-8,UK Zero Rate,
+Flaming red pepper spread 200g (Box of 6),23.4,15.9,SD001-6,UK Zero Rate,
+Fillo pastry 400g  (Box of 10),31,25,TH001-10,UK Zero Rate,
+Kataifi pastry 400g  (Box of 10),31,25,TH003-10,UK Zero Rate,
+Green hot pepper sauce 100ml  (Pack of 24),71.76,48,VAR001-24,UK Zero Rate,
+Naga hot pepper sauce 100ml  (Pack of 12),23.88,48,VAR003-12,UK Zero Rate,
+Tropical hot pepper sauce 100ml  (Pack of 24),71.76,48,VAR005-24,UK Zero Rate,
+Naga hot pepper sauce 700ml  (Pack of 6),65.4,47.4,VAR009-6,UK Zero Rate,
+Tropical hot pepper sauce 700ml   (Pack of 6),65.4,47.4,VAR011-6,UK Zero Rate,
+Chickpea Fritter 400 gr  (box of 15),82.5,67.5,NI019-15,UK Zero Rate,
+JOTIS instant pudding vanilla cream 62g(Box of 20),29.8,22,EB029-20,UK Zero Rate,
+Miranda papadopoulou wholegrain 270gr(Box of 12),28.49,23.4,EB037-12,UK Zero Rate,
+ION Cocoa powder 125g(Box of 8),18.64,14.4,EB045-8,UK Zero Rate,
+Miranda biscuits 250g  (Box of 12),24,18.6,EB047-12,UK Zero Rate,
+Caprice classic wafer rolls with hazelnut 400g  (Box of 6),32.1,22.5,EB050-6,UK Zero Rate,
+Caprice classic wafer rolls with hazelnut 250g  (Box of 12),50.6,37.8,EB051-12,UK Zero Rate,
+Petit Beurre biscuits with wholegrain flour and dark chocolate 200g  (Box of 12),26.4,19.2,EB053-12,UK Zero Rate,
+"ION NUCREMA duocolour with milk, hazelnuts and cocoa spread 400g(Box of 12)",34.9,33,EB018-12,UK Zero Rate,
+Petit Beurre biscuits 225g  (Box of 16),31.84,19.2,EB035-16,UK Zero Rate,
+Nescafe classic 100g  (Box of 24),149.5,108,PL089-24,UK Zero Rate,
+Olympus Tsoureki 450g,6.49,0,OLYM001,UK Zero Rate,S00-138
+Olympus Mini Tsourekakia (mini brioche) 600g,6.49,0,OLYM002,UK Zero Rate,S00-138
+Olympus Tsoureki with praline (brioche) 500g,7.49,0,OLYM003,UK Zero Rate,S00-138
+Olympus choco chips 450g,7.49,0,OLYM004,UK Zero Rate,S00-138
+Olympus Tsoureki stuffed with praline chocolate 500g,9.85,0,OLYM005,UK Zero Rate,S00-138
+Olympus Tsoureki stuffed with Chestnut Cream 500g,9.99,0,OLYM006,UK Zero Rate,S00-138
+Olympus Cookies Plexouda (Orange) 350g,6.49,0,OLYM007,UK Zero Rate,S00-138
+Olympus Cookies Biscuit 350g,6.49,0,OLYM008,UK Zero Rate,S00-138
+Olympus Cookies Vanilla (grammoto) 350g,6.49,0,OLYM009,UK Zero Rate,S00-138
+Olympus Cookies Margarita 350g,6.49,0,OLYM010,UK Zero Rate,S00-138
+Olympus Cookies 350g,6.49,0,OLYM011,UK Zero Rate,S00-138
+Olympus Cookies Lemon 350g,6.49,0,OLYM012,UK Zero Rate,S00-138
+Olympus Cookies Cinammon 350g,6.49,0,OLYM013,UK Zero Rate,S00-138
+Olympus Cookies Halva 350g,6.49,0,OLYM014,UK Zero Rate,S00-138
+Olympus Cookies Grape Molasses (moustokouloura) 350g,6.99,0,OLYM015,UK Zero Rate,S00-138
+Olympus Cookies with Sesame 350g,6.99,0,OLYM016,UK Zero Rate,S00-138
+Olympus Petit Four Cherry 350g,6.99,0,OLYM017,UK Zero Rate,S00-138
+Olympus Petit Four Truffle 350g,6.99,0,OLYM018,UK Zero Rate,S00-138
+Olympus Petit Four Coconut 350g,6.99,0,OLYM019,UK Zero Rate,S00-138
+Olympus Petit Four Chocolate 350g,6.99,0,OLYM020,UK Zero Rate,S00-138
+Olympus Petit Four Heart 350g,6.99,0,OLYM021,UK Zero Rate,S00-138
+Olympus Melomakarona-Cinammon 500g,7.3,0,OLYM022,UK Zero Rate,S00-138
+Olympus Melomakarona-Cinammon Chocolate 500g,7.8,0,OLYM023,UK Zero Rate,S00-138
+Olympus Kourabie-Almond Cookies 400g,7.3,0,OLYM024,UK Zero Rate,S00-138
+Olympus Kourabie-Almond Cookies 4Kg,0,0,OLYM025,UK Zero Rate,S00-138
+Olympus Melomakarona 4Kg,48,0,OLYM026,UK Zero Rate,S00-138
+Bikre handmade marinated chicken breast and bacon souvlaki 120g (Pack of 8),14.9,0,BI020,UK Zero Rate,S00-2
+Bikre handmade marinated chicken breast and bacon souvlaki 120g  (Box of 5Kg),48,0,BI020-5,UK Zero Rate,
+Salami aeros with Naxos graviera 250g,4.5,0,IF024,UK Zero Rate,S00-9
+Parizaki light 3% 330g,2.9,0,IF003,UK Zero Rate,S00-9
+Salami with garlic 330g,3,0,IF005,UK Zero Rate,S00-9
+Tzatziki  2Kg,17.5,0,SAV002,UK Zero Rate,S00-10
+Tahini sesame cream 5Kg,49,0,MEL022,UK Zero Rate,S00-33
+Chokolate Mini puff pastry pies 500g,4.9,0,ZIM02.721,UK Zero Rate,S00-60
+Apple Mini puff pastry pies 500g,4.9,0,ZIM02.720,UK Zero Rate,S00-60
+Fouantre smoked pork ham sliced 120gr,3.8,0,IF056,UK Zero Rate,S00-9
+Fouantre roast pork with herbs gluten free 100gr,3.8,0,IF057,UK Zero Rate,S00-9
+Pork schnitzel Box of 3Kg,48,0,BI107,UK Zero Rate,S00-2
+Olympus Cookies Tahini 350g,6.49,0,OLYM027,UK Zero Rate,S00-138
+Bikre gyros pork Ellite 15Kg,121.5,0,BI108,UK Zero Rate,S00-2
+Manouri Cheese PDO 2Kg,34,0,TZA009,UK Zero Rate,S00-122
+Kalamon Pitted Olives Ex. Large(201-230) 4.2lt,30.5,0,EL020,UK Zero Rate,S00-17
+Hot cheese salad  2Kg,17.5,0,SAV001,UK Zero Rate,S00-10
+"Whole Kalamon olives, Colossal (121-140) 4.2Lt",29.5,0,EL013,UK Zero Rate,S00-17
+Expenses,0,0,EX,UK Zero Rate,
+Breadsticks with fresh cretan greens 250gr,2.5,0,KRA035,UK Zero Rate,S00-15
+"Breadsticks with sesame, tahini & thyme honey (no sugar added) 250gr",2.9,0,KRA036,UK Zero Rate,S00-15
+Breadsticks with corn 250gr,2.6,0,KRA037,UK Zero Rate,S00-15
+Eklekto white cheese 2Kg,17,0,KA023,UK Zero Rate,
+Anari 400g,3.2,0,PE01,UK Zero Rate,S00-91
+Halloumi Alambra foil 200g,3.4,0,PE02,UK Zero Rate,S00-91
+Halloumi cheese foil 200g,3.8,0,PE03,UK Zero Rate,S00-91
+Halloumi cheese foil 900g,10.9,0,PE04,UK Zero Rate,S00-91
+Sheep Yoghurt 100%  (giagia) 150g,3.2,0,PE05,UK Zero Rate,S00-91
+Yoghurt in glass vase (giagia) 500gr,3.99,0,PE06,UK Zero Rate,S00-91
+Sheep yoghurt 100% (giagia) 700g,4.3,0,PE07,UK Zero Rate,S00-91
+Sheep Yoghurt (giagia) 500g,4.5,0,PE08,UK Zero Rate,S00-91
+Halloumi Alambra light 225g,2.9,0,PE09,UK Zero Rate,
+Halloumi Alambra Sticks 400g,4.5,0,PE010,UK Zero Rate,S00-91
+Halloumi sheep & goat Alambra 10Kg,130,0,PE011,UK Zero Rate,S00-91
+Grated Cheese Alambra 200g,5.5,0,PE012,UK Zero Rate,S00-91
+Mini puff pasties with ham & cheese (ZIMI) 750g,4.5,0,ZIM001,UK Zero Rate,S00-60
+Mini puff pasties with spinach (ZIMI) 750g,4.5,0,ZIM002,UK Zero Rate,S00-60
+Gyros Doner Beef 10Kg,0,0,BI109,UK Zero Rate,S00-2
+Easy Bake Doughnuts (Loukoumades) 250g,2.8,0,LOU034,UK Zero Rate,S00-16
+Easy Bake Doughnuts (Loukoumades) 250g  (box of 10),25.2,0,LOU034-10,UK Zero Rate,
+LOULIS Dry Yeast 3 X 8gr,1.9,0,LOU035,UK Zero Rate,S00-16
+LOULIS Dry Yeast 3 X 8gr (box of 20),36.1,0,LOU035-20,UK Zero Rate,
+Sourdough (prozymi) & Yeast 20g,1.6,0,LOU036,UK Zero Rate,S00-16
+Pastry Mix gluten free 500g,4.85,0,LOU037,UK Zero Rate,S00-16
+Pastry Mix gluten free 500g (box of 10),43.65,0,LOU037-10,UK Zero Rate,
+Easy Bake Mix Pizza 500g,2.8,0,LOU038,UK Zero Rate,S00-16
+Easy Bake Mix Melomakarona 500g,4.95,0,LOU039,UK Zero Rate,S00-16
+Easy Bake kourabie- Almond cookies 500g,4.95,0,LOU040,UK Zero Rate,S00-16
+Transport Services from Greece,0,0,EX002,UK Zero Rate,
+STORAGE SERVICES IN GREECE,0,0,EX003,UK Zero Rate,
+CORRECTION,0,0,COR001,UK Zero Rate,
+RENT NO VAT,0,0,R002,UK Zero Rate,
+Import VAT & Duty,0,0,EX006,UK Zero Rate,
+Easy Bake kourabie- Almond cookies 500g(box of 10),44.55,0,LOU040-10,UK Zero Rate,
+Easy Bake Mix Pizza 500g (box of 10),25.2,0,LOU038-10,UK Zero Rate,
+JUMBO STICKS 100g,1.15,0,OH010,UK Zero Rate,S00-25
+JUMBO STICKS 100g (Box of 24),20.4,0,OH010-24,UK Zero Rate,
+JUMBO SNACKER Cheddar Cheese 150g,1.15,0,OH011,UK Zero Rate,S00-25
+JUMBO SNACKER Cheddar Cheese 150g (Box of 24),20.4,0,OH011-24,UK Zero Rate,
+SPITIKI ZYMI mini puff pastries with feta 700g,4.2,0,ION0075,UK Zero Rate,S00-107
+SPITIKI ZYMI mini puff pastries with feta 700g (Box of 6),25.2,0,ION0075-6,UK Zero Rate,
+SPITIKI ZYMI mini puff pastry with sausage 700g,5.7,0,ION0076,UK Zero Rate,S00-107
+SPITIKI ZYMI mini puff pastry with sausage 700g (Box of 6),34.2,0,ION0076-6,UK Zero Rate,
+SPITIKI ZYMI traditional pie with feta 850g,6.1,0,ION0077,UK Zero Rate,S00-107
+SPITIKI ZYMI traditional pie with feta 850g (Box of 4),24.4,0,ION0077-6,UK Zero Rate,
+SPITIKI ZYMI traditional pie with spinach & feta 850g,6.1,0,ION0078,UK Zero Rate,S00-107
+SPITIKI ZYMI traditional pie with spinach & feta 850g (Box of 4),24.4,0,ION0078-4,UK Zero Rate,
+SPITIKI ZYMI round pie with feta Elassona 800g,6.1,0,ION0079,UK Zero Rate,S00-107
+SPITIKI ZYMI round pie with feta Elassona 800g (Box of 6),36.6,0,ION0079-6,UK Zero Rate,
+SPITIKI ZYMI round pie with feta & spinach Elassona 800g,6.1,0,ION0080,UK Zero Rate,S00-107
+SPITIKI ZYMI round pie with feta & spinach Elassona 800g (Box of 6),36.6,0,ION0080-6,UK Zero Rate,
+SPITIKI ZYMI bougatsa with cream 500g,4.1,0,ION0081,UK Zero Rate,S00-107
+SPITIKI ZYMI bougatsa with cream 500g (Box of 8),32.8,0,ION0081-8,UK Zero Rate,
+SPITIKI ZYMI pizza special 480g,5.9,0,ION0082,UK Zero Rate,S00-107
+SPITIKI ZYMI pizza special 480g (Box of 6),35.4,0,ION0082-6,UK Zero Rate,
+SPITIKI ZYMI mini homemade pies with katiki Domokou cheese 700g,5.1,0,ION0083,UK Zero Rate,S00-107
+SPITIKI ZYMI mini homemade pies with katiki Domokou cheese 700g (Box of 6),30.6,0,ION0083-6,UK Zero Rate,
+SPITIKI ZYMI homemade pie with katiki Domokou 550g,5.1,0,ION0084,UK Zero Rate,S00-107
+SPITIKI ZYMI homemade pie with katiki Domokou 550g (Box of 8),35.7,0,ION0084-8,UK Zero Rate,
+SPITIKI ZYMI mini rolls with potato 500g,4.2,0,ION0086,UK Zero Rate,S00-107
+SPITIKI ZYMI mini rolls with potato 500g (Box of 14),58.8,0,ION0086-14,UK Zero Rate,
+Traditional spiral twirled pie with spinach mizithra feta cheese 220g (Box of 40),0,0,AM002,UK Zero Rate,S00-73
+Gia..gia mas Tangerine Drink 600gr,12.5,0,GIA011,UK Zero Rate,S00-82
+Smoked Cod Fillet (Mpakaliaros)150g,3.75,0,FAN001,UK Zero Rate,
+Anchovies Fillet Marinated 150g,3.75,0,FAN002,UK Zero Rate,S00-146
+Anchovies Fillet Marinated 750g,15.9,0,FAN003,UK Zero Rate,S00-146
+Smoked Mackerel Fillet (Skoumpri) 150g,3.75,0,FAN004,UK Zero Rate,S00-146
+Premium Smoked Mackerel Fillet (Skoumpri) 30% less salt 110g,3.75,0,FAN006,UK Zero Rate,S00-146
+Whole Smoked Mackerel Vacuum (Skoumpri) appr.350g,6.5,0,FAN007,UK Zero Rate,S00-146
+Smoked Mackerel Fillet (Skoumpri) 1Kg,18.9,0,FAN008,UK Zero Rate,S00-146
+Smoked Herring Fillet (Regga) 150g,3.75,0,FAN009,UK Zero Rate,S00-146
+Smoked Herring Fillet (Regga) 750g,14.9,0,FAN010,UK Zero Rate,S00-146
+Whole Smoked Herring (Regga) appr.350g,3.9,0,FAN011,UK Zero Rate,S00-146
+Ouzomeze in oil 150g,3.75,0,FAN012,UK Zero Rate,S00-146
+Ouzomeze in oil 750g,14.9,0,FAN013,UK Zero Rate,S00-146
+Octopus boiled in oil and vinegar 150g,6.4,0,FAN014,UK Zero Rate,S00-146
+Octopus boiled in oil and vinegar 750g,39,0,FAN015,UK Zero Rate,S00-146
+Seafood Mix 150g,6.1,0,FAN016,UK Zero Rate,S00-146
+Seafood Mix 750g,28,0,FAN017,UK Zero Rate,
+Crab rolls boiled (Kavouropsicha) 150g,3.3,0,FAN018,UK Zero Rate,S00-146
+Mussels with Oregano 150g,3.3,0,FAN019,UK Zero Rate,S00-146
+Smoked Salmon Fillet 100g,6.2,0,FAN020,UK Zero Rate,S00-146
+Lakerda 150g,3.75,0,FAN021,UK Zero Rate,S00-146
+Smoked Trout Fillet (Pestrofa) 100g,3.65,0,FAN022,UK Zero Rate,S00-146
+Smoked Mackerel Fillet (Skoumpri) 750g,15.9,0,FAN005,UK Zero Rate,S00-146
+Smoked Cod Fillet (Mpakaliaros)150g (Box of 6),0,0,FAN001-6,UK Zero Rate,
+Anchovies Fillet Marinated 150g (Box of 6),0,0,FAN002-6,UK Zero Rate,
+Smoked Mackerel Fillet (Skoumpri) 150g (Box of 6),0,0,FAN004-6,UK Zero Rate,
+Premium Smoked Mackerel Fillet (Skoumpri) 30% less salt 110g (Box of 6),0,0,FAN006-6,UK Zero Rate,
+Smoked Herring Fillet (Regga) 150g (Box of 6),0,0,FAN009-6,UK Zero Rate,
+Ouzomeze in oil 150g (Box of 6),0,0,FAN012-6,UK Zero Rate,
+Octopus boiled in oil and vinegar 150g (Box of 6),0,0,FAN014-6,UK Zero Rate,
+Seafood Mix 150g (Box of 6),0,0,FAN016-6,UK Zero Rate,
+Crab rolls boiled (Kavouropsicha) 150g (Box of 6),0,0,FAN018-6,UK Zero Rate,
+Mussels with Oregano 150g (Box of 6),0,0,FAN019-6,UK Zero Rate,
+Smoked Salmon Fillet 100g (Box of 6),0,0,FAN020-6,UK Zero Rate,
+Lakerda 150g (Box of 6),0,0,FAN021-6,UK Zero Rate,
+Smoked Trout Fillet (Pestrofa) 100g (Box of 6),0,0,FAN022-6,UK Zero Rate,
+GR•EAT  Melomakarona-Cinammon 400g,6.9,0,GREAT005,UK Zero Rate,
+Greek oregano 80g,3.1,0,AVR079,UK Zero Rate,S00-29
+Olympus Petit Four Praline 350g,6.99,0,OLYM028,UK Zero Rate,S00-138
+IFANTIS Salami dry with pepper (spicy paprika) 180g,3.6,0,IF063,UK Zero Rate,S00-9
+IFANTIS Salami dry Milano 200g,3.39,0,IF064,UK Zero Rate,S00-9
+IFANTIS Salami dry Lefkada 180g,3.6,0,IF065,UK Zero Rate,S00-9
+IFANTIS Boiled Pariza 3Kg appr.,0,0,IF066,UK Zero Rate,S00-9
+IFANTIS Salami with Green Olives,9.2,0,IF067,UK Zero Rate,S00-9
+IFANTIS Sausages Vienna 250g,3.09,0,IF068,UK Zero Rate,S00-9
+IFANTIS Sausages Franka 300g,3.49,0,IF069,UK Zero Rate,S00-9
+IFANTIS Mani Sausage with Orange 350g,2.5,0,IF070,UK Zero Rate,S00-9
+IFANTIS Ham  & Edam Cheese 300g,4.5,0,IF071,UK Zero Rate,S00-9
+IFANTIS Boiled Pariza & Gouda Cheese 300g,4.3,0,IF072,UK Zero Rate,S00-9
+IFANTIS Smoked turkey & Cheese 300g,4.4,0,IF073,UK Zero Rate,S00-9
+IFANTIS Boiled Pariza 160g,1.8,0,IF074,UK Zero Rate,S00-9
+LELIA Olives Kalamon 250g,2.99,0,IF075,UK Zero Rate,S00-9
+LELIA Olives PDO Thassou 150g,2.5,0,IF076,UK Zero Rate,S00-9
+LELIA Pitted Olives Kalamon 100g,1.85,0,IF077,UK Zero Rate,S00-9
+LELIA Mix Black & Green Olives 100g,1.8,0,IF078,UK Zero Rate,S00-9
+ESTI Balsamic Vinegar in glass bottle 250ml,5.9,0,ESTI082,UK Zero Rate,S00-9
+IFANTIS Mortadella 160g,1.8,0,IF088,UK Zero Rate,S00-9
+IFANTIS Smoked Turkey Fillet 160g,2.8,0,IF089,UK Zero Rate,S00-9
+IFANTIS Boiled Turkey Fillet 160g,2.8,0,IF090,UK Zero Rate,S00-9
+IFANTIS Dry Salami Thassou (sliced) 100g,2.29,0,IF091,UK Zero Rate,S00-9
+IFANTIS Ferrano Mortadella 500g,4.29,0,IF092,UK Zero Rate,S00-9
+IFANTIS Ferrano Air Dry Salami Sliced 70g,1.5,0,IF093,UK Zero Rate,S00-9
+IFANTIS Ferrano Coppa in slices 70g,3.5,0,IF094,UK Zero Rate,
+IFANTIS Ferrano Bacon Panseta 80g,2.99,0,IF095,UK Zero Rate,S00-9
+Pork Schnitzel 120gr (1kg pack),12.9,0,BI110,UK Zero Rate,S00-2
+Pork schnitzel (Box of 3Kg ),0,0,BI110-6,UK Zero Rate,
+Green peas 1Kg   (Box of 14),41.86,35,AI003- 14,UK Zero Rate,
+IFANTIS Meatballs 500g,5.49,0,IF096,UK Zero Rate,S00-9
+IFANTIS Hamburger (8x80g),8.15,0,IF097,UK Zero Rate,S00-9
+IFANTIS Hot Dog Nuggets 500g,7.19,0,IF098,UK Zero Rate,S00-9
+IFANTIS Stuffed Chicken Roll 1.2Kg appr.,12.9,0,IF099,UK Zero Rate,S00-9
+IFANTIS Chicken Nuggets 500g,7.99,0,IF100,UK Zero Rate,S00-9
+IFANTIS Roasted Chicken fillets 390g,8.3,0,IF101,UK Zero Rate,S00-9
+ESTI Plant-Based Meatballs 360g,12.8,0,ESTI104,UK Zero Rate,S00-9
+Thyme 500g,16,0,AVR080,UK Zero Rate,S00-29
+FOUANTRE Pork Ham 300g,0,0,IF116,UK Zero Rate,S00-9
+Bikre gyros pork Ellite 20Kg,0,0,BI111,UK Zero Rate,S00-2
+Ifantis Pariza Turkey 330g,0,0,IF118,UK Zero Rate,S00-9
+FOUANTRE Smoked Chicken 3.5Kg,0,0,IF120,UK Zero Rate,S00-9
+FOUANTRE Smoked Turkey 3.5Kg,0,0,IF119,UK Zero Rate,S00-9
+Mortadella 3.5Kg approx.,0,0,IF115,UK Zero Rate,S00-9
+Nile Perch Fillet 700g,13.5,0,DASK001,UK Zero Rate,S00-147
+Pud Medium Blanched Shrimps 500g,8.19,0,DASK002,UK Zero Rate,S00-147
+Fishsticks 250g,3.3,0,DASK003,UK Zero Rate,S00-147
+Whole Red Mullet 700g,5.5,0,DASK004,UK Zero Rate,S00-147
+Whole Cleaned Cuttlefish 700g,10.2,0,DASK005,UK Zero Rate,S00-147
+Squid Whole Cutted 600g,7.7,0,DASK006,UK Zero Rate,S00-147
+Octopus T5 Shrink 1.3-1.5Kg approx.,33.5,0,DASK007,UK Zero Rate,S00-147
+Octopus T4 Shrink 1.6-1.9Kg approx.,39.5,0,DASK008,UK Zero Rate,S00-147
+Cooked Mussels 500g,5.1,0,DASK009,UK Zero Rate,S00-147
+Squid Rings 700g,6.89,0,DASK010,UK Zero Rate,S00-147
+Yellowfin Sole Fillets 700g,8.7,0,DASK011,UK Zero Rate,S00-147
+Apo Fillet Light Salted 700g,5.5,0,DASK012,UK Zero Rate,S00-147
+Seafood Mix 500g,4.95,0,DASK013,UK Zero Rate,S00-147
+Bikre goat /Kg (w),11,0,BI112,UK Zero Rate,S00-2
+Bikre lamb/ Kg (w),11,0,BI113,UK Zero Rate,S00-2
+Flaouna Cheese 1Kg,15.5,0,MAR003,UK Zero Rate,S00-50
+Balsamic Vinegar in glass bottle 250ml,2.2,0,PAN001,UK Zero Rate,S00-152
+Balsamic Vinegar Honey 250ml,3.49,0,PAN002,UK Zero Rate,S00-152
+Balsamic Vinegar Fig 250ml,3.49,0,PAN003,UK Zero Rate,S00-152
+Balsamic Vinegar Pomegranate 250ml,3.49,0,PAN004,UK Zero Rate,S00-152
+Balsamic Cream 250ml,2.89,0,PAN005,UK Zero Rate,S00-152
+Balsamic Cream White 250ml,2.89,0,PAN006,UK Zero Rate,S00-152
+Balsamic Cream Pomegranate 250ml,3.59,0,PAN007,UK Zero Rate,S00-152
+Balsamic Cream Fig 250ml,3.59,0,PAN008,UK Zero Rate,S00-152
+Balsamic Cream Lemon-Orange 250ml,3.59,0,PAN009,UK Zero Rate,S00-152
+Balsamic Cream Barbeque 250ml,3.19,0,PAN010,UK Zero Rate,S00-152
+Balsamic Cream Honey 250ml,3.19,0,PAN011,UK Zero Rate,S00-152
+Vinegar white Wine 350ml,1.2,0,PAN012,UK Zero Rate,S00-152
+Vinegar Red Wine 350ml,1.2,0,PAN013,UK Zero Rate,S00-152
+Vinegar White (grapes) 400ml,0.99,0,PAN014,UK Zero Rate,S00-152
+Vinegar Apple 390ml,1.29,0,PAN015,UK Zero Rate,S00-152
+Lemon Juice 400ml,1.19,0,PAN016,UK Zero Rate,S00-152
+Lemon Cream 250ml,2.79,0,PAN017,UK Zero Rate,S00-152
+Sausages with Leek by Maro 340g,4.6,0,IF145,UK Zero Rate,S00-9
+Aubergine Paste 3 Kg,0,0,MAR020,UK Zero Rate,S00-50
+KASSIDIS Chicken gyros 10Kg,0,0,KAS001,UK Zero Rate,S00-154
+KASSIDIS Prebaked Chicken Gyros 1Kg,0,0,KAS002,UK Zero Rate,S00-154
+KASSIDIS Prebaked Pork Gyros 1Kg,0,0,KAS003,UK Zero Rate,S00-154
+KASSIDIS Prebaked Doner 1Kg,0,0,KAS004,UK Zero Rate,S00-154
+KASSIDIS Chicken Gyros 15Kg,0,0,KAS005,UK Zero Rate,S00-154
+KASSIDIS Gyros Pork Panseta 10Kg,0,0,KAS006,UK Zero Rate,S00-154
+KASSIDIS Gyros Pork Panseta 15Kg,0,0,KAS007,UK Zero Rate,S00-154
+KASSIDIS handmade marinated pork neck souvlaki 100g (Box of 5Kg),0,0,KAS008,UK Zero Rate,S00-154
+KASSIDIS handmade marinated chicken breast souvlaki 100g (Box of 5Kg),0,0,KAS009,UK Zero Rate,S00-154
+KASSIDIS handmade marinated lamb souvlaki 100g (Box of 2.5Kg),35.5,0,KAS010,UK Zero Rate,S00-154
+KASSIDIS Kebab stuffed with cheese cream 100g (Box of 2.5Kg),23,0,KAS011,UK Zero Rate,S00-154
+PINDOS Chicken Nuggets 1Kg,0,0,PIND001,UK Zero Rate,S00-155
+PINDOS Chicken Gordon Bleu 1Kg,0,0,PIND002,UK Zero Rate,S00-155
+PINDOS Chicken Fillets Pane 1Kg,0,0,PIND003,UK Zero Rate,S00-155
+PINDOS Chicken Burger 1Kg,9.9,0,PIND004,UK Zero Rate,S00-155
+PINDOS Chicken Drumsticks 1Kg,9.9,0,PIND005,UK Zero Rate,S00-155
+PINDOS Chicken Meatballs 1Kg,9.9,0,PIND006,UK Zero Rate,S00-155
+PINDOS Roasted Chicken Wings 1Kg,9.9,0,PIND007,UK Zero Rate,S00-155
+PINDOS prebaked chicken gyros 1Kg,12,0,PIND009,UK Zero Rate,S00-155
+PINDOS breast Fillet 1Kg,0,0,PIND010,UK Zero Rate,S00-155
+PINDOS Chicken Gyros 10Kg,0,0,PIND011,UK Zero Rate,S00-155
+PINDOS Chicken Gyros 15Kg,0,0,PIND012,UK Zero Rate,S00-155
+PINDOS Chicken Gyros 20Kg,0,0,PIND013,UK Zero Rate,S00-155
+KASSIDIS Pork Gyros 15Kg,0,0,KAS013,UK Zero Rate,S00-154
+KASSIDIS Pork Gyros 10Kg,0,0,KAS014,UK Zero Rate,S00-154
+Moussaka in ceramic pot 450g,7.9,0,EK001,UK Zero Rate,S00-153
+Custom Clearance,0,0,CC001,UK Zero Rate,S00-149
+Balsamic Vinegar in glass bottle 250ml (Box of 12),24.2,0,PAN001-12,UK Zero Rate,
+Balsamic Vinegar Honey 250ml (Box of 12),38.39,0,PAN002-12,UK Zero Rate,
+Balsamic Vinegar Fig 250ml (Box of 12),38.39,0,PAN003-12,UK Zero Rate,
+Balsamic Vinegar Pomegranate 250ml (Box of 12),38.39,0,PAN004-12,UK Zero Rate,
+Balsamic Cream 250ml (Box of 12),31.79,0,PAN005-12,UK Zero Rate,
+Balsamic Cream White 250ml (Box of 12),31.79,0,PAN006-12,UK Zero Rate,
+Balsamic Cream Pomegranate 250ml (Box of 12),39.49,0,PAN007-12,UK Zero Rate,
+Balsamic Cream Fig 250ml (Box of 12),43.08,0,PAN008-12,UK Zero Rate,
+Balsamic Cream Lemon-Orange 250ml (Box of 12),39.49,0,PAN009-12,UK Zero Rate,
+Balsamic Cream Barbeque 250ml (Box of 12),35.09,0,PAN010-12,UK Zero Rate,
+Balsamic Cream Honey 250ml (Box of 12),35.09,0,PAN011-12,UK Zero Rate,
+Vinegar white Wine 350ml (Box of 30),34.8,0,PAN012-30,UK Zero Rate,
+Vinegar Red Wine 350ml (Box of 30),0,0,PAN013-30,UK Zero Rate,
+Vinegar White (grapes) 400ml (Box of 30),29.29,0,PAN014-30,UK Zero Rate,
+Vinegar Apple 390ml (Box of 30),37.4,0,PAN015-30,UK Zero Rate,
+Lemon Juice 400ml (Box of 30),34.5,0,PAN016-30,UK Zero Rate,
+Lemon Cream 250ml (Box of 12),30.69,0,PAN017-12,UK Zero Rate,
+White Cheese 4Kg,25,0,MAR021,UK Zero Rate,S00-50
+Moussaka Vegan in ceramic pot 450g,7.9,0,EK002,UK Zero Rate,S00-153
+Pastitsio in ceramic pot 450g,7.9,0,EK003,UK Zero Rate,S00-153
+Giouvetsi in ceramic pot 450g,0,0,EK004,UK Zero Rate,S00-153
+Keftedakia Vegan 1Kg,0,0,EK005,UK Zero Rate,S00-153
+Falafel 500g,0,0,EK006,UK Zero Rate,S00-153
+Plant-based Burger 500g,0,0,EK007,UK Zero Rate,S00-153
+TZATZIKI 5Kg,21,0,GREAT24,UK Zero Rate,
+PINDOS handmade marinated chicken breast souvlaki 100g-Hallal (Box of 5Kg),38.5,0,PIND014,UK Zero Rate,S00-155
+PINDOS handmade marinated chicken thighs souvlaki 100g (Box of 5Kg),0,0,PIND015,UK Zero Rate,S00-155
+Prince appetizer yoghurt 1Kg,3.5,0,KA024,UK Zero Rate,S00-8
+Prince appetizer yoghurt 1Kg (Box of 6),17.5,0,KA024-6,UK Zero Rate,
+Chickpea Fritter 1Kg,11,0,NI021,UK Zero Rate,S00-47
+Chickpea Fritter 1Kg (Box of 6),0,0,NI021-6,UK Zero Rate,
+KASSIDIS Pork Gyros 20Kg,0,0,KAS025,UK Zero Rate,S00-154
+Round pie with spinach & feta cheese 2.2kg,0,0,AR001,UK Zero Rate,S00-73
+Round pie with spinach & feta cheese 2.2kg (Box of 4),36,0,AR001-4,UK Zero Rate,
+PINDOS prebaked chicken gyros 1Kg (Box of 4),48,0,PIND009-4,UK Zero Rate,
+Allspice powder 50g (Box of 6),9.6,5.4,AVR017-6,UK Zero Rate,
+Allspice whole 50g (Box of 6),9.6,5.4,AVR016-6,UK Zero Rate,
+Bay leaves 30g (Box of 6),9.6,5.4,AVR031-6,UK Zero Rate,
+Blue paint for Easter eggs 2.5g (Box of 6),13.14,4.5,AVR004-6,UK Zero Rate,
+Burger seasoning 50g (Box of 6),18,9,AVR007-6,UK Zero Rate,
+Cardamom powder (KAKOULE)10g (Box of 6),11.4,6.6,AVR044-6,UK Zero Rate,
+Chamomile 50g (Box of 6),9.6,5.4,AVR041-6,UK Zero Rate,
+Chicken seasoning 50g (Box of 6),18,9,AVR006-6,UK Zero Rate,
+Chios mastiha drops 10g (Box of 6),23.4,14.4,AVR046-6,UK Zero Rate,
+Chios mastiha powder 10g (Box of 6),23.4,14.4,AVR047-6,UK Zero Rate,
+Cinnamon powder 50g (Box of 6),13.8,9,AVR043-6,UK Zero Rate,
+Cinnamon wood 40g (Box of 6),14.7,9,AVR042-6,UK Zero Rate,
+Clove (whole) 20gr (Box of 6),13.74,9.54,AVR074-6,UK Zero Rate,
+Clove powder 20gr (Box of 6),13.74,9.54,AVR075-6,UK Zero Rate,
+Coriander powder 50g (Box of 6),9.6,5.4,AVR045-6,UK Zero Rate,
+Dill 80gr (Box of 6),9.6,5.4,AVR072-6,UK Zero Rate,
+Echinacea 50g (Box of 6),25.2,18,AVR033-6,UK Zero Rate,
+Eucalyptus leaves 30g (Box of 6),9.6,5.4,AVR020-6,UK Zero Rate,
+Fish seasoning 50g  (Box of 6),23.4,9,AVR012-6,UK Zero Rate,
+Greek mountain tea 50g (Box of 6),17.4,12,AVR037-6,UK Zero Rate,
+Greek oregano 500g (Box of 6),90,66,AVR026-6,UK Zero Rate,
+Greek oregano 80g (Box of 6),18.6,0,AVR079-6,UK Zero Rate,
+Greek oregano bunch 40g (Box of 6),17.4,11.4,AVR025-6,UK Zero Rate,
+Greek salad seasoning 50g (Box of 6),18,9,AVR013-6,UK Zero Rate,
+Greek souvlaki seasoning 50g (Box of 6),18,9,AVR010-6,UK Zero Rate,
+Green mountain tea 50g (Box of 6),19.2,13.2,AVR038-6,UK Zero Rate,
+Green paint for Easter eggs 2.5g (Box of 6),13.14,4.5,AVR002-6,UK Zero Rate,
+Hibiscus blossoms 70g (Box of 6),13.8,9,AVR021-6,UK Zero Rate,
+Lemon verbena 20g (Box of 6),13.8,9,AVR035-6,UK Zero Rate,
+Levander 35g (Box of 6),9.6,5.4,AVR034-6,UK Zero Rate,
+Mahlab powder 10g (Box of 6),17.4,10.8,AVR048-6,UK Zero Rate,
+Marjoram 60g (Box of 6),9.6,5.4,AVR036-6,UK Zero Rate,
+Milk thistle 50g (Box of 6),25.2,18,AVR029-6,UK Zero Rate,
+Mint 50g (Box of 6),12.6,7.2,AVR022-6,UK Zero Rate,
+Nutmeg powder 14g (Box of 6),13.8,9,AVR015-6,UK Zero Rate,
+Nutmeg powder 20g (Box of 6),16.2,11.4,AVR058-6,UK Zero Rate,
+PAPRIKA 50gr (Box of 6),12,7.2,AVR063-6,UK Zero Rate,
+PAPRIKA sweet 500gr (Box of 6),0,54,AVR062-6,UK Zero Rate,
+Red paint for Easter eggs 2.5g (Box of 6),13.14,4.5,AVR001-6,UK Zero Rate,
+Rosemary 50g (Box of 6),9.6,5.4,AVR032-6,UK Zero Rate,
+Sage 30g (Box of 6),16.2,8.4,AVR039-6,UK Zero Rate,
+Schnitzel seasoning 50g (Box of 6),18,9,AVR008-6,UK Zero Rate,
+Senna Alexandrina - Synamic 70gr (Box of 6),13.8,9,AVR078-6,UK Zero Rate,
+Sesame seeds 80gr (Box of 6),10.8,7.2,AVR073-6,UK Zero Rate,
+Spaghetti seasoning 50g (Box of 6),18,9,AVR009-6,UK Zero Rate,
+Spearmint 20gr (Box of 6),9.9,6.6,AVR076-6,UK Zero Rate,
+Spearmint 500gr (Box of 6),0,54,AVR061-6,UK Zero Rate,
+Thyme 20gr (Box of 6),9.9,6.6,AVR077-6,UK Zero Rate,
+Thyme 500g (Box of 6),96,0,AVR080-6,UK Zero Rate,
+Tzatziki seasoning 50g (Box of 6),18,9,AVR011-6,UK Zero Rate,
+Valerian 100g (Box of 6),27,18,AVR028-6,UK Zero Rate,
+Vanilla 20g (Box of 6),11.4,6,AVR005-6,UK Zero Rate,
+Yellow paint for Easter eggs 2.5g (Box of 6),13.14,4.5,AVR003-6,UK Zero Rate,
+Moussaka in ceramic pot 450g (Box of 12),94.8,0,EK001-12,UK Zero Rate,
+Bikre gyros pork Ellite 10Kg,0,0,BI114,UK Zero Rate,S00-2
+Bikre gyros pork Ellite 30Kg,0,0,BI115,UK Zero Rate,S00-2
+Yoghurt Edesma 5kg,11,0,AM003,UK Zero Rate,
+MEZE Hummus 1920gr,0,0,ME001,UK Zero Rate,S00-123
+Fish roe (Tarama) 1920gr,0,0,ME002,UK Zero Rate,S00-123
+Cod roe 3kg,25,0,MAR,UK Zero Rate,S00-50
+Cretan fresh mizithra 350g,4.2,0,KA025,UK Zero Rate,S00-8
+Cretan graviera cheese with oregano 240g,4.19,0,KA026,UK Zero Rate,S00-8
+JUMBO croissant praline 70g,0.9,0,OH012,UK Zero Rate,S00-25
+JUMBO croissant praline 70g (Box of 20),17.1,0,OH012-20,UK Zero Rate,
+Soy Sauce 250ml,0,0,VAR013,UK Zero Rate,S00-32
+Soy Sauce 250ml (Box of 12),0,0,VAR013-12,UK Zero Rate,
+Teriyaki Sauce 250ml,0,0,VAR014,UK Zero Rate,S00-32
+Teriyaki Sauce 250ml(Box of 12),0,0,VAR014-12,UK Zero Rate,
+Sriracha 250ml,0,0,VAR015,UK Zero Rate,S00-32
+Sriracha 250ml (Box of 12),0,0,VAR015-12,UK Zero Rate,
+Sweet Chilli Sauce 250ml,0,0,VAR016,UK Zero Rate,S00-32
+Sweet Chilli Sauce 250ml (Box of 12),0,0,VAR016-12,UK Zero Rate,
+Smoke 100ml,0,0,VAR017,UK Zero Rate,S00-32
+Smoke 100ml (Box of 12),0,0,VAR017-12,UK Zero Rate,
+Mini rusks with cretan cheeses 350g,3.9,0,KRA039,UK Zero Rate,S00-15
+Mini rusks with cretan cheeses 350g (Box of 18),57.8,0,KRA039-18,UK Zero Rate,
+Mini whole meal wheat rusks 400g,3.7,0,KRA040,UK Zero Rate,S00-15
+Mini whole meal wheat rusks 400g (Box of 18),62.9,0,KRA040-18,UK Zero Rate,
+Breadstick with Cretan cheeses 250g,3.9,0,KRA041,UK Zero Rate,S00-15
+Breadstick with Cretan cheeses 250g (Box of 14),35.1,0,KRA041-14,UK Zero Rate,
+Traditional (Mediterranean) mini wheat rusks 350g (Box of 18),57.8,44.1,KRA001-18,UK Zero Rate,
+Cretan barley round rusks 600g (Box of 15),57.4,44.1,KRA004-15,UK Zero Rate,
+Mini wheat Rusks with sundried tomato 400gr (Box of  18),62.9,48.06,KRA033-18,UK Zero Rate,
+Mini barley rusks NO SALT ADDED 350g (Box of 18),57.8,37.8,KRA008-18,UK Zero Rate,
+Sesame bar with almonds 60g (Display of 13),16.2,11.7,KRA023-13,UK Zero Rate,
+Sesame bar with peanuts (Display of 13),11.88,7.67,KRA032-13,UK Zero Rate,
+Sesame bar 60g (Display of 13),11.88,7.67,KRA025-13,UK Zero Rate,
+Sesame bar with sunflower seeds 60g (Display of 13),11.88,7.67,KRA026-13,UK Zero Rate,
+Bikre prebaked marinated chicken gyros 330g,6.75,0,BI116,UK Zero Rate,S00-2
+Bikre prebaked marinated chicken gyros 330g (Box of 12),74.25,0,BI116-12,UK Zero Rate,
+Bikre prebaked marinated pork gyros 330g,6.75,0,BI117,UK Zero Rate,S00-2
+Bikre prebaked marinated pork gyros 330g (Box of 12),74.25,0,BI117-12,UK Zero Rate,
+Feta Cheese PDO 200gr,4.1,0,TZA010,UK Zero Rate,S00-131
+Sheep yoghurt 100% (giagia) 400g,3.2,0,PE013,UK Zero Rate,S00-91
+Prebaked Pork Gyros 1Kg,0,0,AM005,UK Zero Rate,S00-73
+Prebaked Pork Gyros 1Kg (Box of 4),0,0,AM005-4,UK Zero Rate,
+Bikre gyros pork Ellite 5Kg,0,0,BI118,UK Zero Rate,S00-2
+Prebaked Vegan Gyros 1Kg,0,0,AM006,UK Zero Rate,S00-73
+Halloumi Pappouis 9Kg,0,0,MAR022,UK Zero Rate,S00-50
+Stifado Onion 2Kg (Box of 6),0,0,AM007,UK Zero Rate,S00-73
+County Sausages by Maro 340g,4.6,0,IF117,UK Zero Rate,S00-9
+Fish Roe (taramosalata) 2Kg,15.99,0,SAV009,UK Zero Rate,S00-10
+Olympus Tsoureki 450g (Box of 15),97.35,0,OLYM001-15,UK Zero Rate,
+Olympus Cookies 350g (Box of 10),48.9,0,OLYM011-10,UK Zero Rate,
+Olympus Cookies Biscuit 350g (Box of 14),68.46,0,OLYM008-14,UK Zero Rate,
+Olympus Cookies Cinammon 350g (Box of 14),68.46,0,OLYM013-14,UK Zero Rate,
+Olympus Cookies Grape Molasses (moustokouloura) 350g (Box of 10),49.9,0,OLYM015-10,UK Zero Rate,
+Olympus Cookies Halva 350g (Box of 12),58.68,0,OLYM014-12,UK Zero Rate,
+Olympus Cookies Lemon 350g (Box of 14),0,0,OLYM012-14,UK Zero Rate,
+Olympus Cookies Margarita 350g (Box of 10),0,0,OLYM010-14,UK Zero Rate,
+Olympus Cookies Plexouda (Orange) 350g (Box of 14),0,0,OLYM007-14,UK Zero Rate,
+Olympus Cookies Tahini 350g (Box of 14),0,0,OLYM027-14,UK Zero Rate,
+Olympus Cookies Vanilla (grammoto) 350g (Box of 14),0,0,OLYM009-14,UK Zero Rate,
+Olympus Cookies with Sesame 350g (Box of 14),0,0,OLYM016-14,UK Zero Rate,
+Olympus Kourabie-Almond Cookies 400g (Box of 8),0,0,OLYM024-8,UK Zero Rate,
+Olympus Melomakarona-Cinammon 500g (Box of 8),0,0,OLYM022-8,UK Zero Rate,
+Olympus Melomakarona-Cinammon Chocolate 500g (Box of 8),0,0,OLYM023-8,UK Zero Rate,
+Olympus Petit Four Cherry 350g (Box of 8),0,0,OLYM017-8,UK Zero Rate,
+Olympus Petit Four Chocolate 350g (Box of 8),0,0,OLYM020-8,UK Zero Rate,
+Olympus Petit Four Coconut 350g (Box of 8),0,0,OLYM019-8,UK Zero Rate,
+Olympus Petit Four Heart 350g (Box of 8),0,0,OLYM021-8,UK Zero Rate,
+Olympus Petit Four Praline 350g (Box of 8),0,0,OLYM028-8,UK Zero Rate,
+Olympus Petit Four Truffle 350g (Box of 8),0,0,OLYM018-8,UK Zero Rate,
+Olympus Tsoureki stuffed with praline chocolate 500g (Box of 15),0,0,OLYM005-15,UK Zero Rate,
+Mini Tsoureki 150gr (Box of 30),0,45,PL114-30,UK Zero Rate,
+New Year's cake (Vasilopita) 700g (coin inside),10.8,0,PL124,UK Zero Rate,S00-4
+Orange pie 12 pieces 3.5Kg appr.,39,0,PL126,UK Zero Rate,S00-4
+Chocolate pie 12 pieces 3.5Kg appr.,39,0,PL127,UK Zero Rate,S00-4
+New year's cake (Vasilopita) with chocolate 820g (coin inside),14.9,0,PL125,UK Zero Rate,S00-4
+"SPITIKI ZYMI traditional pie with feta, olives & peppers Island 900g",6.49,0,ION0090,UK Zero Rate,S00-107
+SPITIKI ZYMI traditional wild green pie 900g,6.69,0,ION0089,UK Zero Rate,S00-107
+SPITIKI ZYMI fillo pastry 450g,4.1,0,ION0091,UK Zero Rate,S00-107
+SPITIKI ZYMI traditional pie with chicken & bacon 900g,6.9,0,ION0093,UK Zero Rate,S00-107
+SPITIKI ZYMI plant-based beyond meat with mince pie 400g,6.7,0,ION0094,UK Zero Rate,S00-107
+SPITIKI ZYMI puff pastry 700g,4.65,0,ION0095,UK Zero Rate,S00-107
+Chicken Schnitzel double crispy 1Kg appr.,9.7,0,BI119,UK Zero Rate,S00-2
+Mince (Beef-Pork) 0.5Kg,4.45,0,BI120,UK Zero Rate,S00-2
+Pork Schnitzel double crispy 1Kg appr.,9.9,0,BI121,UK Zero Rate,S00-2
+Bread Crumbs Xatzis 350g,2.1,0,PL128,UK Zero Rate,S00-4
+Tsourekakia multibag (Mini Brioche) Xatzis 320g,3.7,0,PL130,UK Zero Rate,S00-4
+Tsoureki (Brioche) Masticha Chiou Xatzis 380g,3.95,0,PL131,UK Zero Rate,S00-4
+Croissant Praline Xatzis 150g,2.1,0,PL132,UK Zero Rate,S00-4
+Croissant Appricot Xatzis 150g,2.2,0,PL133,UK Zero Rate,S00-4
+Croissant Strawberry Xatzis 150g,2.1,0,PL134,UK Zero Rate,S00-4
+Tsourekaki (MIni Brioche) Xatzis 80g,1.2,0,PL135,UK Zero Rate,S00-4
+Tsourekaki Praline (mini brioche) Xatzis 80g,1.3,0,PL136,UK Zero Rate,S00-4
+Tsoureki stuffed with chestnut & covered with white chocolate (Brioche) Zea 700g,12.99,0,PL138,UK Zero Rate,S00-4
+Tsoureki stuffed with praline & covered with chocolate (Brioche) Zea 700g,12.99,0,PL139,UK Zero Rate,S00-4
+Tsourekaki Vegan (Mini Brioche) Xatzis 80g,1.9,0,PL140,UK Zero Rate,S00-4
+Smashing Plates (Box of 35),0,0,PL141,UK Zero Rate,S00-4
+Loumidis Papagalos Traditional Greek Coffee 96g,3.3,0,PL143,UK Zero Rate,S00-4
+Kourabie-Almond Cokies 4Kg,46.5,0,PL144,UK Zero Rate,S00-4
+Melomakarona-Cinammon 4Kg,43.5,0,PL145,UK Zero Rate,S00-4
+Baklava 500g,6.9,0,PL146,UK Zero Rate,S00-4
+Kataifi 500g,6.9,0,PL147,UK Zero Rate,S00-4
+Galaktoboureko 500g,6.9,0,PL148,UK Zero Rate,S00-4
+Walnut pie (karidopita) 500g,6.9,0,PL149,UK Zero Rate,S00-4
+Revani 500g,6.9,0,PL150,UK Zero Rate,S00-4
+Mini rox 500g,6.9,0,PL151,UK Zero Rate,S00-4
+Mini tuluba 500g,6.9,0,PL152,UK Zero Rate,S00-4
+Baklava 500g (Box of 12),82.8,0,PL146-12,UK Zero Rate,
+Kataifi 500g (Box of12),82.8,0,PL147-12,UK Zero Rate,
+Galaktoboureko 500g (Box of 12),82.8,0,PL148-12,UK Zero Rate,
+Walnut pie (karidopita) 500g (Box of 12),82.8,0,PL149-12,UK Zero Rate,
+Revani 500g (Box of 12),82.8,0,PL150-12,UK Zero Rate,
+Mini rox 500g (Box of 12),82.8,0,PL151-12,UK Zero Rate,
+Mini tuluba 500g (Box of 12),82.8,0,PL152-12,UK Zero Rate,
+Woodland Honey with Bio Sage 400g,8.65,0,MELIG001,UK Zero Rate,S00-181
+Honey Thyme 400g,8.49,0,MELIG002,UK Zero Rate,S00-181
+Honey with oak & chestnut 400g,8.49,0,MELIG003,UK Zero Rate,S00-181
+Honey with Lemon & Orange 400g,8.49,0,MELIG004,UK Zero Rate,S00-181
+Pure Pine Thyme Honey 1.5Kg,0,0,MELIG005,UK Zero Rate,S00-181
+Honey with oak & chestnut 1.5Kg,25,0,MELIG006,UK Zero Rate,S00-181
+Bikre gyros pork Ellite 25Kg,0,0,BI122,UK Zero Rate,S00-2
+Bikre gyros pork Ellite 40Kg,0,0,BI123,UK Zero Rate,
+Equipment,0,0,EQ001,UK Zero Rate,
+Sausages traditional with Onion (5 pieces) 500g,6.3,0,TEMP001,UK Zero Rate,S00-183
+Sausages with leek (2 pieces) 250g,6.3,0,TEMP002,UK Zero Rate,S00-183
+Sausages with leek (5 pieces) 500g,6.3,0,TEMP003,UK Zero Rate,S00-183
+Sausages with kefalotiri cheese (7 pieces) 500g,6.3,0,TEMP004,UK Zero Rate,S00-183
+Sausages Jumayias (4 pieces) 400g,6.3,0,TEMP005,UK Zero Rate,S00-183
+Spicy Sausages (5 pieces) 500g,6.3,0,TEMP006,UK Zero Rate,S00-183
+Chicken Sausages (5 pieces) 500g,6.3,0,TEMP007,UK Zero Rate,S00-183
+Beef Sausages (5 pieces) 500g,6.8,0,TEMP008,UK Zero Rate,S00-183
+Sausages with Oregano (5 pieces) 500g,6.3,0,TEMP009,UK Zero Rate,S00-183
+Wined Sausages (5 pieces) 500g,6.3,0,TEMP010,UK Zero Rate,S00-183
+Sausages with Orange (5 pieces) 500g,6.3,0,TEMP011,UK Zero Rate,S00-183
+Sausages with goat cheese and turmeric (5 pieces) 500g,6.3,0,TEMP012,UK Zero Rate,S00-183
+Karamanlidiko Sausages 500g,6.3,0,TEMP013,UK Zero Rate,S00-183
+Cannabis Sausages 300g,6.3,0,TEMP014,UK Zero Rate,S00-183
+Peperone Sausage (5 pieces) 500g,6.3,0,TEMP015,UK Zero Rate,S00-183
+Pork Cannabis Salami 250g,6.3,0,TEMP016,UK Zero Rate,S00-183
+Pork Salami 250g,6.3,0,TEMP017,UK Zero Rate,S00-183
+TEMPI Pork Souvlaki (Box of 5Kg appr.),0,0,TEMP018,UK Zero Rate,S00-183
+TEMPI Sheep Souvlaki (Box of 5Kg appr.),0,0,TEMP019,UK Zero Rate,S00-183
+TEMPI Chicken Souvlaki (Box of 5Kg appr.),0,0,TEMP020,UK Zero Rate,S00-183
+Prebaked Chicken Gyros 1Kg,0,0,AM008,UK Zero Rate,S00-73
+Prebaked Chicken Gyros 1Kg (Box of 4),0,0,AM008-4,UK Zero Rate,
+GR•EAT Kourabie-Almond Cookies 400g,6.9,0,GREAT006,UK Zero Rate,
+Honey Thyme 400g (Box of 9),0,0,MELIG002-9,UK Zero Rate,
+Honey with Lemon & Orange 400g (Box of 9),0,0,MELIG004-9,UK Zero Rate,
+Honey with oak & chestnut 1.5Kg (Box of 6),0,0,MELIG006-6,UK Zero Rate,
+Honey with oak & chestnut 400g (Box of 9),0,0,MELIG003-9,UK Zero Rate,
+Pure Pine Thyme Honey 1.5Kg (Box of 6),0,0,MELIG005-6,UK Zero Rate,
+Woodland Honey with Bio Sage 400g (Box of 9),0,0,MELIG001-9,UK Zero Rate,
+Olympus Tsoureki with praline (brioche) 500g (Box of 15),81.9,0,OLYM003-15,UK Zero Rate,
+Beef Sausages (5 pieces) 500g (Box of 20),129.2,0,TEMP008-20,UK Zero Rate,
+Cannabis Sausages 300g (Box of 20),119.7,0,TEMP014-20,UK Zero Rate,
+Chicken Sausages (5 pieces) 500g (Box of 20),119.7,0,TEMP007-20,UK Zero Rate,
+Karamanlidiko Sausages 500g (Box of 20),119.7,0,TEMP013-20,UK Zero Rate,
+Peperone Sausage (5 pieces) 500g (Box of 20),119.7,0,TEMP015-20,UK Zero Rate,
+Pork Cannabis Salami 250g (Box of 20),119.7,0,TEMP016-20,UK Zero Rate,
+Pork Salami 250g (Box of 20),119.7,0,TEMP017-20,UK Zero Rate,
+Sausages Jumayias (4 pieces) 400g (Box of 20),119.7,0,TEMP005-20,UK Zero Rate,
+Sausages with goat cheese and turmeric (5 pieces) 500g (Box of 20),119.7,0,TEMP012-20,UK Zero Rate,
+Sausages with kefalotiri cheese (7 pieces) 500g (Box of 20),119.7,0,TEMP004-20,UK Zero Rate,
+Sausages with leek (2 pieces) 250g (Box of 20),119.7,0,TEMP002-20,UK Zero Rate,
+Sausages with leek (5 pieces) 500g (Box of 20),119.7,0,TEMP003-20,UK Zero Rate,
+Sausages traditional with Onion (5 pieces) 500g (Box of 20),119.7,0,TEMP001-20,UK Zero Rate,
+Sausages with Orange (5 pieces) 500g (Box of 20),119.7,0,TEMP011-20,UK Zero Rate,
+Sausages with Oregano (5 pieces) 500g (Box of 20),119.7,0,TEMP009-20,UK Zero Rate,
+Spicy Sausages (5 pieces) 500g (Box of 20),119.7,0,TEMP006-20,UK Zero Rate,
+Wined Sausages (5 pieces) 500g (Box of 20),119.7,0,TEMP010-20,UK Zero Rate,
+Grill Cheese 850g,0,0,PE014,UK Zero Rate,S00-91
+SPITIKI ZYMI fillo pastry 450g (Box of 12),45.1,0,ION0091-12,UK Zero Rate,
+Tzatziki 2Kg (Box of 8),140,0,SAV002-8,UK Zero Rate,
+IFANTIS mortadella in slices 100g,2.65,0,IF146,UK Zero Rate,S00-9
+Mini barley rusks 400g  (Box of 18),0,48.06,KRA006 -18,UK Zero Rate,
+Mediterranean breadsticks 250g (Box of 14),42.9,37.1,KRA002-14,UK Zero Rate,
+Breadsticks with Sunflower seeds 250g (Box of 14),46.67,30.66,KRA014-14,UK Zero Rate,
+Breadsticks with fresh cretan greens 250gr (Box of 14),32.5,0,KRA035-14,UK Zero Rate,
+"Breadsticks with sesame, tahini & thyme honey (no sugar added) 250gr (Box of 14)",37.7,0,KRA036-14,UK Zero Rate,
+Breadsticks with corn 250gr (Box of 14),33.8,0,KRA037-14,UK Zero Rate,
+Lountza 1kg appr.,0,0,LA006,UK Zero Rate,S00-12
+Ioniki Puff pastry pie with sausage 210gr (box of 40),0,0,ION0097,UK Zero Rate,S00-107
+"SPITIKI ZYMI traditional pie with feta, olives & peppers Island 900g (Box of 6)",38.94,0,ION0090-6,UK Zero Rate,
+SPITIKI ZYMI traditional wild green pie 900g (Box of 6),40.14,0,ION0089-6,UK Zero Rate,
+SPITIKI ZYMI traditional pie with chicken & bacon 900g (Box of 6),41.4,0,ION0093-6,UK Zero Rate,
+SPITIKI ZYMI puff pastry 700g (Box of 12),55.8,0,ION0095-12,UK Zero Rate,
+Caprice classic wafer rolls with dark chocolate 250gr (Box of 12),55.2,37.8,EB010-12,UK Zero Rate,
+Papadopoulos Petit Beurre Dark Chocolate & Orange 200gr (Box of 12),39.6,27,EB033-12,UK Zero Rate,
+Papadopoulos Wheat rusks 510gr (Box of 32),148.8,99.2,EB034-32,UK Zero Rate,
+Papadopoulou Wheat rusks with rye 320gr (Box of 12),42.9,33.6,EB036-12,UK Zero Rate,
+Chopped tomatoes 400g  (Pack of 24),21.6,316.8,MAK070-24,UK Zero Rate,
+Loumidis Papagalos Traditional Greek Coffee 96g (Box of 30),95.7,0,PL143-30,UK Zero Rate,
+Hummus 2Kg (Box of 2),0,16.8,IF032-2,UK Zero Rate,
+Forest fruits jam 290g  (Pack of 12),17.88,11.4,MAK025-12,UK Zero Rate,
+Peeled tahini 300g (Pack of 12),61.2,45.6,MAK029-12,UK Zero Rate,
+Peach Halves 822gr (Composta) (Pack of 24),66.7,57.6,MAK092-24,UK Zero Rate,
+Coctail Fruit canned fruit 822gr (Composta) (Pack of 24),75.9,0,MAK093-24,UK Zero Rate,
+Grill Cheese 850g (Box of 6),48,0,PE014-6,UK Zero Rate,
+Tsoureki classic 500g,7.6,0,PL153,UK Zero Rate,S00-4
+Easter Round Brioche (kouloura) 500g,7.9,0,PL154,UK Zero Rate,S00-4
+Easter Round Brioche (kouloura) with dark chocolate 600g,12.99,0,PL155,UK Zero Rate,S00-4
+Easter Round Brioche (kouloura) with white chocolate 600g,12.99,0,PL156,UK Zero Rate,S00-4
+Tsoureki Bueno stuffed with hazelnut cream  (Brioche) Zea 700g,12.99,0,PL157,UK Zero Rate,S00-4
+Tomatopaste 200g,0,0,MAK097,UK Zero Rate,S00-23
+Tomatopaste 200g (Pack of 18),0,0,MAK097-18,UK Zero Rate,
+Anari 400g (Box of 18),0,0,PE01-18,UK Zero Rate,
+Halloumi Alambra Sticks 400g (Box of 19),0,0,Anari 400g-24,UK Zero Rate,
+Grated Cheese Alambra 200g (Box of 19),0,0,PE012-19,UK Zero Rate,
+Halloumi Cheese chilli 200gr (Box of 12),0,28.8,PE04069089-03-12,UK Zero Rate,
+Halloumi Cheese with Basil 200g (Box of 12),0,28.8,PE04069089-04-12,UK Zero Rate,
+Halloumi Cheese Burger Slices 200g (Box of 10),0,24,PE04069089-05-10,UK Zero Rate,
+Halloumi Alambra light 225g (Box of 42),0,0,PE09-42,UK Zero Rate,
+Himalayan Salt 500g,0,0,AVR081,UK Zero Rate,S00-29
+Pastourmas 100g,0,0,ANA001,UK Zero Rate,
+Moussaka Vegan in ceramic pot 450g (Box of 12),94.8,0,EK002-12,UK Zero Rate,
+Pastitsio Vegan in ceramic pot 450g,7.9,0,EK008,UK Zero Rate,S00-153
+Gemista 450g,7.9,0,EK009,UK Zero Rate,S00-153
+Lahanontolmades 450g,9.8,0,EK010,UK Zero Rate,S00-153
+Stifado Veel in ceramic pot 450g,10.9,0,EK011,UK Zero Rate,S00-153
+Patsas in ceramic pot 450g,8.9,0,EK012,UK Zero Rate,S00-153
+Pastitsio in ceramic pot 450g (Box of 12),94.8,0,EK003-12,UK Zero Rate,
+Giouvetsi in ceramic pot 450g (Box of 12),0,0,EK004-12,UK Zero Rate,
+Pastitsio Vegan in ceramic pot 450g (Box of 12),94.8,0,EK008-12,UK Zero Rate,
+Gemista 450g (Box of 12),94.8,0,EK009-12,UK Zero Rate,
+Lahanontolmades 450g (Box of 12),117.6,0,EK010-12,UK Zero Rate,
+Stifado Veel in ceramic pot 450g (Box of 12),130.8,0,EK011-12,UK Zero Rate,
+Patsas in ceramic pot 450g (Box of 12),106.8,0,EK012-12,UK Zero Rate,
+SPITIKI mini roll with feta & spinach 1Kg,5.4,0,ION0098,UK Zero Rate,S00-107
+Mini Triangles with spinach & feta 42g (Box of 6),0,0,AM009,UK Zero Rate,S00-73
+Mini Triangles with feta 42g (Box of 6),0,0,AM010,UK Zero Rate,S00-73
+JUMBO CLASSIC 110gr,1.15,0,OH013,UK Zero Rate,S00-25
+SPITIKI ZYMI PIZZA SPECIAL 2pcs (2x460g),11.5,0,ION0099,UK Zero Rate,S00-107
+OLYMPUS Sheep Cheese Kefalotyri 200g,4.9,0,OD002,UK Zero Rate,S00-214
+OLYMPUS Sheep Cheese Graviera 200g,4.9,0,OD003,UK Zero Rate,S00-214
+OLYMPUS Hard Cheese block 3Kg appr.,0,0,OD004,UK Zero Rate,S00-214
+Penne Rigate 500g,1.6,0,MAKV014,UK Zero Rate,S00-13
+Spaghetti No6 BIO 500g,1.8,0,MAKV016,UK Zero Rate,S00-13
+Spaghetti No10 500g,1.6,0,MAKV017,UK Zero Rate,S00-13
+Cannelloni 250g,2,0,MAKV018,UK Zero Rate,S00-13
+Spaghetti gluten free No6 400g,3.2,0,MAKV019,UK Zero Rate,S00-13
+Vermicelli Nest (fides) 250g,1.8,0,MAKV020,UK Zero Rate,S00-13
+DITALI-short pasta (kofto makaroni) 500g,1.6,0,MAKV007,UK Zero Rate,S00-13
+Orzo whole wheat with oak 500g,1.8,0,MAKV008,UK Zero Rate,S00-13
+Spaghetti whole wheat with oak No10 500g,1.8,0,MAKV009,UK Zero Rate,S00-13
+Penne Rigate whole wheat with oat 500g,1.8,0,MAKV010,UK Zero Rate,S00-13
+DITALI-short pasta (kofto makaroni) 500g (Box of 12),17.6,0,MAKV007-12,UK Zero Rate,
+Orzo whole wheat with oak 500g (Box of 12),19.8,0,MAKV008-12,UK Zero Rate,
+Spaghetti whole wheat with oak No10 500g (Box of 24),41.4,0,MAKV009-24,UK Zero Rate,
+Penne Rigate whole wheat with oat 500g (Box of 12),19.8,0,MAKV010-12,UK Zero Rate,
+Penne Rigate 500g (Box of 12),17.6,0,MAKV014-12,UK Zero Rate,
+Spaghetti No6 BIO 500g (Box of 12),19.8,0,MAKV016-12,UK Zero Rate,
+Spaghetti No10 500g (Box of 24),38.4,0,MAKV017-24,UK Zero Rate,
+Cannelloni 250g (Box of 12),22,0,MAKV018-12,UK Zero Rate,
+Spaghetti glutten free No6 400g (Box of 15),44.8,0,MAKV019-15,UK Zero Rate,
+Vermicelli Nest (fides) 250g (Box of 16),27,0,MAKV020-16,UK Zero Rate,
+GR•EAT Aubergine 500g,3.99,0,GREAT25,UK Zero Rate,S00-0
+Soutzoukakia 3Kg,41,0,GREAT26,UK Zero Rate,
+Beef with orzo 3Kg,41,0,GREAT27,UK Zero Rate,
+Beef with peas 3Kg,41,0,GREAT28,UK Zero Rate,
