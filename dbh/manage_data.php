@@ -31,7 +31,7 @@ if (isset($_POST['action'])) {
             break;
 
         case 'login':
-            login($userDatabase);
+            login($user_database);
             break;
     }
     if ($_POST['action'] != 'login') {
@@ -71,7 +71,7 @@ function append($conn, $database_utility) {
     synchronise($conn, $table_name, $_POST['id'], $query);
 }
 function append_user($user_database, $username) {
-    $current_password = $user_database -> get_user_password()
+    $current_password = $user_database -> get_user_password();
     if ($current_password != $_POST['password']) {
         $_POST['password'] = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost' => 10]);
     }
@@ -112,7 +112,7 @@ function synchronise($conn, $table_name, $id, $query_string) {
                 $invoiced_item_data = $item_database->get_invoiced_items_data($item_id);
 
                 if ($action == "delete") { // Need to retrieve data from what was deleted before deleting
-                    $conn->query($query_string); 
+                    $database_utility->execute_delete_query($table_name, $item_id);
                 }
                 $customer_id = $invoice_database->get_customer_id($invoiced_item_data["invoice_id"]);
                 update_invoiced_item($customer_database, $item_database, $invoiced_item_data, $customer_id);
@@ -306,14 +306,13 @@ function login($user_database) {
     $password = $_POST['password'];
 
     $password_hash = $user_database->get_user_password($username);
-    var_dump($password_hash);
     if ($password_hash == null || !password_verify($password, $password_hash)) {
         $_SESSION['login_error'] =  "Error: The username or password is invalid!";
         header("Location: {$_SERVER["HTTP_REFERER"]}");
     }
     else {
         $_SESSION['logged_in'] = true;
-        $access_level = $user_database->GetAccessLevel($username);
+        $access_level = $user_database->get_access_level($username);
         $_SESSION['access_level'] = $access_level;
         header("Location: ../welcome.php");
     }
@@ -323,7 +322,7 @@ function login($user_database) {
     $username = $_POST['username'];
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost' => 10]);
     $access_level = $_POST['level'];
-    $user_database->UserExists($username);
+    $user_database->user_exists($username);
     if ($rows != 0) {
         $_SESSION['mysql_error'] =  "Error: A user with that username is taken!";
         header("Location: {$_SERVER["HTTP_REFERER"]}");
