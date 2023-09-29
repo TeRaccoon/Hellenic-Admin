@@ -71,14 +71,15 @@ class DatabaseUtility {
     }
     public function construct_insert_query($table_name, $field_names, $submitted_data) {
         $nonEmptyFields = array_filter($field_names, function($field) {
-            return $_POST[$field] !== "";
+            return $_POST[$field] !== '';
         });
-        $fields_string = implode(", ", $nonEmptyFields);
+        $fields_string = implode(', ', $nonEmptyFields);
         
         $nonEmptyValues = array_filter($submitted_data, function($data) {
-            return $data !== "";
+            return $data !== '';
         });
-        $values_string = implode(", ", array_map(function($data) {
+
+        $values_string = implode(', ', array_map(function($data) {
             return "'$data'";
         }, $nonEmptyValues));
         
@@ -87,18 +88,28 @@ class DatabaseUtility {
     }
     public function construct_append_query($table_name, $field_names, $submitted_data) {
         $set_string = implode(', ', array_map(function($field) use ($submitted_data) {
-            return '$field = ' . ($submitted_data[$field] == '' ? 'NULL' : "'{$submitted_data[$field]}'");
+            return "$field = " . ($submitted_data[$field] == "" ? "NULL" : "'{$submitted_data[$field]}'");
         }, $field_names));
+
         $query = 'UPDATE ' . $table_name . ' SET ' . $set_string . ' WHERE ID = ' . $_POST['id'];
         return $query;
     }
 
     public function execute_delete_query($table_name, $id) {
-        $query = 'DELETE FROM ' . $table_name . ' WHERE ID = ?';
+        $query = 'DELETE FROM ' . $table_name . ' WHERE ID = (?)';
         $params = [
             ['type' => 'i', 'value' => $id]
         ];
         $this->execute_query($query, $params, false);
+    }
+
+    public function get_current_id($table_name) {
+        $query = 'SELECT id FROM ? ORDER BY id DESC LIMIT 1';
+        $params = [
+            ['type' => 's', 'value' => $table_name]
+        ];
+        $id = $this->execute_query($query, $params, 'assoc-array')['id'];
+        return $id;
     }
 }
 ?>
