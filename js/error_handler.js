@@ -32,7 +32,7 @@ function generateErrorForm(rawData) {
             default:
                 var errorMsg = document.getElementById("error-form-message");
                 document.getElementById("error-form-header").innerText = "Error code: " + data[2];
-                errorMsg.innerText = errorData[0] + "\nError description:" + data[3];
+                errorMsg.innerText = errorData[0] + "\nError description: " + data[3];
                 document.getElementById('error-form').style.display = 'block';
                 break;
                 break;
