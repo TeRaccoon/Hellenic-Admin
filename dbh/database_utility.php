@@ -7,29 +7,29 @@ class DatabaseUtility {
         $this->conn = $conn;
     }
 
-    public function ExecuteQuery($query, $params, $results_format) {
-        $stmt = $this->conn->prepareStatement($query);
+    public function execute_query($query, $params, $results_format) {
+        $stmt = $this->conn->prepare_statement($query);
 
         if ($stmt) {
             $paramTypes = "";
             $paramValues = [];
 
             foreach ($params as $param) {
-                $paramTypes .= $param["type"];
-                $paramValues[] = &$param["value"];
+                $paramTypes .= $param['type'];
+                $paramValues[] = &$param['value'];
             }
 
             array_unshift($paramValues, $paramTypes);
-            call_user_func_array([$stmt, "bind_param"], $paramValues);
+            call_user_func_array([$stmt, 'bind_param'], $paramValues);
 
 
             $this->conn->execute($stmt);
 
             switch ($results_format) {
-                case "assoc-array":
-                    return $this->BindResults($stmt);
+                case 'assoc-array':
+                    return $this->bind_results($stmt);
 
-                case "row-count":
+                case 'row-count':
                     return $stmt->num_rows;
                     
                 default:
@@ -41,7 +41,7 @@ class DatabaseUtility {
         }
     }
 
-    public function BindResults($stmt) {
+    public function bind_results($stmt) {
         $meta = $stmt->result_metadata();
 
         $result = array();
@@ -86,11 +86,19 @@ class DatabaseUtility {
         return $query;
     }
     public function construct_append_query($table_name, $field_names, $submitted_data) {
-        $set_string = implode(", ", array_map(function($field) use ($submitted_data) {
-            return "$field = " . ($submitted_data[$field] == "" ? "NULL" : "'{$submitted_data[$field]}'");
+        $set_string = implode(', ', array_map(function($field) use ($submitted_data) {
+            return '$field = ' . ($submitted_data[$field] == '' ? 'NULL' : "'{$submitted_data[$field]}'");
         }, $field_names));
         $query = 'UPDATE ' . $table_name . ' SET ' . $set_string . ' WHERE ID = ' . $_POST['id'];
         return $query;
+    }
+
+    public function execute_delete_query($table_name, $id) {
+        $query = 'DELETE FROM ' . $table_name . ' WHERE ID = ?';
+        $params = [
+            ['type' => 'i', 'value' => $id]
+        ];
+        $this->execute_query($query, $params, false);
     }
 }
 ?>
