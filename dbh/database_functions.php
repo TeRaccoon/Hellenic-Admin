@@ -14,25 +14,25 @@ class UserDatabase {
         $params = [
             ["type" => "s", "value" => $username]
         ];
-        $password_hash = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["password"];
+        $password_hash = $this->dbUtility->execute_query($query, $params, "assoc-array")["password"];
         return $password_hash;
     }
 
-    function GetAccessLevel($username) {
+    function get_access_level($username) {
         $query = "SELECT level FROM users WHERE username = ?";
         $params = [
             ["type" => "s", "value" => $username]
         ];
-        $access_level = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["level"];
+        $access_level = $this->dbUtility->execute_query($query, $params, "assoc-array")["level"];
         return $access_level;
     }
 
-    function UserExists($username) {
+    function user_exists($username) {
         $query = "SELECT username FROM users WHERE username = ?";
         $params = [
             ["type" => "s", "value" => $username]
         ];
-        $row_count = $this->dbUtility->ExecuteQuery($query, $params, "row-count");
+        $row_count = $this->dbUtility->execute_query($query, $params, "row-count");
         return $row_count;
     }
 }
@@ -49,7 +49,7 @@ class CustomerDatabase {
         $params = [
             ["type" => "s", "value" => $customer_id]
         ];
-        $discount = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["discount"];
+        $discount = $this->dbUtility->execute_query($query, $params, "assoc-array")["discount"];
         return $discount;
     }
     function set_invoice_values($net_value, $vat, $total, $id) {
@@ -60,7 +60,7 @@ class CustomerDatabase {
             ["type" => "d", "value" => $total],
             ["type" => "i", "value" => $id]
         ];
-        $this->dbUtility->ExecuteQuery($query, $params, false);
+        $this->dbUtility->execute_query($query, $params, false);
     }
 }
 class ItemDatabase {
@@ -77,7 +77,7 @@ class ItemDatabase {
         $params = [
             ["type" => "i", "value" => $item_id]
         ];
-        $total_sold = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["total_sold"];
+        $total_sold = $this->dbUtility->execute_query($query, $params, "assoc-array")["total_sold"];
         return $total_sold;
     }
     function get_calculated_total_sold($item_id) {
@@ -85,15 +85,15 @@ class ItemDatabase {
         $params = [
             ["type" => "i", "value" => $item_id]
         ];
-        $total_sold = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["total_sold"];
-        return $total_sold;
+        $total_sold = $this->dbUtility->execute_query($query, $params, "assoc-array")["total_sold"];
+        return $total_sold ?? 0;
     }
     function get_list_price($item_id) {
         $query = "SELECT list_price FROM items WHERE id = ?";
         $params = [
             ["type" => "i", "value" => $item_id]
         ];
-        $list_price = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["list_price"];
+        $list_price = $this->dbUtility->execute_query($query, $params, "assoc-array")["list_price"];
         return $list_price;
     }
     function get_invoiced_item_total($invoiced_item_id) {
@@ -101,7 +101,7 @@ class ItemDatabase {
         $params = [
             ["type" => "i", "value" => $invoiced_item_id]
         ];
-        $invoiced_item_total = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["invoiced_item_total"];
+        $invoiced_item_total = $this->dbUtility->execute_query($query, $params, "assoc-array")["invoiced_item_total"];
         return $invoiced_item_total;
     }
     function get_invoice_total($invoice_id) {
@@ -109,7 +109,7 @@ class ItemDatabase {
         $params = [
             ["type" => "i", "value" =>  $invoice_id]
         ];
-        $invoice_total = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["total"];
+        $invoice_total = $this->dbUtility->execute_query($query, $params, "assoc-array")["total"];
         return $invoice_total;
     }
     function get_invoiced_items_data($invoiced_item_id) {
@@ -117,7 +117,7 @@ class ItemDatabase {
         $params = [
             ["type" => "i", "value" => $invoiced_item_id]
         ];
-        $invoiced_item_data = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array");
+        $invoiced_item_data = $this->dbUtility->execute_query($query, $params, "assoc-array");
         return $invoiced_item_data;
     }
     function set_total_sold($total_sold, $item_id) {
@@ -126,7 +126,7 @@ class ItemDatabase {
             ["type" => "i", "value" => $total_sold],
             ["type" => "i", "value" => $item_id]
         ];
-        $this->dbUtility->ExecuteQuery($query, $params, false);
+        $this->dbUtility->execute_query($query, $params, false);
     }
 }
 
@@ -143,7 +143,7 @@ class CustomerPaymentsDatabase {
         $params = [
             ["type" => "i", "value" => $invoice_id]
         ];
-        $total_payments = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["total"];
+        $total_payments = $this->dbUtility->execute_query($query, $params, "assoc-array")["total"];
         return $total_payments;
     }
 }
@@ -171,7 +171,7 @@ class InvoiceDatabase {
         $params = [
             ["type" => "i", "value" => $invoice_id]
         ];
-        $customer_id = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["customer_id"];
+        $customer_id = $this->dbUtility->execute_query($query, $params, "assoc-array")["customer_id"];
         return $customer_id;
     }
     function get_invoice_price_data($invoice_id) {
@@ -179,7 +179,7 @@ class InvoiceDatabase {
         $params = [
             ["type" => "i", "value" => $invoice_id]
         ];
-        $price_data = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array");
+        $price_data = $this->dbUtility->execute_query($query, $params, "assoc-array");
         return $price_data;
     }
     function get_customer_debt($customer_id) {
@@ -188,7 +188,7 @@ class InvoiceDatabase {
             ["type" => "i", "value" => $customer_id],
             ["type" => "i", "value" => $customer_id]
         ];
-        $customer_debt = $this->dbUtility->ExecuteQuery($query, $params, "assoc-array")["total"];
+        $customer_debt = $this->dbUtility->execute_query($query, $params, "assoc-array")["total"];
         return $customer_debt;
     }
     function set_invoice_payment($status, $invoice_id) {
@@ -198,7 +198,7 @@ class InvoiceDatabase {
                 ["type" => "s", "value" => $status],
                 ["type" => "i", "value" => $invoice_id]
             ];
-            $this->dbUtility->ExecuteQuery($query, $params, false);
+            $this->dbUtility->execute_query($query, $params, false);
         }
     }
 }
