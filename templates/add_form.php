@@ -86,18 +86,35 @@
                     <input class="form-control" required id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>" type="text" name="<?php echo($editable_field_names[$key]); ?>">
                 <?php endif; ?>
             <?php else: ?>
-                <label for="<?php echo $editable_field_names[$key]; ?>"><?php echo "$editable_formatted_names[$key]: "; ?></label>
-                <br>
+                <?php if ($editable_field_names[$key] != "image_file_name"): ?>
+                    <label for="<?php echo $editable_field_names[$key]; ?>"><?php echo "$editable_formatted_names[$key]: "; ?></label>
+                    <br>
+                <?php endif; ?>
                 <?php if ($raw_types[$key] == "date"): ?>
                     <input style="font-family:Source Code Pro, FontAwesome" type="text" class="form-control form-datepicker"
                     id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>"
                     name="<?php echo $editable_field_names[$key]; ?>" autocomplete="off" placeholder="&#xf073;">
+                <?php elseif (str_contains($raw_types[$key], "enum")): ?>
+                    <select name="<?php echo $editable_field_names[$key]; ?>" class="form-control" id="<?php echo $id_modifier.strtoupper(str_replace(' ', '', $editable_formatted_names[$key])); ?>_edit">
+                        <option disabled selected value> --- Select <?php echo $editable_formatted_names[$key]; ?> --- </option>
+                        <?php foreach (explode(',',substr($raw_types[$key], 5, -1)) as $option): ?>
+                            <option value="<?php echo str_replace("'", '', $option); ?>"><?php echo str_replace("'", '', $option); ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                <?php elseif ($editable_field_names[$key] == "image_file_name"): ?>
+                    <label class="custom-file-upload">
+                        <input type="file" value="" class="form-control" required
+                        id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>"
+                        name="<?php echo $editable_field_names[$key]; ?>" /> 
+                        <i class="fa fa-cloud-upload"></i> Upload Image
+                    </label>
+                    <br>
                 <?php elseif ($editable_field_names[$key] == "VAT" || $editable_field_names[$key] == "net_value"): ?>
                     <input onkeyup="calculateTotal()" class="form-control"
                         id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>" type="text"
                         name="<?php echo $editable_field_names[$key]; ?>">
                 <?php elseif ($editable_field_names[$key] == "offer_id"): ?>
-                    <select required name="offer_id" class="form-control" id="<?php echo $id_modifier; ?>offer-name-select">
+                    <select name="offer_id" class="form-control" id="<?php echo $id_modifier; ?>offer-name-select">
                         <option disabled selected value> --- Select Offer Name --- </option>
                         <?php foreach($offer_names as $key => $value): ?>
                             <option value="<?php echo $offer_ids[$key][0]; ?>"><?php echo $offer_names[$key][0]; ?></option>

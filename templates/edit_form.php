@@ -75,8 +75,10 @@
                     type="text" name="<?php echo $editable_field_names[$key];?>" value="" required>
                 <?php endif; ?>
             <?php else: ?>
-                <label for="<?php echo $editable_field_names[$key]; ?>"><?php echo "$editable_formatted_names[$key]: "; ?></label>
-                <br>
+                <?php if ($editable_field_names[$key] != "image_file_name"): ?>
+                    <label for="<?php echo $editable_field_names[$key]; ?>"><?php echo "$editable_formatted_names[$key]: "; ?></label>
+                    <br>
+                <?php endif; ?>
                 <?php if ($raw_types[$key] == "date"): ?>
                     <input style="font-family:Source Code Pro, FontAwesome" type="text" class="form-control form-datepicker"
                         id="<?php echo $id_modifier.strtoupper(str_replace(' ', '', $editable_formatted_names[$key])); ?>_edit"
@@ -88,6 +90,14 @@
                             <option value="<?php echo str_replace("'", '', $option); ?>"><?php echo str_replace("'", '', $option); ?></option>
                         <?php endforeach; ?>
                     </select>
+                <?php elseif ($editable_field_names[$key] == "image_file_name"): ?>
+                    <label class="custom-file-upload">
+                        <input type="file" value="" class="form-control" required
+                        id="<?php echo $id_modifier.strtoupper(str_replace(' ', '', $editable_formatted_names[$key])); ?>_edit"
+                        name="<?php echo $editable_field_names[$key]; ?>" /> 
+                        <i class="fa fa-cloud-upload"></i> Upload Image
+                    </label>
+                    <br>
                 <?php elseif ($editable_field_names[$key] == "offer_id"): ?>
                     <select name="offer_id" class="form-control" id="<?php echo $id_modifier; ?>offer-name-select">
                         <option disabled selected value> --- Select Offer Name --- </option>
