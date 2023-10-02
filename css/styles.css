@@ -576,9 +576,21 @@ tr {
     display: inline-block;
 }
 
-input[type=text],
-input[type=date],
-input[type=password],
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #FFF;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}
+
+input,
 .selectize-input,
 .select {
     width: 100%;
@@ -619,12 +631,6 @@ input:checked[type="checkbox"] {
 
 input:checked[type="checkbox"]:before {
     left: 20px;
-}
-
-.checkbox-container {
-    display: flex;
-    align-items: center;
-    /* Vertically align the checkbox */
 }
 
 
