@@ -46,7 +46,7 @@ class DatabaseConnection {
             $result = $this->conn->query($query);
     
             if ($result === false) {
-                ErrorHandler::set_error('ERROR: There was an error querying the database!', 'query', 'F_SQL_DBH_001', $this->conn->error);
+                ErrorHandler::set_error('ERROR: There was an error querying the database!<br>' . $query, 'query', 'F_SQL_DBH_001', $this->conn->error);
                 $this->abort();
             }
     
