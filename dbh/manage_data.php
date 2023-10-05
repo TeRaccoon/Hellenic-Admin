@@ -33,14 +33,14 @@ if (isset($_POST['action'])) {
             break;
     }
     if ($_POST['action'] != 'login') {
-        header("Location: {$_SERVER["HTTP_REFERER"]}");
+        // header("Location: {$_SERVER["HTTP_REFERER"]}");
     }
     $database->close_connection();
     exit();
 }
 else {
     ErrorHandler::set_error("ERROR: Inconclusive call! Please contact administrator!", "other", "E_SQL-MD-001", $database->error);
-    header("Location: {$_SERVER["HTTP_REFERER"]}");
+    // header("Location: {$_SERVER["HTTP_REFERER"]}");
     exit();
 }
 
@@ -49,6 +49,24 @@ function insert($conn, $database_utility) {
     $field_names = get_field_names($conn, $table_name);
     $submitted_data = construct_submitted_data($field_names);
     $query = $database_utility->construct_insert_query($table_name, $field_names, $submitted_data);
+
+    if ($table_name == 'retail_items') {
+        var_dump($_POST);
+        var_dump($_FILES);
+        if (isset($_FILES["image_file_name"]) && $_FILES["image_file_name"]["error"] == 0) {
+            $uploadDir = "../uploads/"; // Directory where you want to store uploaded images
+            $uploadFile = $uploadDir . basename($_FILES["image_file_name"]["name"]);
+    
+            // Move the uploaded file to the desired directory
+            if (move_uploaded_file($_FILES["image_file_name"]["tmp_name"], $uploadFile)) {
+                echo "File is valid, and was successfully uploaded.";
+            } else {
+                echo "Upload failed.";
+            }
+        } else {
+            echo "No file uploaded or an error occurred.";
+        }
+    }
 
     $conn -> query($query);
     $conn -> commit();
