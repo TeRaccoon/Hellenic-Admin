@@ -381,9 +381,11 @@ function generateForm($table_name, $filter, $formType) {
     include '../templates/add_form.php';
     return ob_get_clean();
   }
-  ob_start();
-  include '../templates/edit_form.php';
-  return ob_get_clean();
+  else {
+    ob_start();
+    include '../templates/edit_form.php';
+    return ob_get_clean();
+  }
 }
 
 if (isset($_GET['tab'])) {
