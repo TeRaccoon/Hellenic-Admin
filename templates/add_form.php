@@ -13,7 +13,7 @@
 ?>
 
 
-<form class="popup-form-content animate" id="<?php echo $id_modifier; ?>add-form" action="dbh/manage_data.php" method="post">
+<form class="popup-form-content animate" id="<?php echo $id_modifier; ?>add-form" action="dbh/manage_data.php" method="post" enctype="multipart/form-data">
     <input type="hidden" name="table_name" value="<?php echo($table_name);?>">
     <div class="popup-form-container" id="<?php echo $id_modifier; ?>addForm">
         <input id="<?php echo $id_modifier; ?>smart-mode" name="smart-mode" style="float: right" type="checkbox" checked>
@@ -103,7 +103,7 @@
                     </select>
                 <?php elseif ($editable_field_names[$key] == "image_file_name"): ?>
                     <label class="custom-file-upload">
-                        <input type="file" value="" class="form-control" required
+                        <input accept="image/*" type="file" value="" class="form-control" required
                         id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>"
                         name="<?php echo $editable_field_names[$key]; ?>" /> 
                         <i class="fa fa-cloud-upload"></i> Upload Image
