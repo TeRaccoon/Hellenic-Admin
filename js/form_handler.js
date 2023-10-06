@@ -12,8 +12,12 @@ function cleanHideForm(form) {
 
 function displayEditForm(n, table) {
     document.getElementById('edit-form-container').style.display = "block";
-    var rows = table.rows;
     n++;
+    constructEditForm(n, table);
+}
+
+function constructEditForm(n, table) {
+    var rows = table.rows;
     document.getElementById('edit-form-identity').value = rows[n].getElementsByTagName("TD")[1].innerText;
     for (var i = 0; i < table.rows[0].getElementsByTagName("TH").length; i++) {
         if (rows[0].getElementsByTagName("TH")[i].dataset.value != "edit-exclude") {
