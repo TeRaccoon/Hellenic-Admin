@@ -33,14 +33,14 @@ if (isset($_POST['action'])) {
             break;
     }
     if ($_POST['action'] != 'login') {
-        // header("Location: {$_SERVER["HTTP_REFERER"]}");
+        header("Location: {$_SERVER["HTTP_REFERER"]}");
     }
     $database->close_connection();
     exit();
 }
 else {
     ErrorHandler::set_error("ERROR: Inconclusive call! Please contact administrator!", "other", "E_SQL-MD-001", $database->error);
-    // header("Location: {$_SERVER["HTTP_REFERER"]}");
+    header("Location: {$_SERVER["HTTP_REFERER"]}");
     exit();
 }
 
@@ -51,21 +51,7 @@ function insert($conn, $database_utility) {
     $query = $database_utility->construct_insert_query($table_name, $field_names, $submitted_data);
 
     if ($table_name == 'retail_items') {
-        var_dump($_POST);
-        var_dump($_FILES);
-        if (isset($_FILES["image_file_name"]) && $_FILES["image_file_name"]["error"] == 0) {
-            $uploadDir = "../uploads/"; // Directory where you want to store uploaded images
-            $uploadFile = $uploadDir . basename($_FILES["image_file_name"]["name"]);
-    
-            // Move the uploaded file to the desired directory
-            if (move_uploaded_file($_FILES["image_file_name"]["tmp_name"], $uploadFile)) {
-                echo "File is valid, and was successfully uploaded.";
-            } else {
-                echo "Upload failed.";
-            }
-        } else {
-            echo "No file uploaded or an error occurred.";
-        }
+        handle_image();
     }
 
     $conn -> query($query);
@@ -83,10 +69,31 @@ function append($conn, $database_utility, $user_database) {
     $submitted_data = construct_submitted_data($field_names);
     $query = $database_utility->construct_append_query($table_name, $field_names, $submitted_data);
 
+    if ($table_name == 'retail_items') {
+        handle_image();
+    }
+
     $conn -> query($query);
     $conn -> commit();
 
     synchronise($conn, $table_name, $_POST['id'], $query);
+}
+
+function handle_image() {
+    if (isset($_FILES['image_file_name']) && $_FILES['image_file_name']['error'] == 0) {
+        $uploadDir = "../uploads/"; // Directory where you want to store uploaded images
+        $uploadFile = $uploadDir . basename($_FILES["image_file_name"]["name"]);
+
+        // Move the uploaded file to the desired directory
+        if (move_uploaded_file($_FILES["image_file_name"]["tmp_name"], $uploadFile)) {
+            echo "File is valid, and was successfully uploaded.";
+        } else {
+            if ($_POST['action'] == 'add')
+            ErrorHandler::set_error("Warning: There was an error uploading the file! The file may not be valid!", "upload", "E_PHP-MD-001", "The file may already exist on the server in which case this can be ignored. If not, make sure the file is of type JPEG / JPG / PNG.");
+        }
+    } else {
+        ErrorHandler::set_error("Warning: No file uploaded or an error occured!", "upload", "W_PHP-MD-001", "");
+    }
 }
 function append_user($user_database, $username) {
     $current_password = $user_database -> get_user_password($username);
@@ -332,6 +339,10 @@ function construct_submitted_data($field_names) {
         if (str_contains($field_name, "date")) {
             $submitted_data[$field_name] = check_date($_POST[$field_name]);
         } else {
+            if ($field_name == "image_file_name") {
+                var_dump($_POST);
+                $_POST[$field_name] =  $_FILES[$field_name]["name"];
+            }
             $submitted_data[$field_name] = $_POST[$field_name];
         }
     }
