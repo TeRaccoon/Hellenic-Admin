@@ -13,9 +13,10 @@
     }
 ?>
 
-<form class="popup-form-content animate" action="dbh/manage_data.php" method="post">
+<form id="edit-form" class="popup-form-content animate" action="dbh/manage_data.php" method="post" enctype="multipart/form-data">
     <input type="hidden" id="edit-form-identity" name="id" value="">
     <input type="hidden" name="table_name" value="<?php echo($table_name);?>">
+    <input type="hidden" name="action" value="append">
     <div class="popup-form-container" id="editForm">
         <p id="edit_error"></p>
         <br>
@@ -92,7 +93,7 @@
                     </select>
                 <?php elseif ($editable_field_names[$key] == "image_file_name"): ?>
                     <label class="custom-file-upload">
-                        <input type="file" value="" class="form-control" required
+                        <input accept="image/*" type="file" value="" class="form-control" required
                         id="<?php echo $id_modifier.strtoupper(str_replace(' ', '', $editable_formatted_names[$key])); ?>_edit"
                         name="<?php echo $editable_field_names[$key]; ?>" /> 
                         <i class="fa fa-cloud-upload"></i> Upload Image
@@ -111,7 +112,14 @@
                         <?php foreach ($invoice_titles as $key => $value): ?>
                         <option value="<?php echo $invoice_ids[$key][0]; ?>"><?php echo $invoice_titles[$key][0]; ?></option>
                         <?php endforeach; ?>
-                    </select>    
+                    </select>
+                <?php elseif (str_contains($raw_types[$key], "enum")): ?>
+                    <select name="<?php echo $editable_field_names[$key]; ?>" class="form-control" required id="<?php echo $id_modifier.strtoupper(str_replace(' ', '', $editable_formatted_names[$key])); ?>_edit">
+                        <option disabled selected value> --- Select <?php echo $editable_formatted_names[$key]; ?> --- </option>
+                        <?php foreach (explode(',',substr($raw_types[$key], 5, -1)) as $option): ?>
+                            <option value="<?php echo str_replace("'", '', $option); ?>"><?php echo str_replace("'", '', $option); ?></option>
+                        <?php endforeach; ?>
+                    </select>   
                 <?php else: ?>
                     <input class="form-control"
                     id="<?php echo strtoupper(str_replace(' ', '', $editable_formatted_names[$key]))."_edit"; ?>"
@@ -124,7 +132,7 @@
     </div>
     <div class="popup-form-container popup-form-container-footer">
         <p onclick=hideForm(this);>Cancel</p>
-        <button name="action" value="append" type="submit" style="float: right">
+        <button id="edit-form-submit" name="action" value="append" type="submit" style="float: right">
             <p>Save</p>
         </button>
     </div>
