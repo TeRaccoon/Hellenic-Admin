@@ -46,6 +46,14 @@
                                 <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><?php echo $rows[$key][$field_name]."%"; ?></td>
                             <?php elseif ($assoc_data != null && array_key_exists($field_name, $assoc_data) && array_key_exists($rows[$key][$field_name], $assoc_data[$field_name])): ?>
                                 <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><?php echo $assoc_data[$field_name][$rows[$key][$field_name]]; ?></td>
+                            <?php elseif ($field_name == "image_file_name"): ?>
+                                <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><img src="../uploads/<?php echo $rows[$key][$field_name] ?>" alt="*Image not found*"></td>
+                            <?php elseif ($types[$field_key] == "enum('Yes','No')"): ?>
+                                <?php if ($rows[$key][$field_name] == 'Yes'): ?>
+                                    <td data-value="<?php echo $rows[$key][$field_name]; ?>" class="checkbox-container"><input onclick="toggleValue(this, <?php echo($key); ?>, this.parentNode.parentNode.parentNode)" value="<?php echo $rows[$key][$field_name]; ?>" checked="true" type="checkbox" name="row-<?php echo $key; ?>"></td>
+                                <?php else: ?>
+                                    <td data-value="<?php echo $rows[$key][$field_name]; ?>" class="checkbox-container"><input onclick="toggleValue(this, <?php echo($key); ?>, this.parentNode.parentNode.parentNode)" value="<?php echo $rows[$key][$field_name]; ?>" type="checkbox" name="row-<?php echo $key; ?>"></td>
+                                <?php endif; ?>
                             <?php else: ?>
                                 <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><?php echo $rows[$key][$field_name]; ?></td>
                             <?php endif; ?>
