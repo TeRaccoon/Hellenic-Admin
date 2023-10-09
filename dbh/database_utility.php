@@ -13,15 +13,14 @@ class DatabaseUtility {
         if ($stmt) {
             $paramTypes = "";
             $paramValues = [];
-
-            foreach ($params as $param) {
-                $paramTypes .= $param['type'];
-                $paramValues[] = &$param['value'];
+            if ($params != null) {
+                foreach ($params as $param) {
+                    $paramTypes .= $param['type'];
+                    $paramValues[] = &$param['value'];
+                }
+                array_unshift($paramValues, $paramTypes);
+                call_user_func_array([$stmt, 'bind_param'], $paramValues);
             }
-
-            array_unshift($paramValues, $paramTypes);
-            call_user_func_array([$stmt, 'bind_param'], $paramValues);
-
 
             $this->conn->execute($stmt);
 
@@ -43,7 +42,6 @@ class DatabaseUtility {
 
     public function bind_results($stmt) {
         $meta = $stmt->result_metadata();
-
         $result = array();
     
         while ($field = $meta->fetch_field()) {
@@ -110,6 +108,12 @@ class DatabaseUtility {
         ];
         $id = $this->execute_query($query, $params, 'assoc-array')['id'];
         return $id;
+    }
+
+    public function get_type_from_field($table_name, $field_name) {
+        $query = 'SHOW FULL COLUMNS FROM ' . $table_name . ' WHERE Field = "' . $field_name . '"';
+        $type = $this->execute_query($query, null, 'assoc-array')['Type'];
+        return $type;
     }
 }
 ?>
