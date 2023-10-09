@@ -47,7 +47,7 @@ else {
 function insert($conn, $database_utility) {
     $table_name = $_POST['table_name'];
     $field_names = get_field_names($conn, $table_name);
-    $submitted_data = construct_submitted_data($field_names);
+    $submitted_data = construct_submitted_data($database_utility, $field_names, $table_name);
     $query = $database_utility->construct_insert_query($table_name, $field_names, $submitted_data);
 
     if ($table_name == 'retail_items') {
@@ -66,7 +66,7 @@ function append($conn, $database_utility, $user_database) {
 
     $table_name = $_POST['table_name'];
     $field_names = get_field_names($conn, $table_name);
-    $submitted_data = construct_submitted_data($field_names);
+    $submitted_data = construct_submitted_data($database_utility, $field_names, $table_name);
     $query = $database_utility->construct_append_query($table_name, $field_names, $submitted_data);
 
     if ($table_name == 'retail_items') {
@@ -333,14 +333,16 @@ function login($user_database) {
     }
     return $field_names;
   }
-function construct_submitted_data($field_names) {
+
+function construct_submitted_data($db_utility, $field_names, $table_name) {
     $submitted_data = [];
     foreach ($field_names as $field_name) {
-        if (str_contains($field_name, "date")) {
+        $type = $db_utility->get_type_from_field($table_name, $field_name);
+
+        if ($type == 'date') {
             $submitted_data[$field_name] = check_date($_POST[$field_name]);
         } else {
             if ($field_name == "image_file_name") {
-                var_dump($_POST);
                 $_POST[$field_name] =  $_FILES[$field_name]["name"];
             }
             $submitted_data[$field_name] = $_POST[$field_name];
