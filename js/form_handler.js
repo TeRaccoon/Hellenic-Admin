@@ -30,6 +30,8 @@ function constructEditForm(n, table) {
                     var $select = $("#" + columnName);
                     var control = $select[0].selectize;
                     control.setValue(rowElement.dataset.value);
+                } else if (rowElement.firstChild != null && rowElement.firstChild.nodeName == "IMG") {
+                    //Ignore image input
                 } else {
                     element.value = rowElement.innerText.replace(/[^\w\s\.\-\/#$]/g, '');
                 }
