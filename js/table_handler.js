@@ -377,13 +377,8 @@ function selectTab(tab, tableName, tableElementName, filter) {
 }
 
 function toggleValue(element, n, table) {
-    console.log(element.value);
-    if (element.value == "Yes") {
-        console.log("ding");
-    }
     element.value = element.checked ? 'Yes' : 'No';
     element.parentElement.dataset.value = element.value;
-    console.log(element.value);
     constructEditForm(n + 1, table);
     document.querySelector('#edit-form').submit();
 }
