@@ -91,8 +91,6 @@ function handle_image() {
             if ($_POST['action'] == 'add')
             ErrorHandler::set_error("Warning: There was an error uploading the file! The file may not be valid!", "upload", "E_PHP-MD-001", "The file may already exist on the server in which case this can be ignored. If not, make sure the file is of type JPEG / JPG / PNG.");
         }
-    } else {
-        ErrorHandler::set_error("Warning: No file uploaded or an error occured!", "upload", "W_PHP-MD-001", "");
     }
 }
 function append_user($user_database, $username) {
@@ -335,6 +333,7 @@ function login($user_database) {
   }
 
 function construct_submitted_data($db_utility, $field_names, $table_name) {
+    var_dump($_POST);
     $submitted_data = [];
     foreach ($field_names as $field_name) {
         $type = $db_utility->get_type_from_field($table_name, $field_name);
@@ -343,7 +342,13 @@ function construct_submitted_data($db_utility, $field_names, $table_name) {
             $submitted_data[$field_name] = check_date($_POST[$field_name]);
         } else {
             if ($field_name == "image_file_name") {
-                $_POST[$field_name] =  $_FILES[$field_name]["name"];
+                if ($_FILES[$field_name]['name'] == null) {
+                    $file_name = $db_utility->recover_retail_image($_POST['id']);
+                    $_POST[$field_name] = $file_name;
+                }
+                else {
+                    $_POST[$field_name] = $_FILES[$field_name]['name'];
+                }
             }
             $submitted_data[$field_name] = $_POST[$field_name];
         }

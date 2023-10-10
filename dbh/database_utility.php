@@ -115,5 +115,14 @@ class DatabaseUtility {
         $type = $this->execute_query($query, null, 'assoc-array')['Type'];
         return $type;
     }
+
+    public function recover_retail_image($id) {
+        $query = 'SELECT image_file_name FROM retail_items WHERE id = ?';
+        $params = [
+            ['type' => 'i', 'value' => $id]
+        ];
+        $image_file_location = $this->execute_query($query, $params, 'assoc-array')['image_file_name'];
+        return $image_file_location;
+    }
 }
 ?>
