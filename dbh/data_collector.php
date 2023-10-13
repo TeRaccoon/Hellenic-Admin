@@ -18,15 +18,26 @@ function collect_data() {
 }
 function run_query() {    
     require_once 'dbh.php';
+    require_once 'database_utility.php';
+    require_once 'database_functions.php';
+
     $query = $_GET["query"];
 
     $conn = new DatabaseConnection();
+    $database_utility = new DatabaseUtility($conn);
+    $retail_items_database = new RetailItemsDatabase($database_utility);
 
     $conn->connect();
     switch ($query) {
         case "categories":
-            $results = $conn->query('SELECT DISTINCT category FROM retail_items ORDER BY category');
-            echo handle_data("ALL", $results, "category");
+            $results = $retail_items_database->get_categories();
+            echo json_encode($results);
+            break;
+
+        case "items-category":
+            $category = urldecode($_GET["filter"]);
+            $results = $retail_items_database->get_items_from_category($category);
+            echo json_encode($results);
             break;
 
         case "subcategories":
@@ -66,14 +77,6 @@ function run_query() {
             echo handle_data("ASSOC", $results, "category");
             break;
 
-        case "items-category":
-            $item_category = urldecode($_GET["filter"]);
-            $stmt = $conn -> prepare("SELECT ri.*, i.item_name AS item_name, i.list_price AS price, i.stock_code AS stock_code FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id WHERE category = ?");
-            $stmt -> bind_param("s", $item_category);
-            $stmt -> execute();
-            $results = $stmt->get_result();
-            echo handle_data("ASSOC", $results, null);
-            break;
 
         case "items-sub-category":
             $item_sub_category = urldecode($_GET["filter"]);
