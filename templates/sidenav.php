@@ -151,6 +151,16 @@ session_start();
                     <i class="material-icons">vpn_key</i> Discount Codes
                 </a>
             </li>
+            <li>
+                <a onclick="loadPage('page_sections', 'high', false)">
+                    <i class="material-icons">wallpaper</i> Page Sections
+                </a>
+            </li>
+            <li>
+                <a onclick="loadPage('image_locations', 'high')">
+                    <i class="material-icons">image</i> Image Locations
+                </a>
+            </li>
         </ul>
     <?php endif; ?>
     <hr class="dark horizontal my-0">
@@ -167,11 +177,6 @@ session_start();
             <li id="sidenav-statistics">
                 <a href="./statistics.php">
                     <i class="material-icons">insert_chart</i> Statistics
-                </a>
-            </li>
-            <li>
-                <a onclick="loadPage('image_locations', 'high')">
-                    <i class="material-icons">image</i> Image Locations
                 </a>
             </li>
         </ul>
