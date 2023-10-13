@@ -40,20 +40,6 @@ function constructEditForm(n, table) {
     }
 }
 
-function calculateTotal() {
-    if (document.getElementById("smart-mode").checked) {
-        var netValue = document.getElementById("NetValue").value;
-        var VAT = document.getElementById("VAT").value;
-        if ((isFloat(netValue) || isInt(netValue)) && !isNaN(netValue)) {
-            if (!isFloat(VAT) || !isInt(VAT)) {
-                VAT = (netValue * 0.2).toFixed(2);
-                document.getElementById("VAT").value = VAT;
-            }
-            document.getElementById("Total").value = (parseFloat(netValue) + parseFloat(VAT)).toFixed(2);
-        }
-    }
-}
-
 function displayDeleteForm(tableIndex, n) {
     document.getElementById('delete-form').style.display = "block";
     var rows = getTables()[tableIndex].rows;
@@ -63,6 +49,15 @@ function displayDeleteForm(tableIndex, n) {
         for (i = 0; i < selected.length; i++) {
             document.getElementById('delete_id').value += rows[selected[i]].getElementsByTagName("TD")[1].innerText + ",";
         }
+    }
+}
+
+function updateIcon(input) {
+    var label = input.parentElement;
+    if (input.files.length > 0) {
+        label.classList.add('text-success');
+    } else {
+        label.classList.remove('text-success');
     }
 }
 
