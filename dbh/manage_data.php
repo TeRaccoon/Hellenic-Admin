@@ -50,9 +50,7 @@ function insert($conn, $database_utility) {
     $submitted_data = construct_submitted_data($database_utility, $field_names, $table_name);
     $query = $database_utility->construct_insert_query($table_name, $field_names, $submitted_data);
 
-    if ($table_name == 'retail_items') {
-        handle_image();
-    }
+    handle_image($table_name);
 
     $conn -> query($query);
     $conn -> commit();
@@ -69,9 +67,7 @@ function append($conn, $database_utility, $user_database) {
     $submitted_data = construct_submitted_data($database_utility, $field_names, $table_name);
     $query = $database_utility->construct_append_query($table_name, $field_names, $submitted_data);
 
-    if ($table_name == 'retail_items') {
-        handle_image();
-    }
+    handle_image($table_name);
 
     $conn -> query($query);
     $conn -> commit();
@@ -79,9 +75,18 @@ function append($conn, $database_utility, $user_database) {
     synchronise($conn, $table_name, $_POST['id'], $query);
 }
 
-function handle_image() {
+function handle_image($table_name) {
     if (isset($_FILES['image_file_name']) && $_FILES['image_file_name']['error'] == 0) {
-        $uploadDir = "../uploads/"; // Directory where you want to store uploaded images
+        $uploadDir = "../uploads/";
+        switch ($table_name) {
+            case 'retail_items':
+                $uploadDir = '../uploads/';
+                break;
+
+            default:
+                return;
+
+        }
         $uploadFile = $uploadDir . basename($_FILES["image_file_name"]["name"]);
 
         // Move the uploaded file to the desired directory
@@ -123,7 +128,7 @@ function synchronise($conn, $table_name, $id, $query_string) {
     $database_utility = new DatabaseUtility($conn);
     $customer_database = new CustomerDatabase($conn, $database_utility);
     $item_database = new ItemDatabase($conn, $database_utility);
-    $invoice_database = new InvoiceDatabase($conn, $database_utility);
+    $invoice_database = new InvoiceDatabase($database_utility);
     $customer_payments_database = new CustomerPaymentsDatabase($conn, $database_utility);
 
     $action = $_POST['action'];
