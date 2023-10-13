@@ -32,7 +32,7 @@
                 id="<?php echo str_replace(' ', '', $editable_formatted_names[$key]); ?>"
                 name="<?php echo $editable_field_names[$key]; ?>">
         <?php elseif ($editable_field_names[$key] == "VAT" || $editable_field_names[$key] == "net_value"): ?>
-        <input onkeyup="calculateTotal()" class="form-control" required
+        <input class="form-control" required
             id="<?php echo str_replace(' ', '', $editable_formatted_names[$key]); ?>" type="text"
             name="<?php echo $editable_field_names[$key]; ?>">
         <?php else: ?>
