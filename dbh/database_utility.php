@@ -1,4 +1,9 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Content-Type: application/json; charset=UTF-8");
+header("Access-Control-Allow-Methods: GET,POST,PUT,DELETE");
+header("Access-Control-Max-Age: 3600");
+header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 class DatabaseUtility {
     private $conn;
@@ -28,6 +33,9 @@ class DatabaseUtility {
                 case 'assoc-array':
                     return $this->bind_results($stmt);
 
+                case 'array':
+                    return $this->results_as_array($stmt);
+
                 case 'row-count':
                     return $stmt->num_rows;
                     
@@ -40,6 +48,18 @@ class DatabaseUtility {
         }
     }
 
+    public function results_as_array($stmt) {
+        $meta = $stmt->result_metadata();
+        $fieldName = $meta->fetch_field()->name;
+        
+        $results = $stmt->get_result();
+        $array = array();
+        while ($row = $results->fetch_assoc()) {
+            $array[] = $row[$fieldName];
+        }
+
+        return $array;
+    }
     public function bind_results($stmt) {
         $meta = $stmt->result_metadata();
         $result = array();
