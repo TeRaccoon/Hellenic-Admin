@@ -1,4 +1,9 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Content-Type: application/json; charset=UTF-8");
+header("Access-Control-Allow-Methods: GET,POST,PUT,DELETE");
+header("Access-Control-Max-Age: 3600");
+header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 class UserDatabase {
     private $conn;
@@ -165,16 +170,36 @@ class InvoicedItemsDatabase {
         $this->db_utility = $db_utility;
     }
 }
+
+class RetailItemsDatabase {
+    private $db_utility;
+    public function __construct($db_utility) {
+        $this->db_utility = $db_utility;
+    }
+    
+    public function get_items_from_category($category) {
+        $query = 'SELECT ri.*, i.item_name AS item_name, i.retail_price AS price, i.stock_code AS stock_code FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id WHERE category = ?';
+        $params = [
+            ['type' => 's', 'value' => $category]
+        ];
+        $item_data = $this->db_utility->execute_query($query, $params, 'assoc-array');
+        return $item_data;
+    }
+    public function get_categories() {
+        $query = 'SELECT DISTINCT category FROM retail_items ORDER BY category';
+        $categories = $this->db_utility->execute_query($query, null, 'array');
+        return $categories;
+    }
+}
+
 class InvoiceDatabase {
-    private $conn;
     private $db_utility;
 
-    public function __construct($conn, $db_utility) {
-        $this->conn = $conn;
+    public function __construct($db_utility) {
         $this->db_utility = $db_utility;
     }
 
-    function get_customer_id($invoice_id) {
+    public function get_customer_id($invoice_id) {
         $query = 'SELECT customer_id FROM invoices WHERE id = ?';
         $params = [
             ['type' => 'i', 'value' => $invoice_id]
@@ -182,7 +207,7 @@ class InvoiceDatabase {
         $customer_id = $this->db_utility->execute_query($query, $params, 'assoc-array')['customer_id'];
         return $customer_id;
     }
-    function get_invoice_price_data($invoice_id) {
+    public function get_invoice_price_data($invoice_id) {
         $query = 'SELECT net_value, VAT, total FROM invoices WHERE id = ?';
         $params = [
             ['type' => 'i', 'value' => $invoice_id]
@@ -190,7 +215,7 @@ class InvoiceDatabase {
         $price_data = $this->db_utility->execute_query($query, $params, 'assoc-array');
         return $price_data;
     }
-    function get_customer_debt($customer_id) {
+    public function get_customer_debt($customer_id) {
         $query = 'SELECT (SELECT SUM(total) FROM invoices WHERE customer_id = ?) - COALESCE((SELECT SUM(amount) FROM customer_payments WHERE customer_id = ? AND status = \'Processed\' AND invoice_id IS NOT NULL), 0) AS total';
         $params = [
             ['type' => 'i', 'value' => $customer_id],
@@ -199,7 +224,7 @@ class InvoiceDatabase {
         $customer_debt = $this->db_utility->execute_query($query, $params, 'assoc-array')['total'];
         return $customer_debt;
     }
-    function set_invoice_payment($status, $invoice_id) {
+    public function set_invoice_payment($status, $invoice_id) {
         if ($status == 'Yes' || $status == 'No') {
             $query = 'UPDATE invoices SET payment_status = ? WHERE id = ?';
             $params = [
