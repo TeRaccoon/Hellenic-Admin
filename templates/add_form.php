@@ -16,8 +16,6 @@
 <form class="popup-form-content animate" id="<?php echo $id_modifier; ?>add-form" action="dbh/manage_data.php" method="post" enctype="multipart/form-data">
     <input type="hidden" name="table_name" value="<?php echo($table_name);?>">
     <div class="popup-form-container" id="<?php echo $id_modifier; ?>addForm">
-        <input id="<?php echo $id_modifier; ?>smart-mode" name="smart-mode" style="float: right" type="checkbox" checked>
-        <label for="smart-mode" style="float: right">Smart Mode</label><br>
         <p id="<?php echo $id_modifier; ?>add_error"></p>
         <h2>Add <?php echo $table_name; ?></h2>
         <br>
@@ -58,6 +56,13 @@
                         <option disabled selected value> --- Select Item --- </option>
                         <?php foreach($item_names as $key => $value): ?>
                             <option value="<?php echo $item_ids[$key][0]; ?>"><?php echo $item_names[$key][0]; ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                <?php elseif ($editable_field_names[$key] == "page_section_id"): ?>
+                    <select required name="page_section_id" class="form-control" id="<?php echo $id_modifier; ?>page-section-select">
+                        <option disabled selected value> --- Select Page Section --- </option>
+                        <?php foreach($page_section_names as $key => $value): ?>
+                            <option value="<?php echo $page_section_ids[$key][0]; ?>"><?php echo $page_section_names[$key][0]; ?></option>
                         <?php endforeach; ?>
                     </select>
                 <?php elseif ($editable_field_names[$key] == "warehouse_id"): ?>
@@ -105,12 +110,13 @@
                     <label class="custom-file-upload">
                         <input accept="image/*" type="file" value="" class="form-control" required
                         id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>"
-                        name="<?php echo $editable_field_names[$key]; ?>" /> 
+                        name="<?php echo $editable_field_names[$key]; ?>"
+                        onchange="updateIcon(this)" /> 
                         <i class="fa fa-cloud-upload"></i> Upload Image
                     </label>
                     <br>
                 <?php elseif ($editable_field_names[$key] == "VAT" || $editable_field_names[$key] == "net_value"): ?>
-                    <input onkeyup="calculateTotal()" class="form-control"
+                    <input class="form-control"
                         id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>" type="text"
                         name="<?php echo $editable_field_names[$key]; ?>">
                 <?php elseif ($editable_field_names[$key] == "offer_id"): ?>

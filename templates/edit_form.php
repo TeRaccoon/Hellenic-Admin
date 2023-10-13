@@ -95,7 +95,8 @@
                     <label class="custom-file-upload">
                         <input accept="image/*" type="file" value="" class="form-control" required
                         id="<?php echo $id_modifier.strtoupper(str_replace(' ', '', $editable_formatted_names[$key])); ?>_edit"
-                        name="<?php echo $editable_field_names[$key]; ?>" /> 
+                        name="<?php echo $editable_field_names[$key]; ?>"
+                        onchange="updateIcon(this)" /> 
                         <i class="fa fa-cloud-upload"></i> Upload Image
                     </label>
                     <br>

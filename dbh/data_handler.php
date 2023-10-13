@@ -196,6 +196,8 @@ function pull_assoc($conn, $table_name) {
       $alt_query = $conn->query("SELECT ri.id, i.item_name FROM `items` AS i INNER JOIN `retail_items` AS ri ON ri.item_id = i.id");
     } elseif ($assoc_table == "offers") {
       $alt_query = $conn->query("SELECT `id`, `name` FROM `offers`");
+    } elseif ($assoc_table == "page_sections") {
+      $alt_query = $conn->query("SELECT `id`, `name` FROM `page_sections`");
     }
     $results = $alt_query->fetch_all();
     foreach ($results as $item) {
@@ -373,7 +375,8 @@ function generateForm($table_name, $filter, $formType) {
   $offer_names = get_row_contents($conn, "SELECT `name` FROM `offers`");
   $warehouse_names = get_row_contents($conn, "SELECT `name` FROM `warehouse`");
   $warehouse_ids = get_row_contents($conn, "SELECT `id` FROM `warehouse`");
-
+  $page_section_ids = get_row_contents($conn, "SELECT `id` FROM `page_sections`");
+  $page_section_names = get_row_contents($conn, "SELECT `name` FROM `page_sections`");
   
   if ($formType == "add") {
     $next_ID = get_row_contents($conn, "SELECT auto_increment from information_schema.tables WHERE table_name = 'invoices' AND table_schema = DATABASE()")[0][0];
