@@ -119,6 +119,9 @@ function drop($conn, $table_name, $ids) {
 }
 
 function check_date($original_date) {
+    if ($original_date == null) {
+        return null;
+    }
     return date('Y-m-d', strtotime($original_date));
 }
 function synchronise($conn, $table_name, $id, $query_string) {
@@ -338,13 +341,11 @@ function login($user_database) {
   }
 
 function construct_submitted_data($db_utility, $field_names, $table_name) {
-    var_dump($_POST);
     $submitted_data = [];
     foreach ($field_names as $field_name) {
         $type = $db_utility->get_type_from_field($table_name, $field_name);
-
         if ($type == 'date') {
-            $submitted_data[$field_name] = check_date($_POST[$field_name]);
+            $date = check_date($_POST[$field_name]);
         } else {
             if ($field_name == "image_file_name") {
                 if ($_FILES[$field_name]['name'] == null) {

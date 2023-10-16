@@ -26,6 +26,7 @@ function run_query() {
     $conn = new DatabaseConnection();
     $database_utility = new DatabaseUtility($conn);
     $retail_items_database = new RetailItemsDatabase($database_utility);
+    $image_locations_database = new ImageLocationsDatabase($database_utility);
 
     $conn->connect();
     switch ($query) {
@@ -40,8 +41,17 @@ function run_query() {
             echo json_encode($results);
             break;
 
+        case "item-categories-image":
+            
+            break;
+
+        case "home-slideshow":
+            $results = $image_locations_database->get_home_slideshow_images();
+            echo json_encode($results);
+            break;
+
         case "subcategories":
-            $results = $conn -> query("SELECT GROUP_CONCAT(DISTINCT sub_category SEPARATOR ', ') as sub_categories FROM retail_items GROUP BY category");
+            $results = $conn->query("SELECT GROUP_CONCAT(DISTINCT sub_category SEPARATOR ', ') as sub_categories FROM retail_items GROUP BY category");
             echo handle_data("ALL", $results, "sub_categories");
             break;
 

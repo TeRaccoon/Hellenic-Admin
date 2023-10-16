@@ -45,7 +45,7 @@
                             <?php elseif ($types[$field_key] == "double"): ?>
                                 <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><?php echo $rows[$key][$field_name]."%"; ?></td>
                             <?php elseif ($types[$field_key] == "date"): ?>
-                                <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><?php echo date('d-m-Y', strtotime($rows[$key][$field_name])); ?></td>
+                                <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><?php echo $rows[$key][$field_name] == null ? '' : date('d-m-Y', strtotime($rows[$key][$field_name])); ?></td>
                             <?php elseif ($assoc_data != null && array_key_exists($field_name, $assoc_data) && array_key_exists($rows[$key][$field_name], $assoc_data[$field_name])): ?>
                                 <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><?php echo $assoc_data[$field_name][$rows[$key][$field_name]]; ?></td>
                             <?php elseif ($field_name == "image_file_name"): ?>

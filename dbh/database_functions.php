@@ -192,6 +192,18 @@ class RetailItemsDatabase {
     }
 }
 
+class ImageLocationsDatabase {
+    private $db_utility;
+    public function __construct($db_utility) {
+        $this->db_utility = $db_utility;
+    }
+    public function get_home_slideshow_images() {
+        $query = 'SELECT image_file_name FROM image_locations WHERE page_section_id = 1 AND visible = "Yes"';
+        $image_names = $this->db_utility->execute_query($query, null, 'array');
+        return $image_names;
+    }
+}
+
 class InvoiceDatabase {
     private $db_utility;
 
