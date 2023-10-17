@@ -346,6 +346,9 @@ function construct_submitted_data($db_utility, $field_names, $table_name) {
         $type = $db_utility->get_type_from_field($table_name, $field_name);
         if ($type == 'date') {
             $date = check_date($_POST[$field_name]);
+            if ($date != null) {
+                $submitted_data[$field_name] = $date;
+            }
         } else {
             if ($field_name == "image_file_name") {
                 if ($_FILES[$field_name]['name'] == null) {
