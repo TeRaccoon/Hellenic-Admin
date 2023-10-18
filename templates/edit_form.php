@@ -52,7 +52,14 @@
                             <option value="<?php echo($item_ids[$item_key][0]); ?>"><?php echo($item_names[$item_key][0]); ?></option>
                         <?php endforeach; ?>
                     </select>
-                    <?php elseif ($editable_field_names[$key] == "warehouse_id"): ?>
+                <?php elseif ($editable_field_names[$key] == "page_section_id"): ?>
+                    <select required name="page_section_id" class="form-control" id="<?php echo $id_modifier.strtoupper(str_replace(' ', '', $editable_formatted_names[$key]))."_edit"; ?>page-section-select">
+                        <option disabled selected value> --- Select Page Section --- </option>
+                        <?php foreach($page_section_names as $key => $value): ?>
+                            <option value="<?php echo $page_section_ids[$key][0]; ?>"><?php echo $page_section_names[$key][0]; ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                <?php elseif ($editable_field_names[$key] == "warehouse_id"): ?>
                     <select required name="warehouse_id" class="form-control" id="<?php echo $id_modifier.strtoupper(str_replace(' ', '', $editable_formatted_names[$key]))."_edit"; ?>">
                         <option disabled selected value> --- Select Warehouse --- </option>
                         <?php foreach($warehouse_names as $key => $value): ?>
