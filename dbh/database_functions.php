@@ -190,6 +190,15 @@ class RetailItemsDatabase {
         $categories = $this->db_utility->execute_query($query, null, 'array');
         return $categories;
     }
+
+    public function get_top_products($limit) {
+        $query = 'SELECT i.item_name AS item_name, i.retail_price AS price, ri.offer_start, ri.offer_end, ri.offer_id, ri.image_file_name AS image_location FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id ORDER BY i.total_sold DESC LIMIT 0, ?';
+        $params = [
+            ['type' => 'i', 'value' => $limit]
+        ];
+        $products = $this->db_utility->execute_query($query, $params, 'assoc-array');
+        return $products;
+    }
 }
 
 class ImageLocationsDatabase {
@@ -201,6 +210,12 @@ class ImageLocationsDatabase {
         $query = 'SELECT image_file_name FROM image_locations WHERE page_section_id = 1 AND visible = "Yes"';
         $image_names = $this->db_utility->execute_query($query, null, 'array');
         return $image_names;
+    }
+
+    public function get_home_signup_image() {
+        $query = 'SELECT image_file_name FROM image_locations WHERE page_section_id = 2 AND visible = "Yes"';
+        $image_name = $this->db_utility->execute_query($query, null, 'array');
+        return $image_name;
     }
 }
 

@@ -41,12 +41,19 @@ function run_query() {
             echo json_encode($results);
             break;
 
-        case "item-categories-image":
-            
+        case "top-products":
+            $limit = urldecode($_GET['filter']);
+            $results = $retail_items_database->get_top_products($limit);
+            echo json_encode($results);
             break;
 
         case "home-slideshow":
             $results = $image_locations_database->get_home_slideshow_images();
+            echo json_encode($results);
+            break;
+
+        case "home-signup":
+            $results = $image_locations_database->get_home_signup_image();
             echo json_encode($results);
             break;
 
