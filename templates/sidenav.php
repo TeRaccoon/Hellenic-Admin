@@ -157,6 +157,11 @@ session_start();
                 </a>
             </li>
             <li>
+                <a onclick="loadPage('page_section_text', 'high', false)">
+                    <i class="material-icons">text_fields</i> Page Section Text
+                </a>
+            </li>
+            <li>
                 <a onclick="loadPage('image_locations', 'high')">
                     <i class="material-icons">image</i> Image Locations
                 </a>
