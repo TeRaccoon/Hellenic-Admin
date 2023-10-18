@@ -27,6 +27,7 @@ function run_query() {
     $database_utility = new DatabaseUtility($conn);
     $retail_items_database = new RetailItemsDatabase($database_utility);
     $image_locations_database = new ImageLocationsDatabase($database_utility);
+    $page_sections_database = new PageSectionsDatabase($database_utility);
 
     $conn->connect();
     switch ($query) {
@@ -54,6 +55,12 @@ function run_query() {
 
         case "home-signup":
             $results = $image_locations_database->get_home_signup_image();
+            echo json_encode($results);
+            break;
+
+        case "section-data":
+            $section_name = urldecode($_GET['filter']);
+            $results = $page_sections_database->get_section_data($section_name);
             echo json_encode($results);
             break;
 

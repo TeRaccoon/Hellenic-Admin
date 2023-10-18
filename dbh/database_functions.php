@@ -219,6 +219,21 @@ class ImageLocationsDatabase {
     }
 }
 
+class PageSectionsDatabase {
+    private $db_utility;
+    public function __construct($db_utility) {
+        $this->db_utility = $db_utility;
+    }
+    public function get_section_data($section_name) {
+        $query = "SELECT pst.*, il.*, ps.name FROM page_section_text AS pst INNER JOIN page_sections AS ps ON pst.page_section_id = ps.id INNER JOIN image_locations AS il ON il.page_section_id = ps.id  WHERE ps.name = ? AND il.visible = 'Yes'";
+        $params = [
+            ['type' => 's', 'value' => $section_name]
+        ];
+        $section_data = $this->db_utility->execute_query($query, $params, 'assoc-array');
+        return $section_data;
+    }
+}
+
 class InvoiceDatabase {
     private $db_utility;
 
