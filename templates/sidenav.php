@@ -166,6 +166,11 @@ session_start();
                     <i class="material-icons">image</i> Image Locations
                 </a>
             </li>
+            <li>
+                <a onclick="loadPage('retail_item_images', 'high')">
+                    <i class="material-icons">photo_library</i> Retail Item Images
+                </a>
+            </li>
         </ul>
     <?php endif; ?>
     <hr class="dark horizontal my-0">

@@ -87,14 +87,19 @@
                             <option value="<?php echo str_replace("'", '', $option); ?>"><?php echo str_replace("'", '', $option); ?></option>
                         <?php endforeach; ?>
                     </select>
+                <?php elseif ($editable_field_names[$key] == "image_file_name"): ?>
+                    <label class="custom-file-upload">
+                        <input accept="image/*" type="file" value="" class="form-control" required
+                        id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>"
+                        name="<?php echo $editable_field_names[$key]; ?>"
+                        onchange="updateIcon(this)" /> 
+                        <i class="fa fa-cloud-upload"></i> Upload Image
+                    </label>
+                    <br>
                 <?php else: ?>
                     <input class="form-control" required id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>" type="text" name="<?php echo($editable_field_names[$key]); ?>">
                 <?php endif; ?>
             <?php else: ?>
-                <?php if ($editable_field_names[$key] != "image_file_name"): ?>
-                    <label for="<?php echo $editable_field_names[$key]; ?>"><?php echo "$editable_formatted_names[$key]: "; ?></label>
-                    <br>
-                <?php endif; ?>
                 <?php if ($raw_types[$key] == "date"): ?>
                     <input style="font-family:Source Code Pro, FontAwesome" type="text" class="form-control form-datepicker"
                     id="<?php echo $id_modifier.str_replace(' ', '', $editable_formatted_names[$key]); ?>"
