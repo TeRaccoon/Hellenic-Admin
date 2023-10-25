@@ -191,13 +191,45 @@ class RetailItemsDatabase {
         return $categories;
     }
 
+    public function get_subcategories() {
+        $query = 'SELECT DISTINCT sub_category FROM retail_items WHERE sub_category IS NOT NULL ORDER BY sub_category';
+        $subcategories = $this->db_utility->execute_query($query, null, 'array');
+        return $subcategories;
+    }
+
+
     public function get_top_products($limit) {
-        $query = 'SELECT i.item_name AS item_name, i.retail_price AS price, ri.offer_start, ri.offer_end, ri.offer_id, ri.image_file_name AS image_location FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id ORDER BY i.total_sold DESC LIMIT 0, ?';
+        $query = 'SELECT i.item_name AS item_name, i.retail_price AS price, ri.offer_start, ri.offer_end, ri.discount, ri.image_file_name AS image_location FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id ORDER BY i.total_sold DESC LIMIT 0, ?';
         $params = [
             ['type' => 'i', 'value' => $limit]
         ];
         $products = $this->db_utility->execute_query($query, $params, 'assoc-array');
         return $products;
+    }
+
+    public function get_featured($limit) {
+        $query = "SELECT i.item_name AS item_name, i.stock_code AS stock_code, ri.image_file_name, ri.discount, i.retail_price AS price FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id WHERE featured = 'Yes' AND visible = 'Yes' LIMIT 0, ?";
+        $params = [
+            ['type' => 'i', 'value' => $limit]
+        ];
+        $products = $this->db_utility->execute_query($query, $params, 'assoc-array');
+        return $products;
+    }
+
+    public function get_products_from_category($category) {
+        $query = 'SELECT ri.image_file_name AS image_location, ri.brand, ri.discount, i.item_name AS name, i.retail_price AS price FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id WHERE ri.category = ? OR ri.sub_category = ?';
+        $params = [
+            ['type' => 's', 'value' => $category],
+            ['type' => 's', 'value' => $category]
+        ];
+        $products = $this->db_utility->execute_query($query, $params, 'assoc-array');
+        return $products;
+    }
+
+    public function get_products() {
+        $query = 'SELECT ri.image_file_name AS image_location, ri.brand, ri.discount, i.item_name AS name, i.retail_price AS price FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id';
+        $product_names = $this->db_utility->execute_query($query, null, 'assoc-array');
+        return $product_names;
     }
 }
 
@@ -231,6 +263,15 @@ class PageSectionsDatabase {
         ];
         $section_data = $this->db_utility->execute_query($query, $params, 'assoc-array');
         return $section_data;
+    }
+
+    public function get_section_image($section_name) {
+        $query = "SELECT il.image_file_name AS image FROM image_locations AS il INNER JOIN page_sections AS ps ON il.page_section_id = ps.id WHERE il.visible = 'Yes' AND ps.name = ?";
+        $params = [
+            ['type' => 's', 'value' => $section_name]
+        ];
+        $section_image = $this->db_utility->execute_query($query, $params, 'array');
+        return $section_image;
     }
 }
 
