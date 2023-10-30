@@ -227,9 +227,59 @@ class RetailItemsDatabase {
     }
 
     public function get_products() {
-        $query = 'SELECT ri.image_file_name AS image_location, ri.brand, ri.discount, i.item_name AS name, i.retail_price AS price FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id';
+        $query = 'SELECT ri.image_file_name AS image_location, ri.brand, ri.discount, ri.category, i.item_name AS name, i.retail_price AS price FROM retail_items AS ri INNER JOIN items AS i ON ri.item_id = i.id';
         $product_names = $this->db_utility->execute_query($query, null, 'assoc-array');
         return $product_names;
+    }
+
+    public function get_product_view($product_name) {
+        $query = 'SELECT ri.image_file_name AS primary_image, ri.id, ri.discount FROM retail_items as ri INNER JOIN items AS i ON ri.item_id = i.id  WHERE i.item_name = ?';
+        $params = [
+            ['type' => 's', 'value'=> $product_name]
+        ];
+        $product = $this->db_utility->execute_query($query, $params, 'assoc-array');
+        return $product;
+    }
+
+    public function get_product_view_images($retail_item_id) {
+        $query = 'SELECT ri.image_file_name AS image
+        FROM retail_item_images AS rii
+        INNER JOIN retail_items AS ri ON rii.retail_item_id = ri.id
+        WHERE rii.retail_item_id = ?
+        UNION
+        SELECT rii.image_file_name AS image
+        FROM retail_item_images AS rii
+        WHERE rii.retail_item_id = ?';
+        $params = [
+            ['type' => 'i', 'value' => $retail_item_id],
+            ['type' => 'i', 'value' => $retail_item_id]
+        ];
+        $product_images = $this->db_utility->execute_query($query, $params, 'array');
+        return $product_images;
+    }
+
+    public function get_product_from_name($product_name) {
+        $query = 'SELECT ri.id, ri.category, ri.sub_category, ri.description, ri.brand, ri.discount, ri.item_id, i.item_name AS name, i.retail_price AS price FROM retail_items AS ri INNER JOIN items as i ON ri.item_id = i.id WHERE i.item_name = ?';
+        $params = [
+            ['type' => 's', 'value' => $product_name]
+        ];
+        $product = $this->db_utility->execute_query($query, $params, 'assoc-array');
+        return $product;
+    }
+}
+
+class RetailUserDatabase {
+    private $db_utility;
+    public function __construct($db_utility) {
+        $this->db_utility = $db_utility;
+    }
+    public function get_password($email) {
+        $query = 'SELECT password FROM customers WHERE email = ?';
+        $params = [
+            ['type' => 's', 'value' => $email]
+        ];
+        $passwordHash = $this->db_utility->execute_query($query, $params, 'assoc-array')['password'];
+        return $passwordHash;
     }
 }
 
