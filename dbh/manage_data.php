@@ -58,7 +58,7 @@ function insert($conn, $database_utility) {
     synchronise($conn, $table_name, null, null);
 }
 function append($conn, $database_utility, $user_database) {
-    if ($_POST['table_name'] == 'users') {
+    if ($_POST['table_name'] == 'users' || $_POST['table_name'] == 'customers') {
         append_user($user_database, $_POST['username']);
     }
 
