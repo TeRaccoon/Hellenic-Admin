@@ -1,26 +1,45 @@
-<?php
-    if (!isset($_SESSION['table'])) {
-        header("Location: ./login.php");
-    }
-    $table_name = $_SESSION['table'];
-    $filter = $_SESSION['filter'];
-    $conn = mysqli_connect("localhost", "root", "password", "hellenic");
-    
-    $rows = get_table_contents($conn, $table_name, $filter);
-    $table_info = get_table_info($conn, $table_name);
-    if ($table_info != null) {
-        $formatted_names = $table_info[0];
-        $field_names = $table_info[1];
-        $editable_formatted_names = $table_info[2];
-        $editable_field_names = $table_info[3];
-        $types = get_raw_types_table($conn, $table_name);
-        $assoc_data = pull_assoc($conn, $table_name);
-    }
+<?php 
+if (!isset($_SESSION['table'])) {
+    header("Location: ./login.php");
+}
+
+$table_name = $_SESSION['table'];
+$filter = $_SESSION['filter'];
+$conn = mysqli_connect("localhost", "root", "password", "hellenic");
+
+$rows = get_table_contents($conn, $table_name, $filter);
+$table_info = get_table_info($conn, $table_name);
+
+// Number of results to display per page
+$resultsPerPage = 8;
+
+// Get the total number of rows
+$totalRows = count($rows);
+
+// Get the current page number from the URL or set it to 1 if not specified
+$page = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
+
+// Calculate the starting and ending indices for the current page
+$startIndex = ($page - 1) * $resultsPerPage;
+$endIndex = min($startIndex + $resultsPerPage, $totalRows);
+
+// Extract the rows to display for the current page
+$rowsToDisplay = array_slice($rows, $startIndex, $resultsPerPage);
+
+if ($table_info != null) {
+    $formatted_names = $table_info[0];
+    $field_names = $table_info[1];
+    $editable_formatted_names = $table_info[2];
+    $editable_field_names = $table_info[3];
+    $types = get_raw_types_table($conn, $table_name);
+    $assoc_data = pull_assoc($conn, $table_name);
+}
 ?>
+
 <?php if ($table_info != null): ?>
     <table class="data-table" id="<?php echo($table_name); ?>">
         <tr class="table-heading">
-            <th onclick="selectAll()">Select</th>
+             <th onclick="selectAll()">Select</th>
             <?php foreach($formatted_names as $key => $value): ?>
                 <?php if ($key == 0): ?>
                     <th onclick="sortTable(this, this.parentNode.parentNode.parentNode, <?php echo $key; ?>)"><?php echo $formatted_names[$key]; ?><p class="material-icons">arrow_upward</p></th>
@@ -33,9 +52,14 @@
             <th></th>
         </tr>
         <?php if ($rows != null): ?>
-            <?php foreach($rows as $key => $row): ?>
-                <tr>
-                    <td class="checkbox-container" onclick="select(this.parentNode, false)"><input type="checkbox" id="select-<?php echo $key; ?>" name="row-<?php echo $key; ?>"></td>
+            <?php
+            $limit = 8; // Change this to your desired limit
+
+            for ($key = 0; $key < count($rows) && $key < $limit; $key++) {
+                $row = $rows[$key];
+            ?>
+            <tr>
+                <td class="checkbox-container" onclick="select(this.parentNode, false)"><input type="checkbox" id="select-<?php echo $key; ?>" name="row-<?php echo $key; ?>"></td>
                     <?php foreach($field_names as $field_key => $field_name): ?>
                         <?php if ($field_key == 0): ?>
                             <td data-value="<?php echo $rows[$key][$field_name]; ?>" onclick="select(this.parentNode, false)"><?php echo $rows[$key][$field_names[$field_key]]; ?></td>
@@ -62,8 +86,25 @@
                         <?php endif; ?>
                     <?php endforeach; ?>
                     <td class="edit-column" onclick="displayEditForm(<?php echo($key); ?>, this.parentNode.parentNode.parentNode)"><i class="inline-icon material-icons">edit</i></td>
-                </tr>
-            <?php endforeach; ?>
+            </tr>
+            <?php } // End of the for loop ?>
         <?php endif; ?>
     </table>
+
+<!-- Pagination links -->
+<?php if ($totalRows > $resultsPerPage): ?>
+    <div class="pagination">
+        <?php if ($page > 1): ?>
+            <a href="?page=<?php echo ($page - 1); ?>">Previous</a>
+        <?php endif; ?>
+
+        <?php for ($i = 1; $i <= ceil($totalRows / $resultsPerPage); $i++): ?>
+            <a href="?page=<?php echo $i; ?>" <?php echo ($i == $page) ? 'class="active"' : ''; ?>><?php echo $i; ?></a>
+        <?php endfor; ?>
+
+        <?php if ($page < ceil($totalRows / $resultsPerPage)): ?>
+            <a href="?page=<?php echo ($page + 1); ?>">Next</a>
+        <?php endif; ?>
+    </div>
+<?php endif; ?>
 <?php endif; ?>
